@@ -12,6 +12,7 @@ Our group studies the physics and chemistry of materials using atomistic computa
 
 Although many things can only be taken care of after arriving at LBNL, here are a few simple things you should do in advance.
 
+![Slack logo](https://github.com/jdagdelen/perssongrouphandbook/resources/slack-logo.png)
 
 ## Information for New Graduate Students
 
