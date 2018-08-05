@@ -75,7 +75,6 @@ This website serves as the group handbook for the [Persson Group](http://persson
 Our group studies the physics and chemistry of materials using atomistic computational methods and high-performance computing technology. Most of our research is focused on materials for energy applications, such as battery electrode materials, electrolytes, photocatalysts, thermoelectrics, etc. We are co-located at Lawrence Berkeley National Laboratory (LBNL) and the University of California, Berkeley, just down the hill from LBNL. Our main workspaces are located at LBNL, but we have a number of additional desks available on campus for students to use in between classes, which are located in the grad bay of Hearst Memorial Mining Building. San Francisco is located across the bay from Berkeley and is about a 30 minute drive or BART train ride away. Berkeley itself is a vibrant city of 115,000 people filled with cafes, restaurants of all types, and cultural activities.
 
 -----------------------------------------------------------------------------------------------------------------------------
-&nbsp;
 
 
 ## Before You Arrive <a name="before"></a>
@@ -129,8 +128,6 @@ How? See purchasing a computer.
 
 &nbsp;
 -----------------------------------------------------------------------------------------------------------------------------
-&nbsp;
-
 
 ## After You Arrive <a name="after"></a>
 Welcome to Berkeley! Here are a few pointers for getting started.
@@ -199,8 +196,6 @@ There are now links on how to navigate various administrative items (e.g. reques
 If you are struggling with stress or other personal problems, you can contact the LBNL Employee Assistance Program (EAP), which provides free and confidential counseling, consultation, and referral for LBNL staff. Student have free access to the UC Health Services Counseling Center. If you are comfortable doing so, you can also discuss the problem with Kristin to brainstorm if there are ways forward.
 
 -----------------------------------------------------------------------------------------------------------------------------
-&nbsp;
-
 
 ## Making purchases <a name="purchases"></a>
 You are encouraged to make purchases that are likely to save you a lot of time. For example, if a commercial version of a software is superior to open-source alternatives, then you should purchase the commercial version. Your time is valuable and if we can solve a problem with funds, then we should try to do so.
@@ -215,8 +210,6 @@ The procedure for making purchases depends on the purchase type:
 * Other purchases: For other purchases, please review the information and fill out the form here (you may need to be logged into your LBNL Google account): http://bit.ly/2kX41ZQ
 
 -----------------------------------------------------------------------------------------------------------------------------
-&nbsp;
-
 
 ## Conference travel <a name="travel"></a>
 It is important to be connected to the research community. If it is your first year in the group, you can simply attend the conferences and listen to talks. After your first year, you are expected to be presenting talks or posters at conferences. This will ensure that:
@@ -254,7 +247,6 @@ Pro tip: If you want to see the status of your conference requests, log in to th
 You can filter the sheet to your requests by right-clicking on the name column and choosing the filter option. You should look for the “(ADMINS ONLY) Approval status” column in order to check your status.
 
 -----------------------------------------------------------------------------------------------------------------------------
-&nbsp;
 
 ## Meetings <a name="meetings"></a>
 
@@ -287,7 +279,6 @@ The responsibility of subgroup leads is to find a slot where everyone can make b
 **Trevor Seguin**, Brandon Wood, Julian Self, Tingzheng Hou, Sang-Won Park, Sam Blau, Kara Fong
 
 -----------------------------------------------------------------------------------------------------------------------------
-&nbsp;
 
 ## Information for Postdocs <a name="postdocs"></a>
 
@@ -308,7 +299,6 @@ You will receive a set number of vacation / personal time off (PTO) days that wi
 You should coordinate the specific days of vacation and personal time off with Kristin, especially for an extended absence.
 
 -----------------------------------------------------------------------------------------------------------------------------
-&nbsp;
 
 ## Information for Graduate Students <a name="students"></a>
 
