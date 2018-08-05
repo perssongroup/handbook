@@ -1,25 +1,3 @@
-<style type="text/css">
-.image-right {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-
-.image-left {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-}
-
-.image-left-50px {
-  height: 50px;
-  display: block;
-  float: left;
-}
-</style>
-
 # The Persson Group Handbook
 
 This website serves as the group handbook for the [Persson Group](http://perssongroup.lbl.gov) at the University of California, Berkeley / Lawrence Berkeley National Laboratory. The handbook contains useful information for new students and post-docs joining the group, and has answers to many frequently asked questions. You are encouraged to contribute to this handbook via the [open-source repo.](http://perssongroup.lbl.gov)
@@ -34,8 +12,8 @@ Our group studies the physics and chemistry of materials using atomistic computa
 
 Although many things can only be taken care of after arriving at LBNL, here are a few simple things you should do in advance.
 
-### Join Slack 
-[![Slack logo](./resources/slack-logo.png)](){: .image-left-50px target="_blank"} Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.
+### Join Slack
+<img align="left" width="100" height="100" src="./resources/slack-logo.png"> Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.
 
 
 ## Information for New Graduate Students
