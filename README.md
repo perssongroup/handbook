@@ -14,7 +14,7 @@ Our group studies the physics and chemistry of materials using atomistic computa
 Although many things can only be taken care of after arriving at LBNL, here are a few simple things you should do in advance.
 
 ### Join Slack
-<div><img align="left" width="200" height="200" src="./resources/slack-logo.png"/> <p>Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.</p></div>
+<div><img align="left" width="200" height="200" src="./resources/slack_logo.png"/> <p>Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.</p></div>
 
 
 &nbsp;
