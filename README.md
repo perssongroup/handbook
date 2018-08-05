@@ -258,25 +258,28 @@ Given our new additions and growth, we have decided to implement new subgroups, 
 
 The responsibility of subgroup leads is to find a slot where everyone can make bi-weekly meetings and send out calendar calls and reminders.The current subgroups are (leads are in bold): 
 
-### Subgroups <a name="subgroups"></a>
 -----------------------------------------------------------------------------------------------------------------------------
+
+## Subgroups <a name="subgroups"></a>
+
 #### Materials Project: 
 > **Donny Winston**, Shyam Dwaraknath, Miao Liu, Patrick Huck, Donny Winston, John Dagdelen, David Mrdjenovich, Joseph Montoya, Matthew Horton
------------------------------------------------------------------------------------------------------------------------------
+
 #### Spectroscopy: 
 > **Shyam Dwaraknath**, Handong Ling, Matthew McDermott
------------------------------------------------------------------------------------------------------------------------------
+
 #### Materials Design (photocatalysts, magnetocalorics, piezoelectrics, TCOs, etc):
 > **Joey Montoya**, Shyam Dwaraknath, Rachel Woods-Robinson, Matthew Horton, Jordan Burns, Handong Ling
------------------------------------------------------------------------------------------------------------------------------
+
 #### Electrodes:
 > **Jimmy Shen**, Eric Sivonxay, Jianli Cheng, Ann Rutt, Matthew Horton
------------------------------------------------------------------------------------------------------------------------------
+
 #### Synthesis: 
 > **John Dagdelen**, Rebecca Stern, David Mrdjenovich, Matthew McDermott, Matthew Horton
------------------------------------------------------------------------------------------------------------------------------
+
 #### Electrolytes-SEI:
 > **Trevor Seguin**, Brandon Wood, Julian Self, Tingzheng Hou, Sang-Won Park, Sam Blau, Kara Fong
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Information for Postdocs <a name="postdocs"></a>
