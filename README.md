@@ -28,7 +28,8 @@ Although many things can only be taken care of after arriving at LBNL, here are 
 </div>
 
 <div>
-  
+  <br/>
+</div>
 <div><img align="left" width="200" height="200" padding-right="20" src="./resources/mac.jpg"/> 
   <div>
     <h3>Order a Computer</h3>
@@ -40,8 +41,12 @@ How? See purchasing a computer.
   </div>
 </div>
 
+<div>
+  <br/>
+</div>
+
   <div>
-    <img align="left" width="200" height="200" padding-right="20" src="./resources/slack.png"/> 
+    <img align="left" width="200" height="200" padding-right="20" src="./resources/map.gif"/> 
     <div>
       <h3>Find a place to live</h3>
     <p>
