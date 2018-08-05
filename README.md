@@ -12,8 +12,6 @@ This website serves as the group handbook for the [Persson Group](http://persson
 
 #### [Getting situated in your office](#office)
 
-#### [Getting set up to work](#setup)
-
 #### [Food and Coffee](#foodandcoffe)
 
 #### [Mail and Fax](#mailnfax)
@@ -128,12 +126,11 @@ How? See purchasing a computer.
 
 &nbsp;
 -----------------------------------------------------------------------------------------------------------------------------
+&nbsp;
 
-## After You Arrive <a name="after"></a>
-Welcome to Berkeley! Here are a few pointers for getting started.
-
-### Getting set up to work <a name="setup"></a>
-Here is a checklist of things you should complete within your first week:
+<a name="after"></a>
+## After You Arrive 
+Welcome to Berkeley! Here is a checklist of things you should complete within your first week:
 
 * Set up your computer. See [SETTING UP YOUR COMPUTER]() on how to do this and some recommended software to install.
 * Complete the checklist that HR gives you in your welcome package. Note: postdocs cannot select retirement plans; an obligatory UCRS DCP is deducted from your pre-tax salary each month but the money belongs to you.
