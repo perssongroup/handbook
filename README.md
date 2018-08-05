@@ -36,7 +36,7 @@ This website serves as the group handbook for the [Persson Group](http://persson
 
 * [Subgroup Meetings](#sub)
 
-#### [Subgroups](#subgroups)
+#### [Subgroups](#sgs)
 
 #### [Information for Postdocs](#postdocs)
 
@@ -257,7 +257,7 @@ The responsibility of subgroup leads is to find a slot where everyone can make b
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## Subgroups <a name="subgroups"></a>
+## Subgroups <a name="sgs"></a>
 
 #### Materials Project: 
 > **Donny Winston**, Shyam Dwaraknath, Miao Liu, Patrick Huck, Donny Winston, John Dagdelen, David Mrdjenovich, Joseph Montoya, Matthew Horton
