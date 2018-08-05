@@ -4,51 +4,51 @@ This website serves as the group handbook for the [Persson Group](http://persson
 
 ## Table of Contents
 
-[About the Group](#about)
+#### [About the Group](#about)
 
-[Before You Arrive](#before)
+#### [Before You Arrive](#before)
 
-[About the Group](#after)
+#### [After You Arrive](#after)
 
-[Getting situated in your office](#office)
+#### [Getting situated in your office](#office)
 
-[Getting set up to work](#setup)
+#### [Getting set up to work](#setup)
 
-[Food and Coffee](#foodandcoffe)
+#### [Food and Coffee](#foodandcoffe)
 
-[Mail and Fax](#mailnfax)
+#### [Mail and Fax](#mailnfax)
 
-[Equipment and Conference Rooms](#conferencerooms)
+#### [Equipment and Conference Rooms](#conferencerooms)
 
-[Sick Policy](#sick)
+#### [Sick Policy](#sick)
 
-[Time Reporting and LETS](#lets)
+#### [Time Reporting and LETS](#lets)
 
-[Miscellaneous Issues](#miscissues)
+#### [Miscellaneous Issues](#miscissues)
 
-[Other Issues](#stress)
+#### [Other Issues](#stress)
 
-[Purchases](#purchases)
+#### [Purchases](#purchases)
 
-[Conference Travel](#travel)
+#### [Conference Travel](#travel)
 
-[Meetings](#meetings)
+#### [Meetings](#meetings)
 
 * [Group Meeting](#groupmeetings)
 
 * [Subgroup Meetings](#subgroupmeetings)
 
-[Subgroups](#subgroups)
+#### [Subgroups](#subgroups)
 
-[Information for Postdocs](#postdocs)
+#### [Information for Postdocs](#postdocs)
 
-[Postdoc Union](#union)
+* [Postdoc Union](#union)
 
-[Vacation Policy](#vacay)
+* [Vacation Policy](#vacay)
 
-[Information for Graduate Students](#students)
+#### [Information for Graduate Students](#students)
 
-[Students Coming from Another State/Country](#slr)
+* [Students Coming from Another State/Country](#slr)
 
 [](#)
 
