@@ -17,10 +17,10 @@ Although many things can only be taken care of after arriving at LBNL, here are 
 <div>
   
   <div>
-    <img align="left" width="200" height="200" padding-right="20" padding-left="20" src="./resources/slack.png"/> 
+    <img align="left" width="200" height="200" padding-right="20" src="./resources/slack.png"/> 
     <div>
-      <h3 padding-top="20">Join Slack</h3>
-    <p>
+      <h3 padding-top="20" padding-left="20" >Join Slack</h3>
+    <p padding-left="20">
       Slack is a messaging app that we use extensively to communicate both within our group and with our Materials Project collaborators. To join our <a href="https://berkeleytheory.slack.com"> slack channel </a>, you'll need to use your @lbl.gov email address.
       <br/><br/><br/><br/>
     </p>
@@ -32,8 +32,8 @@ Although many things can only be taken care of after arriving at LBNL, here are 
 </div>
 <div><img align="left" width="200" height="200" padding-right="20" padding-left="20" src="./resources/mac.jpg"/> 
   <div>
-    <h3 padding-top="20">Order a Computer</h3>
-      <p>
+    <h3 padding-top="20" padding-left="20">Order a Computer</h3>
+      <p padding-left="20">
     Postdocs and graduate students - let’s order your workstation in advance so that it’s ready by the time you arrive.
 How? See purchasing a computer.
         <br /><br /><br /><br /><br />
@@ -48,8 +48,8 @@ How? See purchasing a computer.
   <div>
     <img align="left" width="200" height="200" padding-right="20" padding-left="20" src="./resources/map.gif"/> 
     <div>
-      <h3 padding-top="10">Find a place to live</h3>
-    <p>
+      <h3 padding-top="10" padding-left="20">Find a place to live</h3>
+    <p padding-left="20">
       Berkeley and the surrounding areas are wonderful places to live, but finding an apartment can be difficult and is best done with knowledge of the various neighborhoods. How? See looking for housing.
       <br/><br/><br/><br/>
     </p>
