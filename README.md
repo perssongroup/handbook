@@ -1,3 +1,19 @@
+<style type="text/css">
+.image-right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+.image-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+</style>
+
 # The Persson Group Handbook
 
 This website serves as the group handbook for the [Persson Group](http://perssongroup.lbl.gov) at the University of California, Berkeley / Lawrence Berkeley National Laboratory. The handbook contains useful information for new students and post-docs joining the group, and has answers to many frequently asked questions. You are encouraged to contribute to this handbook via the [open-source repo.](http://perssongroup.lbl.gov)
@@ -6,13 +22,15 @@ This website serves as the group handbook for the [Persson Group](http://persson
 
 Our group studies the physics and chemistry of materials using atomistic computational methods and high-performance computing technology. Most of our research is focused on materials for energy applications, such as battery electrode materials, electrolytes, photocatalysts, thermoelectrics, etc. We are co-located at Lawrence Berkeley National Laboratory (LBNL) and the University of California, Berkeley, just down the hill from LBNL. Our main workspaces are located at LBNL, but we have a number of additional desks available on campus for students to use in between classes, which are located in the grad bay of Hearst Memorial Mining Building. San Francisco is located across the bay from Berkeley and is about a 30 minute drive or BART train ride away. Berkeley itself is a vibrant city of 115,000 people filled with cafes, restaurants of all types, and cultural activities.
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 
 ## Before You Arrive
 
 Although many things can only be taken care of after arriving at LBNL, here are a few simple things you should do in advance.
 
-![Slack logo](https://github.com/jdagdelen/perssongrouphandbook/resources/slack-logo.png)
+### Join Slack 
+[![Slack logo](./resources/slack-logo.png)](){: .image-left target="_blank"} Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.
+
 
 ## Information for New Graduate Students
 
