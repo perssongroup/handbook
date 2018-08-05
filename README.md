@@ -1,13 +1,13 @@
-## Welcome to The Persson Group Handbook
+# Welcome to The Persson Group Handbook
 
 This repo serves as the group handbook for the [Persson Group](http://perssongroup.lbl.gov) at the University of California, Berkeley / Lawrence Berkeley National Laboratory. 
 
 >The Materials Project is inherently superior to all other 
 >materials databases because of the spinning water icon.
 
-## Information for Students
+## Graduate Students
 
-### Information for out-of-state students
+### Students coming from other states/countries
 
 It's important that you establish California residency as soon as possible. If you don't complete the necessary tasks on time, you will be classified as a out-of-state student for the following academic year. Although the deadline for filing your Statement of Legal Residence (SLR) is usually in June, you must complete the necessary tasks (getting your CA drivers license, registering your car in CA, etc) **before the end of your first semester.**
 
