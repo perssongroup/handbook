@@ -261,22 +261,22 @@ The responsibility of subgroup leads is to find a slot where everyone can make b
 ### Subgroups <a name="subgroups"></a>
 
 #### Materials Project: 
-**Donny Winston**, Shyam Dwaraknath, Miao Liu, Patrick Huck, Donny Winston, John Dagdelen, David Mrdjenovich, Joseph Montoya, Matthew Horton
+> **Donny Winston**, Shyam Dwaraknath, Miao Liu, Patrick Huck, Donny Winston, John Dagdelen, David Mrdjenovich, Joseph Montoya, Matthew Horton
 
 #### Spectroscopy: 
-**Shyam Dwaraknath**, Handong Ling, Matthew McDermott
+> **Shyam Dwaraknath**, Handong Ling, Matthew McDermott
 
 #### Materials Design (photocatalysts, magnetocalorics, piezoelectrics, TCOs, etc):
-**Joey Montoya**, Shyam Dwaraknath, Rachel Woods-Robinson, Matthew Horton, Jordan Burns, Handong Ling
+> **Joey Montoya**, Shyam Dwaraknath, Rachel Woods-Robinson, Matthew Horton, Jordan Burns, Handong Ling
 
 #### Electrodes:
-**Jimmy Shen**, Eric Sivonxay, Jianli Cheng, Ann Rutt, Matthew Horton
+> **Jimmy Shen**, Eric Sivonxay, Jianli Cheng, Ann Rutt, Matthew Horton
 
 #### Synthesis: 
-**John Dagdelen**, Rebecca Stern, David Mrdjenovich, Matthew McDermott, Matthew Horton
+> **John Dagdelen**, Rebecca Stern, David Mrdjenovich, Matthew McDermott, Matthew Horton
 
 #### Electrolytes-SEI:
-**Trevor Seguin**, Brandon Wood, Julian Self, Tingzheng Hou, Sang-Won Park, Sam Blau, Kara Fong
+> **Trevor Seguin**, Brandon Wood, Julian Self, Tingzheng Hou, Sang-Won Park, Sam Blau, Kara Fong
 
 -----------------------------------------------------------------------------------------------------------------------------
 
