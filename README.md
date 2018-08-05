@@ -12,6 +12,14 @@
   margin-right: auto;
   float: left;
 }
+
+.image-left-50px {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  height: 50px;
+}
 </style>
 
 # The Persson Group Handbook
@@ -29,7 +37,7 @@ Our group studies the physics and chemistry of materials using atomistic computa
 Although many things can only be taken care of after arriving at LBNL, here are a few simple things you should do in advance.
 
 ### Join Slack 
-[![Slack logo](./resources/slack-logo.png)](){: .image-left target="_blank", height="50px"} Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.
+[![Slack logo](./resources/slack-logo.png)](){: .image-left-50px target="_blank"} Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.
 
 
 &nbsp;
