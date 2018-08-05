@@ -20,6 +20,21 @@ Although many things can only be taken care of after arriving at LBNL, here are 
   </p>
 </div>
 
+<div><img align="left" width="200" height="200" src="./resources/mac.jpg"/> 
+  <p>
+    <h3>Order a Computer</h3>
+    Postdocs and graduate students - let’s order your workstation in advance so that it’s ready by the time you arrive.
+How? See purchasing a computer.
+  </p>
+</div>
+
+<div><img align="left" width="200" height="200" src="./resources/slack.png"/> 
+  <p>
+    <h3>Join Slack</h3>
+    Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address
+  </p>
+</div>
+
 
 &nbsp;
 -----------------------------------------------------------------------------------------------------------------------------
