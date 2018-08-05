@@ -26,7 +26,7 @@ This website serves as the group handbook for the [Persson Group](http://persson
 
 #### [Other Issues](#stress)
 
-#### [Purchases](#purchases)
+#### [Purchases](#money)
 
 #### [Conference Travel](#travel)
 
@@ -194,7 +194,7 @@ If you are struggling with stress or other personal problems, you can contact th
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## Making purchases <a name="purchases"></a>
+## Making purchases <a name="money"></a>
 You are encouraged to make purchases that are likely to save you a lot of time. For example, if a commercial version of a software is superior to open-source alternatives, then you should purchase the commercial version. Your time is valuable and if we can solve a problem with funds, then we should try to do so.
 
 Purchases are usually paid for through project ids that Kristin/Alice can provide you with. For items less than ~$250, you should initiate purchases on your own provided that you know the correct project id. For items greater than $500, contact Kristin first.
