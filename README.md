@@ -30,11 +30,11 @@ This website serves as the group handbook for the [Persson Group](http://persson
 
 #### [Conference Travel](#travel)
 
-#### [Meetings](#meetings)
+#### [Meetings](#meeting)
 
-* [Group Meeting](#groupmeetings)
+* [Group Meeting](#group)
 
-* [Subgroup Meetings](#subgroupmeetings)
+* [Subgroup Meetings](#sub)
 
 #### [Subgroups](#subgroups)
 
@@ -245,12 +245,12 @@ You can filter the sheet to your requests by right-clicking on the name column a
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## Meetings <a name="meetings"></a>
+## Meetings <a name="meeting"></a>
 
-### Group Meeting <a name="groupmeetings"></a>
+### Group Meeting <a name="group"></a>
 There is a mandatory 1hr group meeting that occurs approxiamtely every two weeks. At group meeting, one of the group memebers will give a talk on their research. You will be placed on a rotating schedule that will have you present your work about every 1 year. 
 
-### Subgroup Meetings <a name="subgroupmeetings"></a>
+### Subgroup Meetings <a name="sub"></a>
 Given our new additions and growth, we have decided to implement new subgroups, associated leaders and members. 
 
 The responsibility of subgroup leads is to find a slot where everyone can make bi-weekly meetings and send out calendar calls and reminders.The current subgroups are (leads are in bold): 
