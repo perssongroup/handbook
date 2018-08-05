@@ -32,6 +32,8 @@ Although many things can only be taken care of after arriving at LBNL, here are 
 [![Slack logo](./resources/slack-logo.png)](){: .image-left target="_blank"} Slack is a messaging app that we use extensively to communicate both within our group with our Materials Project collaborators. To join our [slack channel](https://berkeleytheory.slack.com), you'll need to use your @lbl.gov email address.
 
 
+&nbsp;
+
 ## Information for New Graduate Students
 
 ### If you're coming from another state/country
