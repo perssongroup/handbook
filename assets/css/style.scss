@@ -4,11 +4,13 @@
 @import "{{ site.theme }}";
 
 
-nav {
+.main-nav {
   overflow: hidden;
+  text-align: center;
+  width: 100%
 }
 
-nav a {
+.main-nav a {
   float: left;
   color: $body-link-color;
   text-decoration: none;
@@ -24,7 +26,7 @@ nav a {
   }
 }
 
-nav ul {
+.main-nav ul {
     display: inline-block;
     list-style-type: none;
 }
