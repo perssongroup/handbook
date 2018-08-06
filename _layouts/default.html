@@ -18,11 +18,21 @@
       <a href="https://sites.google.com/a/lbl.gov/perssongroup/home" class="btn">Persson Group Internal Site</a>
     </header>
 
+	<nav class="main-nav">
+  	  <ul>
+    	    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+    	    <li><a href="/blog.html" {% if page.url == "/blog.html" %}class="active"{% endif %}>Blog</a></li>
+          </ul>
+	</nav>
+	  
 	<nav class="topnav">
-	  <a href="/handbook/about">About</a>
-	  <a href="/handbook/computing">Computing</a>
-	  <a href="/handbook/students">Graduate Students</a>
-	  <a href="/handbook/postdocs">Postdocs</a>
+	  <ul>
+	    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+	    <li><a href="/handbook/about" {% if page.url == "/handbook/about" %}class="active"{% endif %}>About</a>
+	    <li><a href="/handbook/computing" {% if page.url == "/handbook/computing" %}class="active"{% endif %}>Computing</a>
+	    <li><a href="/handbook/students" {% if page.url == "/handbook/students" %}class="active"{% endif %}>Graduate Students</a>
+	    <li><a href="/handbook/postdocs" {% if page.url == "/handbook/postdocs" %}class="active"{% endif %}>Postdocs</a>
+	  </ul>
 	</nav>
 
     <main id="content" class="main-content" role="main">
