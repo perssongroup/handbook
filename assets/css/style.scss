@@ -4,20 +4,19 @@
 @import "{{ site.theme }}";
 
 
-.topnav {
+.main-nav {
   overflow: hidden;
-  text-align:center;
+  text-align: center;
 
 }
 
-.topnav a {
+.main-nav a {
   float: left;
   color: $body-link-color;
   text-decoration: none;
   text-align: center;
   padding: 14px 16px;
 	
-  
   &:hover {
 	color: #25d1f6
   }
