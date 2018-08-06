@@ -2,3 +2,24 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: $body-link-color;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  
+  &:hover {
+	color: #25d1f6
+  }
+  
+  &:active {
+	color: #25d1f6
+}
+
