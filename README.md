@@ -348,7 +348,7 @@ In order to automatically manage job submission at NERSC, you can use crontab. Y
 In atomate, by using --maxloop 3 for example when setting rocket_launch in your my_qadapter.yaml, after 3 trials in each minute if there are still no READY jobs available in your Launchpad Fireworks would stop the running job on NERSC to avoid wasting computing resources. On the other hand, if you have Fireworks available with the READY state and you have been using crontab for a few days, even if the jobs you submitted a few days ago start running on NERSC, they would pull any READY Fireworks and start RUNNING them reducing the turnaround from a few days to a few hours! So how to setup crontab? Please follow the instructions here:
 1. ssh to the node where you want to setup the crontab; try one that is easy to remember such as cori01 or edison01; for logging in to a specific node just do for example “ssh cori01” after you log in to the system (Cori in this example).
 
-2. Type and enter: crontab -e
+2. Type and enter: `crontab -e`
 
 3. Now you can setup the following command in the opened vi editor. What it does is basically running the SCRIPT.sh file every 120 minutes of every day of every week of every month of every year (or simply */120 * * * *):
 
