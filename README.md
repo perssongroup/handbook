@@ -516,7 +516,8 @@ If you have a specific question, sometimes the easiest solution is to post it to
 ## Materials Science
 
 > “Don’t despair of standard dull textbooks. Just close the book once in awhile and think what they just said in your own terms as a revelation of the spirit and wonder of nature”.
-> - Richard Feynman
+>
+> \- Richard Feynman
 
 It can be difficult to find resources that explain concepts in materials science clearly. Often, struggling through multiple attempts to understand a topic using several different resources in a patchwork and non-linear fashion is the only way forward. That said, the resources listed below are particularly helpful.
 
