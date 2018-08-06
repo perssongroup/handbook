@@ -256,7 +256,7 @@ You can filter the sheet to your requests by right-clicking on the name column a
 ## Meetings <a name="meeting"></a>
 
 ### Group Meeting <a name="group"></a>
-There is a mandatory 1hr group meeting that occurs approxiamtely every two weeks. At group meeting, one of the group memebers will give a talk on their research. You will be placed on a rotating schedule that will have you present your work about every 1 year. 
+There is a mandatory 1hr group meeting that occurs approxiamtely every two weeks. At group meeting, one of the group members will give a talk on their research. You will be placed on a rotating schedule that will have you present your work about every 1 year. 
 
 ### Subgroup Meetings <a name="sub"></a>
 Given our new additions and growth, we have decided to implement new subgroups, associated leaders, and members. Undergraduate students are welcome to join any subgroup they want, but be aware that subgroup meetings probably can't be moved around to fit undergraduate members' schedules.
@@ -307,7 +307,7 @@ You should coordinate the specific days of vacation and personal time off with K
 Postdocs will receive a set number of vacation / personal time off (PTO) days that will be outlined in your hiring package. For union postdocs, the union has currently negotiated 24 PTO days per year along with other benefits.
 
 #### Berkeley Postdocs <a name="ucbvacay"></a>
-As a new ostdoc, you should submit a Postdoc time sheet each month to the Payroll team at 197M Cory Hall, ersopayroll@erso.berkeley.edu. This time sheet is used only to record the Personal Time Off and Sick Leave that you use. According to UC Postdoc policy, you are granted 24 days of Personal Time Off and 12 days of Sick Leave per 12-month appointment.
+As a new postdoc, you should submit a Postdoc time sheet each month to the Payroll team at 197M Cory Hall, ersopayroll@erso.berkeley.edu. This time sheet is used only to record the Personal Time Off and Sick Leave that you use. According to UC Postdoc policy, you are granted 24 days of Personal Time Off and 12 days of Sick Leave per 12-month appointment.
 
 On your [first time sheet](http://www.erso.berkeley.edu/erso/sites/default/files/uploads/Postdoc_Timesheet.pdf) you will need to manually type your beginning balance of 24 PTO days and 12 Sick Days. Any paid days off should be recorded on your time sheet and subtracted from your balance.
 
@@ -362,8 +362,8 @@ For accessories, make sure to get:
 * (optional) A presentation tool, e.g., Logitech R800.
 
 ### Making the purchase
-1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks OK, she will give you a project and activity ID. 
-2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID, and SAS approver as Micah Liedeker [TODO: AGAIN, CHECK THIS].
+1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks OK, she will give you a project and activity ID. Ask Alice about which SAS approver to list if you are unsure (the SAS approver can vary by project and activity ID).
+2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID, and SAS approver.
 3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back. 
 4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
 
