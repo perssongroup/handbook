@@ -489,7 +489,8 @@ Other Persson group members and the NERSC website are both excellent resources f
 * Computer Operations = menu option 1 (24/7)
 * Account Support = menu option 2,  accounts@nersc.gov
 * HPC Consulting = menu option 3, or consult@nersc.gov
-* Online Help Desk = http://help.nersc.gov/
+* Online Help Desk = help.nersc.gov
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Our software stack
