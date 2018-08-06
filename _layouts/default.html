@@ -19,13 +19,11 @@
     </header>
 	  
 	<nav class="main-nav">
-	  <ul>
-	    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-	    <li><a href="/handbook/about" {% if page.url == "/handbook/about" %}class="active"{% endif %}>About</a>
-	    <li><a href="/handbook/computing" {% if page.url == "/handbook/computing" %}class="active"{% endif %}>Computing</a>
-	    <li><a href="/handbook/students" {% if page.url == "/handbook/students" %}class="active"{% endif %}>Graduate Students</a>
-	    <li><a href="/handbook/postdocs" {% if page.url == "/handbook/postdocs" %}class="active"{% endif %}>Postdocs</a>
-	  </ul>
+	  <a href="/handbook" {% if page.url == "/handbook" %}class="active"{% endif %}>Home</a>
+	  <a href="/handbook/about" {% if page.url == "/handbook/about" %}class="active"{% endif %}>About</a>
+	  <a href="/handbook/computing" {% if page.url == "/handbook/computing" %}class="active"{% endif %}>Computing</a>
+	  <a href="/handbook/students" {% if page.url == "/handbook/students" %}class="active"{% endif %}>Graduate Students</a>
+	  <a href="/handbook/postdocs" {% if page.url == "/handbook/postdocs" %}class="active"{% endif %}>Postdocs</a>
 	</nav>
 
     <main id="content" class="main-content" role="main">
