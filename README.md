@@ -164,6 +164,9 @@ There is a vending machine in building 33 in the 2nd floor cafeteria.
 
 The main cafeteria at LBNL also hosts the Bay View Cafe, which is about a 15 minute walk from our building. The menu is posted at http://www.bayviewcafelbl.com. Note: some items change weekly. On campus, the best food options can be found in the area around the intersection of Hearst and Euclid. There is also a cafe called Yalle's inside Stanley Hall, which is on the adjacent side of Hearst Mining Circle from HMMB. 
 
+### Internal Group Website
+We have an [internal group website](https://sites.google.com/a/lbl.gov/perssongroup/home) with lots of resources and links that you will find useful in your day-to-day work. This site is only accessible from the LBL campus or over VPN.
+
 ### Mail and Fax <a name="mailnfax"></a>
 The incoming and outgoing mail boxes are located on the fist floor of building 33 next to the kitchen. Please do not have any personal (non-business related) mail sent to your LBNL address - this is not allowed.
 
@@ -194,7 +197,7 @@ Note that your “Leave Balance” in the bottom-left assumes 8 hours per day.
 ### Miscellaneous administrative issues <a name="msicissues"></a>
 There are now links on how to navigate various administrative items (e.g. requesting conference travel, etc.) at: http://bit.ly/2vGGWe9. You may need to be logged in (and perhaps on LBNL network or VPN) to access it.
 
-### Other ssues <a name="stress"></a>
+### Other issues <a name="stress"></a>
 If you are struggling with stress or other personal problems, you can contact the LBNL Employee Assistance Program (EAP), which provides free and confidential counseling, consultation, and referral for LBNL staff. Student have free access to the UC Health Services Counseling Center. If you are comfortable doing so, you can also discuss the problem with Kristin to brainstorm if there are ways forward.
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -336,9 +339,7 @@ Our group’s main computing resources are:
 
 At any time, if you feel you are computing-limited, please contact Kristin so she can work with you on finding solutions.
 
------------------------------------------------------------------------------------------------------------------------------
-
-## NERSC <a name="nersc"></a>
+### NERSC <a name="nersc"></a>
 
 #### To get started with calculations at NERSC: <a name="startnersc"></a>
 1. Ask Kristin about whether you will be running at NERSC and, if so, under what account / repository to charge.
@@ -351,6 +352,80 @@ At any time, if you feel you are computing-limited, please contact Kristin so sh
 7. Please make a folder inside your project directory and submit all your jobs there as your home folder has only about 40GB of space. For example, for matgen project, your work folder path should be something like the following:
 `/global/project/projectdirs/matgen/YOUR_NERSC_USERNAME`
 8. You can also request a database for your project to be hosted on NERSC. Google “MongoDB on NERSC” for instructions. Donny Winston or Patrick Huck can also help you get set up and provide you with a preconfigured database suited for running Materials Project style workflows.
+
+#### Running Jobs on NERSC
+This tutorial provides a brief overview of setting yourself up to run jobs on NERSC. If any information is unclear or missing, feel free to edit this document or contact Kara Fong.
+
+##### Setting up a NERSC account:
+Contact the group’s NERSC Liaison (currently Eric Sivonxay, see Group Jobs list). They will help you create an account and allocate you computational resources. You will then receive an email with instructions to fill out the Appropriate Use Policy form, set up your password, etc.
+
+Once your account is set up, you can manage it at the NERSC Information Management (NIM) website.
+
+##### Connecting with SSH:
+You must use the SSH protocol to connect to NERSC. 
+Make sure you have SSH installed on your local computer (you can check this by typing which ssh). 
+Make sure you have a directory named $HOME/.ssh on your local computer (if not, make it).
+Run the command ssh-keygen -t rsa -b 4096. This will generate an RSA key, which you can view in the file id_rsa.pub
+You’ll be asked to enter a passphrase, which should be different from your password.
+
+You must store your SSH public key on the NERSC NIM database. 
+Go to the NIM website, navigate to “My Stuff” -> “My SSH Keys”. Click on the SSH Keys tab.
+Copy your key (from id_rsa.pub) into the website’s text box, click Add.
+
+##### Logging on:
+Log on to Cori, for example, by submitting the following command in the terminal:
+```
+ssh username@cori.nersc.gov
+```
+You will be prompted to enter your passphrase. This will take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
+```
+alias cori="ssh your_username@cori.nersc.gov
+```
+Now you will be able to initialize a SSH connection to cori just by typing `cori` in the command line and pressing enter. 
+
+##### Transferring files to/from NERSC:
+For small files, you can use SCP (secure copy). To get a file from NERSC, use:
+```
+scp user_name@dtn01.nersc.gov:/remote/path/myfile.txt /local/path
+```
+To send a file to NERSC, use:
+```
+scp /local/path/myfile.txt user_name@dtn01.nersc.gov:/remote/path
+```
+To move a larger quantity of data using a friendlier interface, use Globus Online.
+
+##### Running and monitoring jobs:
+The following instructions are for running on Cori. Analogous information for running on Edison can be found here.
+
+Most jobs are run in batch mode, in which you prepare a shell script telling the batch system how to run the job (number of nodes, time the job will run, etc.). NERSC’s batch system software is called SLURM. Below is a simple batch script example, copied from the NERSC website:
+```
+#!bin/bash -l
+
+#SBATCH -N 2          #Use 2 nodes
+#SBATCH -t 00:30:00   #Set 30 minute time limit
+#SBATCH -q regular    #Submit to the regular QOS
+#SBATCH -L scratch    #Job requires $SCRATCH file system
+#SBATCH -C haswell    #Use Haswell nodes
+
+srun -n 32 -c 4 ./my_executable
+```
+Here, the first line specifies which shell to use (in this case bash). The keyword #SBATCH is used to start directive lines ([click here](http://www.nersc.gov/users/computational-systems/cori/running-jobs/batch-jobs/#toc-anchor-3) for a full description of the sbatch options you can specify). The word “srun” starts execution of the code.
+
+To submit your batch script, use `sbatch myscript.sl` in the directory containing the script file. 
+
+Below are some useful commands to control and monitor your jobs:
+```
+sqs -u username 	(Lists jobs for your account)
+scancel jobid 	(Cancels a job from the queue)
+```
+
+##### Choosing a QOS (quality of service):
+You specify which queue to use in your batch file. Use the **debug** queue for small, short test runs, the **regular** queue for production runs, and the **premium** queue for high-priority jobs.
+
+##### Choosing a node type (haswell vs knl):
+You also specify the resource type in your batch file. 
+
+[TODO: FILL OUT THIS SECTION MORE]
 
 #### Automatic job submission on NERSC: crontab <a name="crontab"></a>
 In order to automatically manage job submission at NERSC, you can use crontab. You can submit jobs periodically even when you are not signed in to any NERSC systems and perhaps reduce the queue time from 5-10 days to a few hours. This is possible because of the way jobs are managed in atomate/fireworks. Please make sure you feel comfortable submitting individual jobs via atomate before reading this section. 
@@ -401,10 +476,141 @@ nodes: 20
 ```
 Typically, setting N <= 10 will give you a good N-times speedup with no problems. There are no guarantees, however, when N > 10-20. Use N > 50 at your own risk!
 
+
+### Berkeley Research Computing <a name="brc"></a>
+
+
+### Peregrine <a name="nrel"></a>
+
+
+### Additional resources:
+Other Persson group members and the NERSC website are both excellent resources for getting additional help. If that fails, you can reach out to the NERSC Operations staff:
+* 1-800-666-3772 (or 1-510-486-8600)
+* Computer Operations = menu option 1 (24/7)
+* Account Support = menu option 2,  accounts@nersc.gov
+* HPC Consulting = menu option 3, or consult@nersc.gov
+* Online Help Desk = http://help.nersc.gov/
 -----------------------------------------------------------------------------------------------------------------------------
 
-## Berkeley Research Computing <a name="brc"></a>
+## Our software stack
+A brief summary of our software stack includes:
+* pymatgen / pymatgen-db - for representing and analyzing crystal structures, as well as setting up/performing manual calculations
+* FireWorks - for executing and managing calculation workflows at supercomputing centers
+* custodian - instead of directly running an executable like VASP, one can wrap the executable in custodian to detect and fix errors
+* atomate - for quickly defining multiple types of materials science workflows
+* matminer - for large data analysis and visualization
+
+We also heavily use the Materials Project database.
+
+To learn how to use the software stack, you can consult the documentation of the individual codebases as well as review the following resources:
+* The 2018 Materials Project workshop (note that MatMethods is now called atomate): https://github.com/materialsproject/workshop-2018
+* The 2014 Materials Virtual Lab presentations: 
+https://materialsvirtuallab.org/software/
+* The Materials Project YouTube tutorials: 
+https://www.youtube.com/user/MaterialsProject
+
+If you have a specific question, sometimes the easiest solution is to post it to the Slack group and crowdsource the answer (or just ask Shyam). 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## Peregrine <a name="nrel"></a>
+## Materials Science
+
+> “Don’t despair of standard dull textbooks. Just close the book once in awhile and think what they just said in your own terms as a revelation of the spirit and wonder of nature”.
+> - Richard Feynman
+
+It can be difficult to find resources that explain concepts in materials science clearly. Often, struggling through multiple attempts to understand a topic using several different resources in a patchwork and non-linear fashion is the only way forward. That said, the resources listed below are particularly helpful.
+
+### Density functional theory
+For beginners to density functional theory, I would recommend the book “Density Functional Theory: A Practical Introduction”, which truly achieves what it states by providing physical insights and relevant information rather than just list equations. Copies are available within the group.
+
+If you are interested to explore applications of density functional theory, you might try the E-book from Professor John Kitchin:
+https://github.com/jkitchin/dft-book
+*Note that this book has chosen to use the Atomic Simulation Environment (ASE) to set up simulations rather than the pymatgen code that we prefer, but that is a minor point.*
+
+Finally, for specific calculations with VASP, there are resources online from a 2016 workshop conducted at LBNL, including videos and training materials:
+http://www.nersc.gov/users/training/events/3-day-vasp-workshop/
+http://cms.mpi.univie.ac.at/wiki/index.php/NERSC_Berkeley_2016
+
+### General materials science topics
+To gain a quick introduction to many topics in materials science, you might try the (horribly-named) web site from the University of Cambridge: Dissemination of IT for the Promotion of Materials Science (DoITPoMS):
+https://www.doitpoms.ac.uk
+
+The explanations in this site are very basic, but what they do cover is well-explained and incorporates helpful visuals. Although you won’t ever master a topic from this site, it is often a good starting point that can help you unlock a more intermediate resource.
+
+There are also some nice chapters in the following e-book:
+https://en.wikibooks.org/wiki/Introduction_to_Inorganic_Chemistry
+For example, Chapter 5 has a nice rundown of common crystal structures.
+
+### Online tools
+A nice tool for visualizing phonon modes is: http://henriquemiranda.github.io/phononwebsite/phonon.html
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Computer programming
+Note that there are usually many excellent resources to choose from when learning computer science topics. You usually have the flexibility of choosing to learn from a book, a video series, or even interactive tutorials like www.learnpython.org. Use the list below as potential starting points, but there exist many other high-quality alternatives you can find on your own and may be even better-suited to your needs.
+
+### Python
+For pure beginners to Python, you might try the book “Head First Python”. It is a fun and easy introduction to Python. Beginners that know a little but not a lot of Python can also look at “How to Make Mistakes in Python” (ebook). For intermediate programmers, you might try “20 Python Libraries You Aren’t Using (But Should)”  (ebook). For advanced programmers, you might try “Expert Python Programming”.
+
+### Data mining and Data Analysis
+For learning basic data mining libraries (pandas, scikit-learn) as well as some skills like using git and Github, you might try the online YouTube videos from Kevin Markham, an educator at Data School. These videos also do a good job of pointing you to supplementary material:
+https://www.youtube.com/user/dataschool
+https://github.com/justmarkham
+
+You might also try the book “Python for Data Science For Dummies” (please note: this is different than “Data Science for Dummies”).
+
+For a more materials-centric view, you can try working your way through the Machine Learning In Materials tutorial in the Appendix of this handbook.
+
+A very comprehensive set of suggestions for further resources is listed here:
+http://bit.ly/2jHXIVJ
+
+### MongoDb
+A (now somewhat old, but still clear) resource for beginning to use MongoDb is the “The Little MongoDB Book”:
+https://github.com/karlseguin/the-little-mongodb-book
+There is also an extensive library of webinars on MongoDb on their official web site.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Professional skills: writing papers and presenting talks and posters
+If you have only a relatively short time, try this e-book from Nature Publishing Group: http://go.nature.com/2opiiQh . It is illustrated by Jorge Cham from PhDComics and is packed with good advice. If you have longer, try the book Trees, Maps, and Theorems. It is from the same author as the Nature e-book (Jean Luc Doumont). Anubhav Jain has also written about [giving good presentations]() - use that for additional tips.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Group events
+
+Some of the regular things we do as a group are:
+* Lunch every two weeks jointly with our group and members of the Jain research group.
+* A group outing once every semester. Past activities included paintball and cardboard boat races in Kristin's pool.
+* Twice-yearly “CodeBusters” events, where we spend 3 days hacking on code together.
+* Dinners to celebrate group members who are moving on to join universities or companies. 
+* An annual joint holiday party with the Ceder Group.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Fun things to do in the area
+* Make time to explore some of its recreational activities in the Bay Area. Although there are probably hundreds of online and print resources that can help guide you to things to do, here are a few select ones to start you off:
+* UC Botanical Garden (walkable from our office and free for LBNL employees)
+* Berkeley Marina (walking) - either the boardwalk or the Cesar Chavez loop
+* Ohlone Parkway Trail (easy bike)
+* Indian Rock park
+* “Off the Grid” food trucks
+* Elmwood shopping area or outdoor Emeryville mall
+* Detour App - guided tours for locals through your phone
+* Berkeley Jazz / Theater
+* UC 50% off performing arts at Zellerbach Hall
+* Tilden State Park, e.g., Lake Anza trail
+* Bike the Golden Gate bridge to Marin (longer bike)
+* Bioluminescent kayaking tour in Point Reyes (pick a night with little moonlight)
+* SF Film Fest
+* Baker beach walk up to Golden Gate Bridge (“Batteries to Bluffs” trail)
+* Ice Cream - Mitchell’s, Humphrey Slocombe, Bi-rite, Ice Cream Bar (skip the line, go directly to the back bar and order a “New Orleans Hangover” - non-alcoholic)
+* Muir woods redwood forest
+* Drive to Muir Beach Overlook
+* Drive up to Mount Diablo
+* Hike - Stinson Beach / Matt Davis trail
+* Wine country / Sonoma
+* Point Reyes Lighthouse - Elephant Seal season Dec - Feb
+* Route 1, Big Sur (Bixby bridge area), and “18-mile drive”.
+* Explore Monterey and Carmel-by-the-Sea
+* Lake Tahoe - skiing in the winter, hiking/biking/cruises/tourism/casinos in summer
+* Visit Yosemite National Park
