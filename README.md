@@ -42,21 +42,27 @@ This website serves as the group handbook for the [Persson Group](http://persson
 
 * [Postdoc Union](#union)
 
-* [Vacation Policy](#vacay)
+* [Leave Time Reporting (LBL)](#lblvacay)
+
+* [Leave Time Reporting (UCB)](#ucbvacay)
 
 #### [Information for Graduate Students](#students)
 
 * [Students Coming from Another State/Country](#slr)
 
-[](#)
+#### [Software help groups](#softwaresupport)
 
-[](#)
+#### [Computing Resources](#computing)
 
-[](#)
+* [NERSC](#nersc)
+..*[Getting Started](#startnersc)
+..*[Jupyter Notebooks on Cori](#jupyter)
+..*[Automatic job submission](#crontab)
+..*[Automatic job packing with fireworks](#packing)
 
-[](#)
+* [Berkeley Research Computing](#brc)
 
-[](#)
+[NREL Peregrine](#nrel)
 
 [](#)
 
@@ -211,8 +217,8 @@ The procedure for making purchases depends on the purchase type:
 It is important to be connected to the research community. If it is your first year in the group, you can simply attend the conferences and listen to talks. After your first year, you are expected to be presenting talks or posters at conferences. This will ensure that:
 
 * you keep up to date on developments in the field
-$ you will get to know the people in the field
-$ you are broadcasting your work to the research community. Many if not most people learn about new research by hearing about it at a conference. Thus, if you want people to know about your work, you must be willing to tell people about it. 
+* you will get to know the people in the field
+* you are broadcasting your work to the research community. Many if not most people learn about new research by hearing about it at a conference. Thus, if you want people to know about your work, you must be willing to tell people about it. 
 
 You should identify conferences you’d like to attend several months (usually ~4 months, perhaps ~6 months for international travel) in advance. Usually, this is around the same time that abstract deadlines are due.
 
@@ -291,11 +297,15 @@ Note that Berkeley postdocs have unionized with the International Union, United 
 
 You can also message the Slack group to get opinions from the current postdocs in the group.
 
-### Postdoc vacation days <a name="vacay"></a>
-You will receive a set number of vacation / personal time off (PTO) days that will be outlined in your hiring package. For union postdocs, the union has currently negotiated 24 PTO days per year along with other benefits.
+### Leave Time Reporting (LBL) <a name="lblvacay"></a>
+Postdocs will receive a set number of vacation / personal time off (PTO) days that will be outlined in your hiring package. For union postdocs, the union has currently negotiated 24 PTO days per year along with other benefits.
 
 You should coordinate the specific days of vacation and personal time off with Kristin, especially for an extended absence.
 
+### Leave Time Reporting (UCB) <a name="ucbvacay"></a>
+As a new Postdoc, you should submit a Postdoc time sheet each month to the Payroll team at 197M Cory Hall, ersopayroll@erso.berkeley.edu. This time sheet is used only to record the Personal Time Off and Sick Leave that you use. According to UC Postdoc policy, you are granted 24 days of Personal Time Off and 12 days of Sick Leave per 12-month appointment. Please schedule time off in advance with Kristin. 
+
+On your first time sheet -  http://www.erso.berkeley.edu/erso/sites/default/files/uploads/Postdoc_Timesheet.pdf - you will need to manually type your beginning balance of 24 PTO days and 12 Sick Days. Any paid days off should be recorded on your time sheet and subtracted from your balance.
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Information for Graduate Students <a name="students"></a>
@@ -307,7 +317,7 @@ It's important that you establish California residency early in your first semes
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## Software help groups
+## Software help groups <a name="softwaresupport"></a>
 If you have problems with software, and in particular the software maintained by our group and our collaborators, you should contact the appropriate help group. The documentation for the software will list what that channel is; if not, try the Github Issues page. If you are reaching out for help, try to provide everything needed to quickly reproduce and debug the problem (files, test code, etc).
 
 Two other ways to get software help that are more self-guided are:
@@ -316,9 +326,9 @@ Two other ways to get software help that are more self-guided are:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## Computing Resources
+## Computing Resources <a name="computing"></a>
 Our group’s main computing resources are:
-* NERSC (the LBNL supercomputing center, one of the biggest in the world)
+* [NERSC](#nersc) (the LBNL supercomputing center, one of the biggest in the world)
 * Peregrine (the NREL supercomputing center)
 * Lawrencium / Berkeley Research Computing
 * Argonne Leadership Computing Facility(sometimes)
@@ -328,9 +338,9 @@ At any time, if you feel you are computing-limited, please contact Kristin so sh
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-### NERSC
+## NERSC <a name="nersc"></a>
 
-#### To get started with calculations at NERSC:
+#### To get started with calculations at NERSC: <a name="startnersc"></a>
 1. Ask Kristin about whether you will be running at NERSC and, if so, under what account / repository to charge.
 2. Request a NERSC account through the NERSC homepage (Google “NERSC account request”).
 3. Someone at NERSC will validate your account and assign you computing hours
@@ -342,7 +352,7 @@ At any time, if you feel you are computing-limited, please contact Kristin so sh
 `/global/project/projectdirs/matgen/YOUR_NERSC_USERNAME`
 8. You can also request a database for your project to be hosted on NERSC. Google “MongoDB on NERSC” for instructions. Donny Winston or Patrick Huck can also help you get set up and provide you with a preconfigured database suited for running Materials Project style workflows.
 
-#### Automatic job submission on NERSC: crontab
+#### Automatic job submission on NERSC: crontab <a name="crontab"></a>
 In order to automatically manage job submission at NERSC, you can use crontab. You can submit jobs periodically even when you are not signed in to any NERSC systems and perhaps reduce the queue time from 5-10 days to a few hours. This is possible because of the way jobs are managed in atomate/fireworks. Please make sure you feel comfortable submitting individual jobs via atomate before reading this section. 
 
 In atomate, by using --maxloop 3 for example when setting rocket_launch in your my_qadapter.yaml, after 3 trials in each minute if there are still no READY jobs available in your Launchpad Fireworks would stop the running job on NERSC to avoid wasting computing resources. On the other hand, if you have Fireworks available with the READY state and you have been using crontab for a few days, even if the jobs you submitted a few days ago start running on NERSC, they would pull any READY Fireworks and start RUNNING them reducing the turnaround from a few days to a few hours! So how to setup crontab? Please follow the instructions here:
@@ -351,8 +361,9 @@ In atomate, by using --maxloop 3 for example when setting rocket_launch in your 
 2. Type and enter: `crontab -e`
 
 3. Now you can setup the following command in the opened vi editor. What it does is basically running the SCRIPT.sh file every 120 minutes of every day of every week of every month of every year (or simply */120 * * * *):
-
-`*/120 * * * * /bin/bash -l PATH_TO_SCRIPT.sh >> PATH_TO_LOGFILE`
+```
+*/120 * * * * /bin/bash -l PATH_TO_SCRIPT.sh >> PATH_TO_LOGFILE
+```
 
 4. Setup your SCRIPT.sh like the following: (as a suggestion, you can simply put this file and the log file which keeps a log of submission states in your home folder):
 ``` 
@@ -364,12 +375,12 @@ The last line of this 3-line file is really what submitting your job inside your
 
 5. Please make sure to set your PRODUCTION_FOLDER under /global/project/projectdirs/ that has much more space than your home folder and it is also backed up. Make sure to keep an eye on how close you are to disk space and file number limitations by checking https://my.nersc.gov/ periodically.
 
-#### Running Jupyter Notebooks on Cori
+#### Running Jupyter Notebooks on Cori <a name="jupyter"></a>
 Jupyter notebooks are quickly becoming an indispensable tool for doing computational science. In some cases, you might want to (or need to) harness NERSC computing power inside of  a jupyter notebook. To do this, you can use NERSC’s new Jupyterhub system at https://jupyter-dev.nersc.gov/. These notebooks are run on a large memory node of Cori and can also submit jobs to the batch queues (see http://bit.ly/2A0mqrl for details). All of your files and the project directory will be accessible from the Jupyterhub, but your conda envs won’t be available before you do some configuration.
 
 To set up a conda environment so it is accessible from the Jupyterhub, activate the environment and setup an ipython kernel. To do this, run the command “pip install ipykernel”. More info can be found at http://bit.ly/2yoKAzB. 
 
-#### Automatic Job Packing with FireWorks
+#### Automatic Job Packing with FireWorks <a name="packing"></a>
 DISCLAIMER:  Only use job packing if you have trouble with typical job submission. The following tip is not 100% guaranteed to work., and is based on limited, subjective experience on Cori. Talk to Alex Dunn (ardunn@lbl.gov) for help if you have trouble. 
 
 The Cori queue system can be unreasonably slow when submitting many (e.g., hundreds, thousands) of small (e.g., single node or 2 nodes) jobs with qos-normal priority on Haswell. In practice, we have found that the Cori job scheduler will give your jobs low throughput if you have many jobs in queue, and you will often only be able to run 5-30 jobs at a time, while the rest wait in queue for far longer than originally expected (e.g., weeks). While there is no easy way to increase your queue submission rate (AFAIK), you can use FireWorks job-packing to “trick” Cori’s SLURM scheduler into running many jobs in serial on many parallel compute nodes with a single queue submission, vastly increasing throughput.
@@ -389,3 +400,11 @@ rocket_launch: rlaunch -c /your/config multi 10 --nlaunches 0 --timeout 169200
 nodes: 20
 ```
 Typically, setting N <= 10 will give you a good N-times speedup with no problems. There are no guarantees, however, when N > 10-20. Use N > 50 at your own risk!
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Berkeley Research Computing <a name="brc"></a>
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Peregrine <a name="nrel"></a>
