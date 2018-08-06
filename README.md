@@ -320,6 +320,139 @@ It's important that you establish California residency early in your first semes
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+## Getting a Computer
+
+Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you will instead receive an excellent computer from the group’s stock.
+
+### Mac, Windows, or Linux?
+You should buy a Mac, and probably a Macbook Pro. Although this sounds extreme, and may even induce strong feelings if you are used to a different system, in practice this has never been much of a problem. We are not necessarily Apple fanatics but simply find that these are the best systems for our type of work because they contain many of the advantages of both Linux and Windows systems in a single package.
+
+Why not Windows? A couple of things make it non-optimal for our work. There is no native Terminal, which you will use heavily, and programs like Cygwin are poor substitutes. Certain seemingly minor decisions made by Windows (directory slashes, line endings) are different than those from Linux, making interoperability between Linux/Mac and Windows systems more problematic (e.g., copying files to and from supercomputing centers requires auto-converting line ending format).
+
+Why not Linux? Linux is fine, but Microsoft Office is not available (which is used by us and most of the materials science research world) and OpenOffice is a poor substitute. Certain videoconferencing software doesn’t work well with Linux.
+
+How about Mac? As Apple are catering more to the general consumer and less to developers, you really need to spend some time setting up your Mac to make it productive for power users. But for the moment it remains a very good compromise between Linux-like and Windows-like and thus forms the basis for our workstations. 
+
+### Purchasing
+Here is how to purchase a computer at the lab. Before we begin, a few notes:
+In terms of the mechanics of purchasing:
+* Use LBNL Ebuy (not Ebay) wherever possible - you need to be on the lab network (onsite via an ethernet cable) or be connected via the VPN
+* Use Amazon, etc. to buy various components if not available via EBuy
+* The laptop is government property; you are expected to return it to the group when you are done working at LBNL. Note that Mac computers make it very simple to transfer everything over to your next computer.
+* You are free to take your laptop home, on trips, etc., unless you are an intern in which case other restrictions may apply from the internship program.
+* The lab receives your computer and tags it before sending it over to you.
+* You must back up your computer very regularly (at least once per week, ideally continuously). This is simple using the Time Machine app. Just plug your backup drive into your monitor so when you connect to your monitor, you also back up. If there are (for some reason) errors in backing up, fix that issue immediately. There are zero excuses for not doing this.
+
+### Selecting a computer, monitor, and accessories
+Your computer workstation is one area where you should just get whatever you think will make you most productive and not care about cost. Seriously, just get what is best and do not worry about cost.
+
+For the computer, you should select a Macbook Pro (any screen size) as mentioned above. You can use the Apple website to browse details. Many of us use a 13” Macbook Pro. It is powerful enough to do serious work and light/small enough to use on a plane. A 15” Macbook Pro is also a good choice. If you would like to get anything other than a Macbook Pro, talk to some senior members of the group first to get their input.
+
+For the monitor, a number of us use a single Thunderbolt display. While this is no longer available for purchase, there may be one or two floating around the group that you can adopt. Another good option available is the LG 27MU88-W (4K resolution) monitor which is on Ebuy. Note that one big screen is usually better ergonomically than dual monitors, and you can use the “Spaces” feature of Mac OS/X to quickly flip between virtual screens if needed. 
+
+For accessories, make sure to get:
+* An extra charging cable
+* A VGA adapter dongle
+* An ethernet cable adapter dongle
+* A Time Machine hard disk (for backup). 4TB is a good size. 
+* A keyboard. Many of us use an Apple Wireless Keyboard since we like the feel of Mac keys and also like a consistent feel between our laptop keyboard and our desk keyboard. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
+* A mouse/trackpad. We suggest Apple Magic Trackpad because Mac OS has really customized a lot of the interface for the trackpad (e.g., gestures). Some also value consistency between their laptop and desk workstation. After a while you get used to doing everything on your trackpad even if you were previously very productive/accurate with a mouse on Windows. However, many of us get by just fine with a mouse (especially the Apple Magic Mouse, which has some gesture support.)
+* (optional) A presentation tool, e.g., Logitech R800.
+
+### Making the purchase
+1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks OK, she will give you a project and activity ID. 
+2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID, and SAS approver as Micah Liedeker [TODO: AGAIN, CHECK THIS].
+3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back. 
+4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Setting up a new Macbook
+
+### Upgrade your OS
+If your computer is not using the latest OS, you should upgrade to the latest OS first.
+
+### Installing Python development environment
+The best way to manage Python installations these days is a “conda env”. This will allow you to manage different Python “environments”, where each environment is a set of libraries that you have installed. For example, you can have one environment that uses Python 2.7 and has certain library versions installed, and another environment that uses Python 3.5 and has other libraries installed. Another advantage of conda environments is that you can apply the same procedure on NERSC and other computing centers that support conda.
+
+To do this, follow the online instructions on installing a conda environment and see modifications below:
+* http://conda.pydata.org/docs/using/index.html
+* (probably) prefer to install the “miniconda” version rather than anaconda
+* (probably) prefer to install “miniconda 3” rather than “miniconda 2”. Both will work fine and allow you to do everything the other one does so don’t stress too much about this decision.
+* (probably) When creating environments, create at least one python 2 environment using the “python=2” parameter. It is up to you whether you want to work in Python 2.x or Python 3.x. For the moment, Anubhav prefers 2.x backward-compatible code for most base libraries (e.g. FireWorks), so if you use 3.x as your main environment, make sure your syntax doesn’t depend on the newer features. See next bullet point for more.
+* When creating environments, use a command like this (note that this also installs recommended libraries):
+```
+conda create --name py3 python=3 numpy matplotlib seaborn plotly pandas flask pymongo scipy sympy scikit-learn jupyter
+```
+* If you want a reference guide to conda commands, try: http://conda.pydata.org/docs/using/cheatsheet.html
+
+### Install high-throughput computation environment
+Our group has a set of base codebases used for performing high-throughput calculations. Note that if your project does not involve high-throughput calculation, you may need only one or two of these libraries installed – ask your subgroup head if you are unsure.
+
+**After activating a conda environment**, install the following packages using a combination of git clone >>REPO_NAME<< and python setup.py develop. Start with:
+```
+git clone https://www.github.com/materialsproject/fireworks
+```
+You might need to generate an ssh key for the git clone command to work:
+ssh-keygen -t rsa -b 4096
+no password is probably OK unless you are security conscious
+add your SSH key to your Github profile
+
+Then:
+```
+cd fireworks; python setup.py develop; cd ..
+```
+Repeat the process above for the remaining libraries:
+```
+git clone https://www.github.com/materialsproject/pymatgen
+cd pymatgen; python setup.py develop; cd ..
+git clone https://www.github.com/materialsproject/pymatgen-db
+cd pymatgen-db; python setup.py develop; cd ..
+git clone https://www.github.com/materialsproject/custodian
+cd custodian; python setup.py develop; cd ..
+```
+Repeat the same process for a couple of other libraries on the hackingmaterials github site:
+```
+git clone https://www.github.com/hackingmaterials/atomate
+cd atomate; python setup.py develop; cd ..
+git clone https://www.github.com/hackingmaterials/matminer
+cd matminer; python setup.py develop; cd ..
+```
+If you want, you can automatically source activate your environment in your .bash_profile file. This will automatically load your environment when you open a Terminal. Otherwise, you will start off in your default Mac Python.
+
+### Configure Pycharm IDE
+An integrated development environment (IDE) allows you to be a much more productive coder. It is like a text editor but contains many useful keyboard shortcuts, code-completion tools, refactoring tools, and debugging/profiling tools to help you be more productive. It can also automatically reformat your code to trim line lengths and add proper whitespace to be in-line with recommended Python formatting guidelines.
+
+[Pycharm](https://www.jetbrains.com/pycharm/) is the group’s recommended IDE for Python and they offer a free community edition (CE) that contains all the features you need. There are other programs you might consider like Sublime Text, although those are more like advanced text editors than proper IDEs. Note that there are some advanced programmers that know their way around an IDE but still prefer an editor like vi or emacs with appropriate plugins. This is fine so long as (i) you are an advanced programmer and (ii) you have first tried an IDE for a few months and really tried to make use of it, but find that it hampers your productivity. Note: 1. You can add vim and emacs bindings to Pycharm and 2. most people that think they fall into the advanced category do not and find themselves making mistakes that could easily be avoided with an IDE. Thus, it is recommended that essentially everyone in the group use an IDE.
+
+After downloading and installing Pycharm and launching it for the first time, you’ll be asked some options. I suggest using the default Mac OS X keymap unless you are already very familiar with Emacs or other keymaps. Note that these things can be changed later if desired.
+
+Next, and assuming you’ve already cloned the source code of your desired repos from Github, you do the following:
+1. Create a new project (give it any name)
+2. In the menu bar, click Pycharm CE -> Preferences -> Project -> Project interpreter. Change this to your conda Python interpreter. You can also set your default interpreter from File->Default Settings->Project Interpreter and set that to your conda environment interpreter. Do not skip these steps! 
+3. Click File->Open and navigate to the root folder of one your desired repos (I suggest pymatgen to start) and click open.
+4. Make sure to select “open in current window” AND check “add to currently opened projects”
+5. Repeat step #3 for all your desired codebases. When finished, you should see in the sidebar all the various codebases.
+
+If you want to try adding some of your own scratch code, then:
+1. Navigate in the sidebar to your main project folder (folder with your chosen project name). Right-click and click New->Python package. Give it a name.
+2. The previous command created a new folder. Navigate inside that folder, right-click, and choose New->Python file. When finished, that folder should contain two .py files - __init__.py (created automatically for the new Python package) and your chosen filename.
+3. Finally, type some code in your new file. It can be simple as print("hello world"). To execute the code, you can use Ctrl+Shift+R with default Mac keybindings or go through the “Run” menu for more options.
+
+Now you are all set! There are many things you might want to do:
+* Configure the way your Pycharm window looks. For large monitors, Anubhav likes Project Navigation at left, main code in center, and “Structure” panel on right which is basically like an outline of a particular Python file showing all the classes, functions, etc. at a glance.
+* Explore the various options and capabilities of PyCharm. Appendix D of the handbook has some tips and you can enable PyCharm’s “tip of the day” which will really step you through some of the great features. 
+
+### Other things to do
+* Set up your Time Machine backup (make sure you have purchased or received an external hard disk).
+https://support.apple.com/en-us/HT204412
+* You can also set up an online backup plan (e.g., Crashplan or Backblaze) to provide you with a second backup.
+* Install MongoDB.
+* Install Docker.
+* Purchase Microsoft office from LBNL software distribution.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 ## Software help groups <a name="softwaresupport"></a>
 If you have problems with software, and in particular the software maintained by our group and our collaborators, you should contact the appropriate help group. The documentation for the software will list what that channel is; if not, try the Github Issues page. If you are reaching out for help, try to provide everything needed to quickly reproduce and debug the problem (files, test code, etc).
 
