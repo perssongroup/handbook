@@ -143,9 +143,9 @@ Two other ways to get software help that are more self-guided are:
 ## Computing Resources <a name="computing"></a>
 Our group’s main computing resources are:
 * [NERSC](#nersc) (the LBNL supercomputing center, one of the biggest in the world)
-* Peregrine (the NREL supercomputing center)
 * Lawrencium / Berkeley Research Computing
-* Argonne Leadership Computing Facility(sometimes)
+* Peregrine (the NREL supercomputing center)
+* Argonne Leadership Computing Facility (sometimes)
 * Oak Ridge Leadership Computing Facility (sometimes)
 
 At any time, if you feel you are computing-limited, please contact Kristin so she can work with you on finding solutions.
@@ -155,14 +155,14 @@ At any time, if you feel you are computing-limited, please contact Kristin so sh
 #### To get started with calculations at NERSC: <a name="startnersc"></a>
 1. Ask Kristin about whether you will be running at NERSC and, if so, under what account / repository to charge.
 2. Request a NERSC account through the NERSC homepage (Google “NERSC account request”).
-3. Someone at NERSC will validate your account and assign you computing hours
+3. A NERSC Liason or PI Proxy will validate your account and assign you an initial allocation of computing hours.
 4. At this point, you should be able to log in, check CPU-hour balances, etc. through “NERSC NIM” and “My NERSC” portals
 5. In order to log in and run jobs on the various machines at NERSC, review the NERSC documentation.
 6. In order to load and submit scripts for various codes (VASP, ABINIT, Quantum Espresso), NERSC has lots of information to help. Try Google, e.g. “NERSC VASP”.
-...* Note that for commercial codes such as VASP, there is an online form that allows you to enter your VASP license, which NERSC will confirm and then allow you access to.
-7. Please make a folder inside your project directory and submit all your jobs there as your home folder has only about 40GB of space. For example, for matgen project, your work folder path should be something like the following:
+... *Note that for commercial codes such as VASP, there is an online form that allows you to enter your VASP license, which NERSC will confirm and then allow you access to.
+7. Please make a folder inside your project directory and submit all your jobs there, as your home folder has only about 40GB of space. For example, for matgen project, your work folder path should be something like the following:
 `/global/project/projectdirs/matgen/YOUR_NERSC_USERNAME`
-8. You can also request a database for your project to be hosted on NERSC. Google “MongoDB on NERSC” for instructions. Donny Winston or Patrick Huck can also help you get set up and provide you with a preconfigured database suited for running Materials Project style workflows.
+8. You can also request a mongo database for your project to be hosted on NERSC. Google “MongoDB on NERSC” for instructions. Donny Winston or Patrick Huck can also help you get set up and provide you with a preconfigured database suited for running Materials Project style workflows.
 
 #### Running Jobs on NERSC
 This tutorial provides a brief overview of setting yourself up to run jobs on NERSC. If any information is unclear or missing, feel free to edit this document or contact Kara Fong.
@@ -234,7 +234,7 @@ scancel jobid 	(Cancels a job from the queue)
 You specify which queue to use in your batch file. Use the **debug** queue for small, short test runs, the **regular** queue for production runs, and the **premium** queue for high-priority jobs.
 
 ##### Choosing a node type (haswell vs knl):
-You also specify the resource type in your batch file. 
+You may also specify the resource type you would like your job to run on, witnin your batch file. When running on Cori, there are two CPU architectures available, Haswell, and Knights Landing (known as KNL). Running on a Haswell node will afford you high individual core performance with up to 32 cores per node (or 64 threads per node). A KNL node provides a large core count (68 cores per node or 272 threads per node) which is suitable for programs capable of effectively utilizing multithreading. On Cori, there are 2388 Haswell nodes and 9688 KNL nodes.
 
 [TODO: FILL OUT THIS SECTION MORE]
 
@@ -289,9 +289,22 @@ Typically, setting N <= 10 will give you a good N-times speedup with no problems
 
 
 ### Berkeley Research Computing <a name="brc"></a>
+Berkeley Research Computing (BRC) hosts the Savio supercomputing cluster. Savio operates on a condo computing model, in which many PI's and researchers purchase nodes to add to the system. Nodes are accessible to all who have access to the system, though priority access will be given to contributors of the specific nodes. BRC provides 3 types of allocations:
+*Condo - Priority access for nodes contributed by the condo group.
+*Faculty Computing Allowance (FCA) - Limited computing time provided to each Faculty member using Savio.
 
+#### Setting up a BRC account
+http://research-it.berkeley.edu/services/high-performance-computing/getting-account
+
+#### Running on BRC
 
 ### Peregrine <a name="nrel"></a>
+NREL's supercomputer Peregrine is reserved for projects and jobs related to silicon-based Li-ion battery research.
+
+#### Getting an account on Peregrine
+To request a peregrine account, visit the following link.
+
+https://www.nrel.gov/hpc/user-accounts.html
 
 
 ### Additional resources:
