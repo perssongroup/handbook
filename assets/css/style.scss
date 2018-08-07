@@ -1,0 +1,60 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+// .main-nav {
+//   overflow: hidden;
+//   text-align: center;
+//   max-width: 100%;
+//   margin: 0;
+// }
+
+// .main-nav a {
+//   float: left;
+//   color: $body-link-color;
+//   text-decoration: none;
+//   text-align: center;
+//   padding: 14px 16px;
+	
+//   &:hover {
+// 	color: #25d1f6
+//   }
+  
+//   &:active {
+// 	color: #25d1f6
+//   }
+// }
+
+// .main-nav ul {
+//     display: inline-block;
+//     list-style-type: none;
+// }
+
+
+#nav {
+	position: relative;
+	width: 800px;
+	margin: 0 0 1em 0;
+	padding: 0;
+	text-align: center;
+}
+#nav ul {
+	list-style: none;
+	margin: 0 0;
+	padding: 0; 
+	text-align: center;
+}
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 6px 15px;
+	padding-top: 10px;
+	font-weight: bold;
+ }
+#nav li a:hover {
+	color: #25d1f6}
+#nav li a:active {
+	color: #25d1f6}
