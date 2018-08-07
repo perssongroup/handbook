@@ -50,24 +50,55 @@ How? See purchasing a computer.
 </div>
 
 -----------------------------------------------------------------------------------------------------------------------------
+## Useful Onboarding Points of Contact and Quick Links <a name="after"></a>
+LBL Administrative Assistance: Alice Mueller, 33-122B
+Desk Assignments + Group Inventory: Rebecca Stern, 33-143F
+Persson Google Group (email lists, drive, etc.): Donny Winston
+Group Meeting: Trevor Seguin
+[Persson Group Website: People](http://perssongroup.lbl.gov/people.html)
+[Internal Group Site](https://sites.google.com/a/lbl.gov/perssongroup/home)
+[lbl.gov A-Z Index](http://www.lbl.gov/a-z-index/)
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 ## After You Arrive <a name="after"></a>
-Welcome to Berkeley! Here is a checklist of things you should complete within your first week:
+Welcome to Berkeley! Here is a checklist to help you get started with joining the Persson Research Group.
 
-* Set up your computer. See [SETTING UP YOUR COMPUTER]() on how to do this and some recommended software to install.
-* Complete the checklist that HR gives you in your welcome package. Note: postdocs cannot select retirement plans; an obligatory UCRS DCP is deducted from your pre-tax salary each month but the money belongs to you.
-* Complete all LBNL/UC Berkeley training courses including the ergonomic self-assessment.
-* Send an email to Donny Winston with a headshot for the group website and a request to be added to the group email list. Use the subject line "Onboarding: <YOUR NAME>".
-* Set up the employee wifi. Note that the visitor wifi is open access. To connect to employee wifi, go to https://software.lbl.gov/, search for “Wireless Networking”, and download the configuration file. 
-* Request access to the group’s Google Drive folder.
-* Install the lab VPN for connecting to the lab network from home. For example, this lets you download research articles from home. See https://software.lbl.gov for instructions on installation.
-* Obtain user accounts for any computing resources (LINK) you may be using.
-* Orient yourself with LBL's calendar system (Google Calendar) and determine when the next group meeting is. 
-* Obtain a license for any software packages you might be using. For example, you may need to be added to the VASP users list (for VASP, you should also register for the forum.)
-* Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found [here.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
-* Request after-hours access to the lab. By default, you will not have off-hours site access to building 33, i.e., on weekends, holidays, and from ~6pm to 7am on weekdays. To obtain off-hours site access, email the ESDR admin (esdradmin@lbl.gov), tell them you need after-hours building access, and cc Kristin.
-* Ask to read the proposal that funds your work. This will help explain the impact of your project, the long-term plans and goals, and how your project fits in with other efforts.
+### First Day Checklist (Very Basics & High Priority Administrative Tasks after HR Orientation) <a name="office"></a>
+* Once you make your way inside building 33, ask around to find someone in the Persson Group who can help you find your desk and provide a short walk through to become familiar with the building and introduce you to other group members.
+* Follow the instructions received during your orientation to activate your Berkeley Lab Identity Account (aka LDAP). This log-in will be used for most LBL online resources. Connect to the internet using the lbnl-visitor WiFi network (it is open access).
+* Try out your newly created LDAP log-in. Connect to the lnbl-employee WiFi network, open your @lbl.gov email, google calendar, etc.
+* Ask Kristin/Alice to find our what project and activity id is associated with your funding and should be used for payroll, purchasing, etc. You will also want to find our the associated SAS Approver from Alice or another group member with the same funding source.
+* See Alice with your Employee ID to introduce yourself and set-up B33 after hours access. By default, you will not have off-hours site access to building 33, i.e., on weekends, holidays, and from 5:30pm to 7am on weekdays.
+* Prioritize completing the GERT (General Radiological Worker Training) before the end of your first day.
+* Begin setting up your desk (ideally before completing the ergonomic self-assessment). [Here are some tips.](https://github.com/perssongroup/handbook#getting-situated-in-your-office-) Order a computer as soon as possible if you have not done so already. See [Getting a Computer](https://github.com/perssongroup/handbook#getting-a-computer) for advice on selecting a computer and needed accessories. You are welcome to ask Alice or a group member for a purchasing overview or help with Ebuy.
+
+### First Week Checklist (also start the below Research Computer & IT Checklist when possible) <a name="office"></a>
+* Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
+* Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability. 
+* Check to ensure your calendar is populated with needed meetings (group meetings, subgroup meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
+* Check to ensure you have access to the group email lists.
+* Send an email to Donny Winston with a headshot and tiny bio for the group website (bit of humor in a tiny bio is very welcome). Use the subject line "Onboarding: <YOUR NAME>".
+* Request access to and explore the group’s Google Drive folder. Note some of these documents populate the group's internal website.
+* Add your name and information to the [Persson Group roster](https://docs.google.com/spreadsheets/d/1p_B3systKq6PYCuHrbT0rGqEl18QWMaqp6x664Za8zw/edit)
 * Work with Alice Muller to update your name tag outside your office.
 
-### Getting situated in your office <a name="office"></a>
+### Research Introduction Checklist <a name="office"></a>
+* Meet with Kristin to plan an appropriate introduction for your specific research, project management, subgroup, etc.
+* Ask to read the proposal that funds your work. This will help explain the impact of your project, the long-term plans and goals, and how your project fits in with other efforts.
+* Get familiar with your [subgroup](https://docs.google.com/document/d/1nPucQrb3383C1OS95Q50T4h_LjJwNbbVWJtj3CZ1K5c/edit) and any other individuals you will be working closely with for your research.
+* Generally take the time to learn about other group member's research focuses and areas of expertise to get a sense of who may be your best resource for different questions and who you may be supporting if you are a more senior group member.
+
+### Computer & IT Checklist <a name="office"></a>
+* Set up your research computer. See [SETTING UP YOUR COMPUTER]() on how to do this and some recommended software to install.
+* Install the lab VPN for connecting to the lab network from home. For example, this lets you download research articles from home. See https://software.lbl.gov for instructions on installation.
+* Obtain user accounts for any computing resources (LINK) you may be using.
+* Obtain a license for any software packages you might be using. For example, you may need to be added to the VASP users list (for VASP, you should also register for the forum.)
+* Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found [here.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Other Helpful Information to Get Started <a name="money"></a>
+
+### Getting situated in your workspace <a name="office"></a>
 Please feel free to decorate your lab space with photos, posters, or other personal touches. Order any peripherals that will help you work more efficiently and comfortably including keyboards, mice, ergonomic devices such as wrist pads, and external displays.
