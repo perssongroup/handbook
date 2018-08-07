@@ -9,3 +9,5 @@ To contribute to the handbook, please fork this repo and make your changes in th
 Each page on the site is a markdown file in this repo (i.e. "students.md" specifies the content that is found at perssongroup.github/io/handbook/students). To add content to a page, all you have to do is edit that markdown file. You can find a nice markdown tutorial here: https://guides.github.com/features/mastering-markdown/
 
 
+## Where did all the content go???
+The stuff that was previously in the README file is now in index.md.
