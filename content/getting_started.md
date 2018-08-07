@@ -5,7 +5,7 @@ Although many things can only be taken care of after arriving at LBNL, here are 
 
 <div>
   <div>
-    <img align="left" width="200" height="200" padding-right="20" src="../resources/slack.png"/> 
+    <img align="left" width="200" height="200" margin= "10 10 10 10" src="../resources/slack.png"/> 
     <div>
       <h3 padding-top="20" padding-left="20" >Join Slack</h3>
       <p padding-left="20">
@@ -20,7 +20,7 @@ Although many things can only be taken care of after arriving at LBNL, here are 
   <br/>
   <div>
     <div>
-      <img align="left" width="200" height="200" padding-right="20" padding-left="20" src="../resources/mac.jpg"/> 
+      <img align="left" width="200" height="200" margin= "10 10 10 10" src="../resources/mac.jpg"/> 
       <div>
         <h3 padding-top="20" padding-left="20">Order a Computer</h3>
         <p padding-left="20">
@@ -37,7 +37,7 @@ How? See purchasing a computer.
   <br/>
   <div>
     <div>
-    <img align="left" width="200" height="200" src="../resources/map.jpg"/> 
+    <img align="left" width="200" height="200" margin= "10 10 10 10" src="../resources/map.jpg"/> 
     <div>
       <h3 padding-top="10" padding-left="20">Find a place to live</h3>
       <p padding-left="20">
