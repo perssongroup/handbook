@@ -22,10 +22,12 @@
   <body>
 	  
     <header class="page-header" role="banner">
-	  <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="http://perssongroup.lbl.gov" class="btn">Persson Group Main Site</a>
-      <a href="https://sites.google.com/a/lbl.gov/perssongroup/home" class="btn">Persson Group Internal Site</a>
+	<div>
+	    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      	    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      	    <a href="http://perssongroup.lbl.gov" class="btn">Persson Group Main Site</a>
+      	    <a href="https://sites.google.com/a/lbl.gov/perssongroup/home" class="btn">Persson Group Internal Site</a>
+	</div>
     </header>
 	  
 	<div id="nav">
@@ -42,6 +44,7 @@
     &nbsp;
     
     <main id="content" class="main-content" role="main">
+	  <div id="tipue_search_content"></div>
 	  {{ content }}
 
       <footer class="site-footer">
