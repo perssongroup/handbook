@@ -1,3 +1,4 @@
+
 # The Persson Group Handbook
 
 This website serves as the group handbook for the [Persson Group](http://perssongroup.lbl.gov) at the University of California, Berkeley / Lawrence Berkeley National Laboratory. The handbook contains useful information for new students and post-docs joining the group, and has answers to many frequently asked questions. You are encouraged to contribute to this handbook via the [open-source repo.](http://perssongroup.lbl.gov)
@@ -134,25 +135,57 @@ How? See purchasing a computer.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## After You Arrive <a name="after"></a>
-Welcome to Berkeley! Here is a checklist of things you should complete within your first week:
+## Useful Onboarding Points of Contact and Quick Links <a name="after"></a>
+LBL Administrative Assistance: Alice Mueller, 33-122B
+Desk Assignments + Group Inventory: Rebecca Stern, 33-143F
+Persson Google Group (email lists, drive, etc.): Donny Winston
+Group Meeting: Trevor Seguin
+[Persson Group Website: People](http://perssongroup.lbl.gov/people.html)
+[Internal Group Site](https://sites.google.com/a/lbl.gov/perssongroup/home)
+[lbl.gov A-Z Index](http://www.lbl.gov/a-z-index/)
 
-* Set up your computer. See [SETTING UP YOUR COMPUTER]() on how to do this and some recommended software to install.
-* Complete the checklist that HR gives you in your welcome package. Note: postdocs cannot select retirement plans; an obligatory UCRS DCP is deducted from your pre-tax salary each month but the money belongs to you.
-* Complete all LBNL/UC Berkeley training courses including the ergonomic self-assessment.
-* Send an email to Donny Winston with a headshot for the group website and a request to be added to the group email list. Use the subject line "Onboarding: <YOUR NAME>".
-* Set up the employee wifi. Note that the visitor wifi is open access. To connect to employee wifi, go to https://software.lbl.gov/, search for “Wireless Networking”, and download the configuration file. 
-* Request access to the group’s Google Drive folder.
-* Install the lab VPN for connecting to the lab network from home. For example, this lets you download research articles from home. See https://software.lbl.gov for instructions on installation.
-* Obtain user accounts for any computing resources (LINK) you may be using.
-* Orient yourself with LBL's calendar system (Google Calendar) and determine when the next group meeting is. 
-* Obtain a license for any software packages you might be using. For example, you may need to be added to the VASP users list (for VASP, you should also register for the forum.)
-* Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found [here.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
-* Request after-hours access to the lab. By default, you will not have off-hours site access to building 33, i.e., on weekends, holidays, and from ~6pm to 7am on weekdays. To obtain off-hours site access, email the ESDR admin (esdradmin@lbl.gov), tell them you need after-hours building access, and cc Kristin.
-* Ask to read the proposal that funds your work. This will help explain the impact of your project, the long-term plans and goals, and how your project fits in with other efforts.
+-----------------------------------------------------------------------------------------------------------------------------
+
+## After You Arrive <a name="after"></a>
+Welcome to Berkeley! Here is a checklist to help you get started with joining the Persson Research Group.
+
+### First Day Checklist (Very Basics & High Priority Administrative Tasks after HR Orientation) <a name="office"></a>
+* Once you make your way inside building 33, ask around to find someone in the Persson Group who can help you find your desk and provide a short walk through to become familiar with the building and introduce you to other group members.
+* Follow the instructions received during your orientation to activate your Berkeley Lab Identity Account (aka LDAP). This log-in will be used for most LBL online resources. Connect to the internet using the lbnl-visitor WiFi network (it is open access).
+* Try out your newly created LDAP log-in. Connect to the lnbl-employee WiFi network, open your @lbl.gov email, google calendar, etc.
+* Ask Kristin/Alice to find our what project and activity id is associated with your funding and should be used for payroll, purchasing, etc. You will also want to find our the associated SAS Approver from Alice or another group member with the same funding source.
+* See Alice with your Employee ID to introduce yourself and set-up B33 after hours access. By default, you will not have off-hours site access to building 33, i.e., on weekends, holidays, and from 5:30pm to 7am on weekdays.
+* Prioritize completing the GERT (General Radiological Worker Training) before the end of your first day.
+* Begin setting up your desk (ideally before completing the ergonomic self-assessment). [Here are some tips.](https://github.com/perssongroup/handbook#getting-situated-in-your-office-) Order a computer as soon as possible if you have not done so already. See [Getting a Computer](https://github.com/perssongroup/handbook#getting-a-computer) for advice on selecting a computer and needed accessories. You are welcome to ask Alice or a group member for a purchasing overview or help with Ebuy.
+
+### First Week Checklist (also start the below Research Computer & IT Checklist when possible) <a name="office"></a>
+* Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
+* Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability. 
+* Check to ensure your calendar is populated with needed meetings (group meetings, subgroup meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
+* Check to ensure you have access to the group email lists.
+* Send an email to Donny Winston with a headshot and tiny bio for the group website (bit of humor in a tiny bio is very welcome). Use the subject line "Onboarding: <YOUR NAME>".
+* Request access to and explore the group’s Google Drive folder. Note some of these documents populate the group's internal website.
+* Add your name and information to the [Persson Group roster](https://docs.google.com/spreadsheets/d/1p_B3systKq6PYCuHrbT0rGqEl18QWMaqp6x664Za8zw/edit)
 * Work with Alice Muller to update your name tag outside your office.
 
-### Getting situated in your office <a name="office"></a>
+### Research Introduction Checklist <a name="office"></a>
+* Meet with Kristin to plan an appropriate introduction for your specific research, project management, subgroup, etc.
+* Ask to read the proposal that funds your work. This will help explain the impact of your project, the long-term plans and goals, and how your project fits in with other efforts.
+* Get familiar with your [subgroup](https://docs.google.com/document/d/1nPucQrb3383C1OS95Q50T4h_LjJwNbbVWJtj3CZ1K5c/edit) and any other individuals you will be working closely with for your research.
+* Generally take the time to learn about other group member's research focuses and areas of expertise to get a sense of who may be your best resource for different questions and who you may be supporting if you are a more senior group member.
+
+### Computer & IT Checklist <a name="office"></a>
+* Set up your research computer. See [SETTING UP YOUR COMPUTER]() on how to do this and some recommended software to install.
+* Install the lab VPN for connecting to the lab network from home. For example, this lets you download research articles from home. See https://software.lbl.gov for instructions on installation.
+* Obtain user accounts for any computing resources (LINK) you may be using.
+* Obtain a license for any software packages you might be using. For example, you may need to be added to the VASP users list (for VASP, you should also register for the forum.)
+* Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found [here.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Other Helpful Information to Get Started <a name="money"></a>
+
+### Getting situated in your workspace <a name="office"></a>
 Please feel free to decorate your lab space with photos, posters, or other personal touches. Order any peripherals that will help you work more efficiently and comfortably including keyboards, mice, ergonomic devices such as wrist pads, and external displays.
 
 ### Food and coffee <a name="foodandcoffe"></a>
@@ -256,7 +289,7 @@ You can filter the sheet to your requests by right-clicking on the name column a
 ## Meetings <a name="meeting"></a>
 
 ### Group Meeting <a name="group"></a>
-There is a mandatory 1hr group meeting that occurs approxiamtely every two weeks. At group meeting, one of the group memebers will give a talk on their research. You will be placed on a rotating schedule that will have you present your work about every 1 year. 
+There is a mandatory 1hr group meeting that occurs approxiamtely every two weeks. At group meeting, one of the group members will give a talk on their research. You will be placed on a rotating schedule that will have you present your work about every 1 year. 
 
 ### Subgroup Meetings <a name="sub"></a>
 Given our new additions and growth, we have decided to implement new subgroups, associated leaders, and members. Undergraduate students are welcome to join any subgroup they want, but be aware that subgroup meetings probably can't be moved around to fit undergraduate members' schedules.
@@ -307,7 +340,7 @@ You should coordinate the specific days of vacation and personal time off with K
 Postdocs will receive a set number of vacation / personal time off (PTO) days that will be outlined in your hiring package. For union postdocs, the union has currently negotiated 24 PTO days per year along with other benefits.
 
 #### Berkeley Postdocs <a name="ucbvacay"></a>
-As a new ostdoc, you should submit a Postdoc time sheet each month to the Payroll team at 197M Cory Hall, ersopayroll@erso.berkeley.edu. This time sheet is used only to record the Personal Time Off and Sick Leave that you use. According to UC Postdoc policy, you are granted 24 days of Personal Time Off and 12 days of Sick Leave per 12-month appointment.
+As a new postdoc, you should submit a Postdoc time sheet each month to the Payroll team at 197M Cory Hall, ersopayroll@erso.berkeley.edu. This time sheet is used only to record the Personal Time Off and Sick Leave that you use. According to UC Postdoc policy, you are granted 24 days of Personal Time Off and 12 days of Sick Leave per 12-month appointment.
 
 On your [first time sheet](http://www.erso.berkeley.edu/erso/sites/default/files/uploads/Postdoc_Timesheet.pdf) you will need to manually type your beginning balance of 24 PTO days and 12 Sick Days. Any paid days off should be recorded on your time sheet and subtracted from your balance.
 
@@ -362,8 +395,8 @@ For accessories, make sure to get:
 * (optional) A presentation tool, e.g., Logitech R800.
 
 ### Making the purchase
-1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks OK, she will give you a project and activity ID. 
-2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID, and SAS approver as Micah Liedeker [TODO: AGAIN, CHECK THIS].
+1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks OK, she will give you a project and activity ID. Ask Alice about which SAS approver to list if you are unsure (the SAS approver can vary by project and activity ID).
+2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID, and SAS approver.
 3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back. 
 4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
 
@@ -751,3 +784,4 @@ Some of the regular things we do as a group are:
 * Explore Monterey and Carmel-by-the-Sea
 * Lake Tahoe - skiing in the winter, hiking/biking/cruises/tourism/casinos in summer
 * Visit Yosemite National Park
+
