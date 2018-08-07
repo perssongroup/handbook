@@ -10,3 +10,5 @@ tipue_search:
     pages: true
   exclude:
     files: [search.html]
+
+tipue_search_active: true
