@@ -4,33 +4,33 @@
 @import "{{ site.theme }}";
 
 
-.main-nav {
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
-  margin: 0;
-}
+// .main-nav {
+//   overflow: hidden;
+//   text-align: center;
+//   width: 100%;
+//   margin: 0;
+// }
 
-.main-nav a {
-  float: left;
-  color: $body-link-color;
-  text-decoration: none;
-  text-align: center;
-  padding: 14px 16px;
+// .main-nav a {
+//   float: left;
+//   color: $body-link-color;
+//   text-decoration: none;
+//   text-align: center;
+//   padding: 14px 16px;
 	
-  &:hover {
-	color: #25d1f6
-  }
+//   &:hover {
+// 	color: #25d1f6
+//   }
   
-  &:active {
-	color: #25d1f6
-  }
-}
+//   &:active {
+// 	color: #25d1f6
+//   }
+// }
 
-.main-nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
+// .main-nav ul {
+//     display: inline-block;
+//     list-style-type: none;
+// }
 
 
 #nav {
