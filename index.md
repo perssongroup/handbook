@@ -1,7 +1,7 @@
 
 # The Persson Group Handbook
 
-This website serves as the group handbook for the [Persson Group](http://perssongroup.lbl.gov) at the University of California, Berkeley / Lawrence Berkeley National Laboratory. The handbook contains useful information for new students and post-docs joining the group, and has answers to many frequently asked questions. You are encouraged to contribute to this handbook via the [open-source repo.](http://perssongroup.lbl.gov)
+This website serves as the group handbook for the [Persson Group](http://perssongroup.lbl.gov) at the University of California, Berkeley / Lawrence Berkeley National Laboratory. The handbook contains useful information for new students and post-docs joining the group, and has answers to many frequently asked questions. You are encouraged to contribute to this handbook via the [open-source repo.](https://github.com/perssongroup/handbook)
 
 ## Table of Contents
 
