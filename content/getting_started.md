@@ -81,12 +81,12 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 * Begin setting up your desk (ideally before completing the ergonomic self-assessment). [Here are some tips.](https://github.com/perssongroup/handbook#getting-situated-in-your-office-) Order a computer as soon as possible if you have not done so already. See [Getting a Computer](https://github.com/perssongroup/handbook#getting-a-computer) for advice on selecting a computer and needed accessories. You are welcome to ask Alice or a group member for a purchasing overview or help with Ebuy.
 
 ### First Week Checklist (also start the below Research Computer & IT Checklist when possible) <a name="office"></a>
+* Send an email to Donny Winston requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: <YOUR NAME>".
 * Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
 * Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability. 
 * Check to ensure your calendar is populated with needed meetings (group meetings, subgroup meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
-* Check to ensure you have access to the group email lists.
-* Send an email to Donny Winston with a headshot and tiny bio for the group website (bit of humor in a tiny bio is very welcome). Use the subject line "Onboarding: <YOUR NAME>".
-* Request access to and explore the group’s Google Drive folder. Note some of these documents populate the group's internal website.
+* Send an email to Sang-Won Park with a headshot and tiny bio for the group website (bit of humor in a tiny bio is very welcome).
+* Explore the group’s Google Drive folder. Note some of these documents populate the group's internal website.
 * Add your name and information to the [Persson Group roster](https://docs.google.com/spreadsheets/d/1p_B3systKq6PYCuHrbT0rGqEl18QWMaqp6x664Za8zw/edit)
 * Work with Alice Muller to update your name tag outside your office.
 
