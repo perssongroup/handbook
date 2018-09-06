@@ -190,7 +190,7 @@ ssh username@cori.nersc.gov
 ```
 You will be prompted to enter your passphrase. This will take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
 ```
-alias cori="ssh your_username@cori.nersc.gov
+alias cori="ssh your_username@cori.nersc.gov"
 ```
 Now you will be able to initialize a SSH connection to cori just by typing `cori` in the command line and pressing enter. 
 
@@ -294,9 +294,80 @@ Berkeley Research Computing (BRC) hosts the Savio supercomputing cluster. Savio 
 *Faculty Computing Allowance (FCA) - Limited computing time provided to each Faculty member using Savio.
 
 #### Setting up a BRC account
+To get an account on Savio, fill out the form linked below, making sure to select the appropriate allocation. Typically, most students and postdocs will be running on co_lsdi.
 http://research-it.berkeley.edu/services/high-performance-computing/getting-account
+After your account is made, you'll need to set up 2-factor authentication. We recommend using Google Authenticator, although any OTP manager will work. 
+
+[TODO: Fill out this with specific 2-factor setup details]
+
+#### Logging into BRC
+To access your shiny new savio account, you'll want to SSH onto the system from a terminal.
+```
+ssh username@hpc.brc.berekeley.edu
+```
+You will be prompted to enter your passphrase. This will take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
+```
+alias savio="ssh username@hpc.brc.berekeley.edu"
+```
 
 #### Running on BRC
+Under the condo account co_lsdi, we have exclusive access to 28 KNL nodes. Additionally, we have the ability to run on other nodes at low priority mode. 
+
+##### Accessing Software binaries
+Software within BRC is managed through modules. You can access precompiled, preinstalled software by loading the desired module.
+```
+module load <module_name>
+```
+To view a list of currently installed programs, use the following command:
+```
+module avail
+```
+To view the currently loaded modules use the command:
+```
+module list
+```
+Software modules can be removed by using either of the following two commands:
+```
+module unload <module_name>
+module purge
+```
+
+###### Accessing In-House software packages
+The Persson Group maintains their own versions of popular codes such as VASP, GAUSSIAN, QCHEM and LAMMPS. To access these binaries, ensure that you have the proper licenses and permissions, then append the following line to the .bashrc file in your root directory:
+```
+export MODULEPATH=${MODULEPATH}:/global/home/groups/co_lsdi/sl7/modfiles
+```
+
+##### Using Persson Group Owned KNL nodes
+To run on the KNL nodes, use the following job script, replacing <executable> with the desired job executable name. To run vasp after loading the proper module, use vasp_std, vasp_gam, or vasp_ncl.
+
+```
+#!bin/bash -l
+#SBATCH --nodes=1                 #Use 1 node
+#SBATCH --ntasks=64               #Use 64 tasks for the job
+#SBATCH --qos=lsdi_knl2_normal    #Set job to normal qos
+#SBATCH --time=01:00:00           #Set 1 hour time limit for job
+#SBATCH --partition=savio2_knl    #Submit to the KNL nodes owned by the Persson Group
+#SBATCH --account=co_lsdi         #Charge to co_lsdi accout
+#SBATCH --job-name=savio2_job     #Name for the job
+
+mpirun --bind-to core <executable>
+```
+
+##### Running on Haswell Nodes(on Low Priority)
+To run on Haswell nodes, use the following slurm submission script:
+```
+#!bin/bash -l
+#SBATCH --nodes=1                 #Use 1 node
+#SBATCH --ntasks_per_core=1       #Use 1 task per core on the node
+#SBATCH --qos=savio_lowprio       #Set job to low priority qos
+#SBATCH --time=01:00:00           #Set 1 hour time limit for job
+#SBATCH --partition=savio2        #Submit to the haswell nodes
+#SBATCH --account=co_lsdi         #Charge to co_lsdi accout
+#SBATCH --job-name=savio2_job     #Name for the job
+
+mpirun --bind-to core <executable>
+```
 
 ### Peregrine <a name="nrel"></a>
 NREL's supercomputer Peregrine is reserved for projects and jobs related to silicon-based Li-ion battery research.
