@@ -99,7 +99,7 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 * Generally take the time to learn about other group member's research focuses and areas of expertise to get a sense of who may be your best resource for different questions and who you may be supporting if you are a more senior group member.
 
 ### Computer & IT Checklist <a name="office"></a>
-* Set up your research computer. See [SETTING UP YOUR COMPUTER]() on how to do this and some recommended software to install.
+* Set up your research computer. See [setting up you computer](https://perssongroup.github.io/handbook/content/computing/personal_setup) on how to do this and some recommended software to install.
 * Install the lab VPN for connecting to the lab network from home. For example, this lets you download research articles from home. See https://software.lbl.gov for instructions on installation.
 * Obtain user accounts for any computing resources (LINK) you may be using.
 * Obtain a license for any software packages you might be using. For example, you may need to be added to the VASP users list (for VASP, you should also register for the forum.)
