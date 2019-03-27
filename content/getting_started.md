@@ -50,7 +50,7 @@ How? See purchasing a computer.
 </div>
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Useful Onboarding Points of Contact and Quick Links <a name="after"></a>
+## Useful Onboarding Points of Contact and Quick Links <a name="quick_links"></a>
 
 **LBL Administrative Assistance**: Alice Mueller, 33-122B
 
@@ -58,17 +58,18 @@ How? See purchasing a computer.
 
 **Persson Google Group (email lists, drive, etc.)**: Donny Winston
 
-**Group Meeting**: Trevor Seguin</p>
+**Group Meeting**: Trevor Seguin
 
 [**Persson Group Website**: People](http://perssongroup.lbl.gov/people.html)
 
 [**Internal Group Site**](https://sites.google.com/a/lbl.gov/perssongroup/home)
 
-[**lbl.gov A-Z Index**](http://www.lbl.gov/a-z-index/)</p>
+[**lbl.gov A-Z Index**](http://www.lbl.gov/a-z-index/)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-## After You Arrive
+## After You Arrive <a name="after"></a>
+
 Welcome to Berkeley! Here is a checklist to help you get started with joining the Persson Research Group.
 
 ### First Day Checklist (Very Basics & High Priority Administrative Tasks after HR Orientation) <a name="office"></a>
