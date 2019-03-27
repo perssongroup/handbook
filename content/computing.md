@@ -44,7 +44,7 @@ For accessories, make sure to get:
 4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
 
 -----------------------------------------------------------------------------------------------------------------------------
-
+<a name="personal_setup"></a>
 ## Setting up a new Macbook
 
 ### Upgrade your OS
