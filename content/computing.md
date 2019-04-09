@@ -396,18 +396,6 @@ A brief summary of our software stack includes:
 * atomate - for quickly defining multiple types of materials science workflows
 * matminer - for large data analysis and visualization
 
-### Atomate Setup
-A brief tutorial on setting up atomate to run on the supercomputers
-```lawrencium
-CONFIG_FILE_DIR: /global/home/users/sivonxay/.conda/envs/cms/config
-QUEUE_UPDATE_INTERVAL: 1
-```
-
-```Cori
-CONFIG_FILE_DIR: /global/homes/s/sivonxay/.conda/envs/cms/config
-QUEUE_UPDATE_INTERVAL: 1
-```
-
 We also heavily use the Materials Project database.
 
 To learn how to use the software stack, you can consult the documentation of the individual codebases as well as review the following resources:
