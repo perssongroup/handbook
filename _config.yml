@@ -12,3 +12,6 @@ tipue_search:
     files: [search.html]
 
 tipue_search_active: true
+
+markdown_extensions:
+ - markdown_fenced_code_tabs
