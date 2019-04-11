@@ -1,44 +1,48 @@
 ## Getting a Computer <a name="getcomputer"></a> 
 
-Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you will instead receive an excellent computer from the group’s stock.
+Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you can instead receive an excellent computer from the group’s stock.
 
 ### Mac, Windows, or Linux?
-You should buy a Mac, and probably a Macbook Pro. Although this sounds extreme, and may even induce strong feelings if you are used to a different system, in practice this has never been much of a problem. We are not necessarily Apple fanatics but simply find that these are the best systems for our type of work because they contain many of the advantages of both Linux and Windows systems in a single package.
+You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work.
 
-Why not Windows? A couple of things make it non-optimal for our work. There is no native Terminal, which you will use heavily, and programs like Cygwin are poor substitutes. Certain seemingly minor decisions made by Windows (directory slashes, line endings) are different than those from Linux, making interoperability between Linux/Mac and Windows systems more problematic (e.g., copying files to and from supercomputing centers requires auto-converting line ending format).
+Why not Windows? A couple of things make it non-optimal for our work. There is no native Terminal, which you will probably use heavily, and programs like Cygwin are poor substitutes. Certain seemingly minor decisions made by Windows (directory slashes, line endings) are different than those from Linux, making interoperability between Linux/Mac and Windows systems more problematic (e.g., copying files to and from supercomputing centers requires auto-converting line ending format).
 
 Why not Linux? Linux is fine, but Microsoft Office is not available (which is used by us and most of the materials science research world) and OpenOffice is a poor substitute. Certain videoconferencing software doesn’t work well with Linux.
 
-How about Mac? As Apple are catering more to the general consumer and less to developers, you really need to spend some time setting up your Mac to make it productive for power users. But for the moment it remains a very good compromise between Linux-like and Windows-like and thus forms the basis for our workstations. 
+How about Mac? As Apple are catering more to the general consumer and less to developers, you will need to spend some time setting up your Mac to make it productive for power users. But for the moment it remains a very good compromise between Linux-like and Windows-like and thus forms the basis for our workstations.
 
 ### Purchasing
 Here is how to purchase a computer at the lab. Before we begin, a few notes:
 In terms of the mechanics of purchasing:
+#### LBNL Funded Members
 * Use LBNL Ebuy (not Ebay) wherever possible - you need to be on the lab network (onsite via an ethernet cable) or be connected via the VPN
 * Use Amazon, etc. to buy various components if not available via EBuy
 * The laptop is government property; you are expected to return it to the group when you are done working at LBNL. Note that Mac computers make it very simple to transfer everything over to your next computer.
 * You are free to take your laptop home, on trips, etc., unless you are an intern in which case other restrictions may apply from the internship program.
 * The lab receives your computer and tags it before sending it over to you.
 * You must back up your computer very regularly (at least once per week, ideally continuously). This is simple using the Time Machine app. Just plug your backup drive into your monitor so when you connect to your monitor, you also back up. If there are (for some reason) errors in backing up, fix that issue immediately. There are zero excuses for not doing this.
+#### UCB Funded Members
+* Use BearBuy
+* More details coming to this documentation soon.
 
 ### Selecting a computer, monitor, and accessories
-Your computer workstation is one area where you should just get whatever you think will make you most productive and not care about cost. Seriously, just get what is best and do not worry about cost.
+Your computer workstation is one area where you should get whatever you think will make you most productive. As you'll be working on this setup the majority of your time in the group, please don't worry too much about the cost here. 
 
 For the computer, you should select a Macbook Pro (any screen size) as mentioned above. You can use the Apple website to browse details. Many of us use a 13” Macbook Pro. It is powerful enough to do serious work and light/small enough to use on a plane. A 15” Macbook Pro is also a good choice. If you would like to get anything other than a Macbook Pro, talk to some senior members of the group first to get their input.
 
-For the monitor, a number of us use a single Thunderbolt display. While this is no longer available for purchase, there may be one or two floating around the group that you can adopt. Another good option available is the LG 27MU88-W (4K resolution) monitor which is on Ebuy. Note that one big screen is usually better ergonomically than dual monitors, and you can use the “Spaces” feature of Mac OS/X to quickly flip between virtual screens if needed. 
+For the monitor, a number of us use a single Thunderbolt display. While this is no longer available for purchase, there may be one or two floating around the group that you can adopt. Another good option available is the LG 27MU88-W (4K resolution) monitor which is on Ebuy. Note that one big screen is usually better ergonomically than dual monitors, and you can use the “Spaces” feature of Mac OS/X to quickly flip between virtual screens if needed. If you'd like a second monitor, we have a number of them floating around the group and one can probably be found for you.
 
 For accessories, make sure to get:
-* An extra charging cable
+* An extra charger
 * A VGA adapter dongle
 * An ethernet cable adapter dongle
-* A Time Machine hard disk (for backup). 4TB is a good size. 
-* A keyboard. Many of us use an Apple Wireless Keyboard since we like the feel of Mac keys and also like a consistent feel between our laptop keyboard and our desk keyboard. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
-* A mouse/trackpad. We suggest Apple Magic Trackpad because Mac OS has really customized a lot of the interface for the trackpad (e.g., gestures). Some also value consistency between their laptop and desk workstation. After a while you get used to doing everything on your trackpad even if you were previously very productive/accurate with a mouse on Windows. However, many of us get by just fine with a mouse (especially the Apple Magic Mouse, which has some gesture support.)
+* A Time Machine hard disk (for backup). 4TB is a good size. There is a usb-c G-Drive that also doubles as a charger that some of us enjoy.
+* A keyboard. The Apple Wireless Keyboard is a good option. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
+* A mouse/trackpad. We suggest Apple Magic Trackpad because Mac OS has customized a lot of the interface for the trackpad (e.g., gestures). Some also value consistency between their laptop and desk workstation. After a while you get used to doing everything on your trackpad even if you were previously very productive/accurate with a mouse on Windows. However, many of us get by just fine with a mouse (especially the Apple Magic Mouse, which has some gesture support.)
 * (optional) A presentation tool, e.g., Logitech R800.
 
 ### Making the purchase
-1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks OK, she will give you a project and activity ID. 
+1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks ok, she will give you a project and activity ID. 
 2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID. Ask Alice Mueller about which SAS approver to list if you are unsure (the SAS approver can vary by project and activity ID).
 3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back. 
 4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
@@ -406,63 +410,3 @@ https://materialsvirtuallab.org/software/
 https://www.youtube.com/user/MaterialsProject
 
 If you have a specific question, sometimes the easiest solution is to post it to the Slack group and crowdsource the answer (or just ask Shyam). 
-
------------------------------------------------------------------------------------------------------------------------------
-
-## Materials Science
-
-> “Don’t despair of standard dull textbooks. Just close the book once in awhile and think what they just said in your own terms as a revelation of the spirit and wonder of nature”.
->
-> \- Richard Feynman
-
-It can be difficult to find resources that explain concepts in materials science clearly. Often, struggling through multiple attempts to understand a topic using several different resources in a patchwork and non-linear fashion is the only way forward. That said, the resources listed below are particularly helpful.
-
-### Density functional theory
-For beginners to density functional theory, I would recommend the book “Density Functional Theory: A Practical Introduction”, which truly achieves what it states by providing physical insights and relevant information rather than just list equations. Copies are available within the group.
-
-If you are interested to explore applications of density functional theory, you might try the E-book from Professor John Kitchin:
-https://github.com/jkitchin/dft-book
-*Note that this book has chosen to use the Atomic Simulation Environment (ASE) to set up simulations rather than the pymatgen code that we prefer, but that is a minor point.*
-
-Finally, for specific calculations with VASP, there are resources online from a 2016 workshop conducted at LBNL, including videos and training materials:
-http://www.nersc.gov/users/training/events/3-day-vasp-workshop/
-http://cms.mpi.univie.ac.at/wiki/index.php/NERSC_Berkeley_2016
-
-### General materials science topics
-To gain a quick introduction to many topics in materials science, you might try the (horribly-named) web site from the University of Cambridge: Dissemination of IT for the Promotion of Materials Science (DoITPoMS):
-https://www.doitpoms.ac.uk
-
-The explanations in this site are very basic, but what they do cover is well-explained and incorporates helpful visuals. Although you won’t ever master a topic from this site, it is often a good starting point that can help you unlock a more intermediate resource.
-
-There are also some nice chapters in the following e-book:
-https://en.wikibooks.org/wiki/Introduction_to_Inorganic_Chemistry
-For example, Chapter 5 has a nice rundown of common crystal structures.
-
-### Online tools
-A nice tool for visualizing phonon modes is: http://henriquemiranda.github.io/phononwebsite/phonon.html
-
------------------------------------------------------------------------------------------------------------------------------
-
-## Computer programming
-Note that there are usually many excellent resources to choose from when learning computer science topics. You usually have the flexibility of choosing to learn from a book, a video series, or even interactive tutorials like www.learnpython.org. Use the list below as potential starting points, but there exist many other high-quality alternatives you can find on your own and may be even better-suited to your needs.
-
-### Python
-For pure beginners to Python, you might try the book “Head First Python”. It is a fun and easy introduction to Python. Beginners that know a little but not a lot of Python can also look at “How to Make Mistakes in Python” (ebook). For intermediate programmers, you might try “20 Python Libraries You Aren’t Using (But Should)”  (ebook). For advanced programmers, you might try “Expert Python Programming”.
-
-### Data mining and Data Analysis
-For learning basic data mining libraries (pandas, scikit-learn) as well as some skills like using git and Github, you might try the online YouTube videos from Kevin Markham, an educator at Data School. These videos also do a good job of pointing you to supplementary material:
-https://www.youtube.com/user/dataschool
-https://github.com/justmarkham
-
-You might also try the book “Python for Data Science For Dummies” (please note: this is different than “Data Science for Dummies”).
-
-For a more materials-centric view, you can try working your way through the Machine Learning In Materials tutorial in the Appendix of this handbook.
-
-A very comprehensive set of suggestions for further resources is listed here:
-http://bit.ly/2jHXIVJ
-
-### MongoDb
-A (now somewhat old, but still clear) resource for beginning to use MongoDb is the “The Little MongoDB Book”:
-https://github.com/karlseguin/the-little-mongodb-book
-There is also an extensive library of webinars on MongoDb on their official web site.
-
