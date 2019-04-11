@@ -55,7 +55,6 @@ To do this, follow the online instructions on installing a conda environment and
 * http://conda.pydata.org/docs/using/index.html
 * (probably) prefer to install the “miniconda” version rather than anaconda
 * (probably) prefer to install “miniconda 3” rather than “miniconda 2”. Both will work fine and allow you to do everything the other one does so don’t stress too much about this decision.
-* (probably) When creating environments, create at least one python 2 environment using the “python=2” parameter. It is up to you whether you want to work in Python 2.x or Python 3.x. For the moment, Anubhav prefers 2.x backward-compatible code for most base libraries (e.g. FireWorks), so if you use 3.x as your main environment, make sure your syntax doesn’t depend on the newer features. See next bullet point for more.
 * When creating environments, use a command like this (note that this also installs recommended libraries):
 ```
 conda create --name py3 python=3 numpy matplotlib seaborn plotly pandas flask pymongo scipy sympy scikit-learn jupyter
