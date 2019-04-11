@@ -3,17 +3,10 @@
 Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you can instead receive an excellent computer from the group’s stock.
 
 ### Mac, Windows, or Linux?
-You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work.
-
-Why not Windows? A couple of things make it non-optimal for our work. There is no native Terminal, which you will probably use heavily, and programs like Cygwin are poor substitutes. Certain seemingly minor decisions made by Windows (directory slashes, line endings) are different than those from Linux, making interoperability between Linux/Mac and Windows systems more problematic (e.g., copying files to and from supercomputing centers requires auto-converting line ending format).
-
-Why not Linux? Linux is fine, but Microsoft Office is not available (which is used by us and most of the materials science research world) and OpenOffice is a poor substitute. Certain videoconferencing software doesn’t work well with Linux.
-
-How about Mac? As Apple are catering more to the general consumer and less to developers, you will need to spend some time setting up your Mac to make it productive for power users. But for the moment it remains a very good compromise between Linux-like and Windows-like and thus forms the basis for our workstations.
+You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work. 
 
 ### Purchasing
-Here is how to purchase a computer at the lab. Before we begin, a few notes:
-In terms of the mechanics of purchasing:
+
 #### LBNL Funded Members
 * Use LBNL Ebuy (not Ebay) wherever possible - you need to be on the lab network (onsite via an ethernet cable) or be connected via the VPN
 * Use Amazon, etc. to buy various components if not available via EBuy
@@ -21,6 +14,7 @@ In terms of the mechanics of purchasing:
 * You are free to take your laptop home, on trips, etc., unless you are an intern in which case other restrictions may apply from the internship program.
 * The lab receives your computer and tags it before sending it over to you.
 * You must back up your computer very regularly (at least once per week, ideally continuously). This is simple using the Time Machine app. Just plug your backup drive into your monitor so when you connect to your monitor, you also back up. If there are (for some reason) errors in backing up, fix that issue immediately. There are zero excuses for not doing this.
+
 #### UCB Funded Members
 * Use BearBuy
 * More details coming to this documentation soon.
@@ -101,29 +95,6 @@ git clone https://www.github.com/hackingmaterials/matminer
 cd matminer; python setup.py develop; cd ..
 ```
 If you want, you can automatically source activate your environment in your .bash_profile file. This will automatically load your environment when you open a Terminal. Otherwise, you will start off in your default Mac Python.
-
-### Configure Pycharm IDE
-An integrated development environment (IDE) allows you to be a much more productive coder. It is like a text editor but contains many useful keyboard shortcuts, code-completion tools, refactoring tools, and debugging/profiling tools to help you be more productive. It can also automatically reformat your code to trim line lengths and add proper whitespace to be in-line with recommended Python formatting guidelines.
-
-[Pycharm](https://www.jetbrains.com/pycharm/) is the group’s recommended IDE for Python and they offer a free community edition (CE) that contains all the features you need. There are other programs you might consider like Sublime Text, although those are more like advanced text editors than proper IDEs. Note that there are some advanced programmers that know their way around an IDE but still prefer an editor like vi or emacs with appropriate plugins. This is fine so long as (i) you are an advanced programmer and (ii) you have first tried an IDE for a few months and really tried to make use of it, but find that it hampers your productivity. Note: 1. You can add vim and emacs bindings to Pycharm and 2. most people that think they fall into the advanced category do not and find themselves making mistakes that could easily be avoided with an IDE. Thus, it is recommended that essentially everyone in the group use an IDE.
-
-After downloading and installing Pycharm and launching it for the first time, you’ll be asked some options. I suggest using the default Mac OS X keymap unless you are already very familiar with Emacs or other keymaps. Note that these things can be changed later if desired.
-
-Next, and assuming you’ve already cloned the source code of your desired repos from Github, you do the following:
-1. Create a new project (give it any name)
-2. In the menu bar, click Pycharm CE -> Preferences -> Project -> Project interpreter. Change this to your conda Python interpreter. You can also set your default interpreter from File->Default Settings->Project Interpreter and set that to your conda environment interpreter. Do not skip these steps! 
-3. Click File->Open and navigate to the root folder of one your desired repos (I suggest pymatgen to start) and click open.
-4. Make sure to select “open in current window” AND check “add to currently opened projects”
-5. Repeat step #3 for all your desired codebases. When finished, you should see in the sidebar all the various codebases.
-
-If you want to try adding some of your own scratch code, then:
-1. Navigate in the sidebar to your main project folder (folder with your chosen project name). Right-click and click New->Python package. Give it a name.
-2. The previous command created a new folder. Navigate inside that folder, right-click, and choose New->Python file. When finished, that folder should contain two .py files - __init__.py (created automatically for the new Python package) and your chosen filename.
-3. Finally, type some code in your new file. It can be simple as print("hello world"). To execute the code, you can use Ctrl+Shift+R with default Mac keybindings or go through the “Run” menu for more options.
-
-Now you are all set! There are many things you might want to do:
-* Configure the way your Pycharm window looks. For large monitors, Anubhav likes Project Navigation at left, main code in center, and “Structure” panel on right which is basically like an outline of a particular Python file showing all the classes, functions, etc. at a glance.
-* Explore the various options and capabilities of PyCharm. Appendix D of the handbook has some tips and you can enable PyCharm’s “tip of the day” which will really step you through some of the great features. 
 
 ### Other things to do
 * Set up your Time Machine backup (make sure you have purchased or received an external hard disk).
