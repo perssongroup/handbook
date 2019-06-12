@@ -117,8 +117,9 @@ Two other ways to get software help that are more self-guided are:
 ## Computing Resources <a name="computing"></a>
 Our group’s main computing resources are:
 * [NERSC](#nersc) (the LBNL supercomputing center, one of the biggest in the world)
-* Lawrencium / Berkeley Research Computing
-* Peregrine (the NREL supercomputing center)
+* [Lawrencium](http://scs.lbl.gov) / Berkeley Lab Research Computing
+* [Savio](https://research-it.berkeley.edu/services/high-performance-computing/system-overview) / Berkeley Research Computing
+* [Peregrine](https://www.nrel.gov/hpc/about-hpc.html) (the NREL supercomputing center)
 * Argonne Leadership Computing Facility (sometimes)
 * Oak Ridge Leadership Computing Facility (sometimes)
 
