@@ -146,27 +146,32 @@ Contact the group’s NERSC Liaison (currently Eric Sivonxay, see Group Jobs lis
 
 Once your account is set up, you can manage it at the NERSC Information Management (NIM) website.
 
-##### Connecting with SSH:
-You must use the SSH protocol to connect to NERSC. 
-Make sure you have SSH installed on your local computer (you can check this by typing which ssh). 
-Make sure you have a directory named $HOME/.ssh on your local computer (if not, make it).
-Run the command ssh-keygen -t rsa -b 4096. This will generate an RSA key, which you can view in the file id_rsa.pub
-You’ll be asked to enter a passphrase, which should be different from your password.
-
-You must store your SSH public key on the NERSC NIM database. 
-Go to the NIM website, navigate to “My Stuff” -> “My SSH Keys”. Click on the SSH Keys tab.
-Copy your key (from id_rsa.pub) into the website’s text box, click Add.
-
 ##### Logging on:
+
+You must use the SSH protocol to connect to NERSC. 
+Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`). 
+Make sure you have a directory named $HOME/.ssh on your local computer (if not, make it).
+
+You will also need to [set up multi-factor authentication with NERSC](https://www.nersc.gov/users/connecting-to-nersc/mfa/). This will allow you to generate "one time passwords" (OTPs). You will need append a OTP to the end of your NIM password each time you log on to a NERSC cluster.
+
+We also advise you to configure a ssh socket so that you only have to log into NERSC with a OTP only once per session (helpful if you are scp-ing things). To do this, open your ssh config file `/.ssh/config` (or create on if it doesn't exist) and add the following: 
+```
+Host *.nersc.gov
+ControlMaster auto
+ControlPath ~/.ssh/sockets/%r@%h-%p
+ControlPersist 600
+```
+Finally, you're ready to log on! 
+
 Log on to Cori, for example, by submitting the following command in the terminal:
 ```
 ssh username@cori.nersc.gov
 ```
-You will be prompted to enter your passphrase. This will take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
+You will be prompted to enter your passphrase, which is your NIM password+OTP (e.g. `<your_password><OTP>` without any spaces). This will log you onto the cluster and take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
 ```
-alias cori="ssh your_username@cori.nersc.gov"
+alias cori="ssh <your_username>@cori.nersc.gov"
 ```
-Now you will be able to initialize a SSH connection to cori just by typing `cori` in the command line and pressing enter. 
+Now you will be able to initialize a SSH connection to cori just by typing `cori` in the command line and pressing enter.
 
 ##### Transferring files to/from NERSC:
 For small files, you can use SCP (secure copy). To get a file from NERSC, use:
@@ -177,7 +182,7 @@ To send a file to NERSC, use:
 ```
 scp /local/path/myfile.txt user_name@dtn01.nersc.gov:/remote/path
 ```
-To move a larger quantity of data using a friendlier interface, use Globus Online.
+To move a larger quantity of data using a friendlier interface, use [Globus Online](http://globus.lbl.gov).
 
 ##### Running and monitoring jobs:
 The following instructions are for running on Cori. Analogous information for running on Edison can be found here.
