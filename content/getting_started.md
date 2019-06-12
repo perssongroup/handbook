@@ -25,7 +25,7 @@ Although many things can only be taken care of after arriving at LBNL, here are 
         <h3 padding-top="20" padding-left="20">Order a Computer</h3>
         <p padding-left="20">
           Postdocs and graduate students - let’s order your workstation in advance so that it’s ready by the time you arrive.
-How? See purchasing a computer.
+How? See <a href="https://perssongroup.github.io/handbook/content/computing#getting-a-computer"> getting a computer.</a>
           <br /><br /><br /><br /><br />
         </p>
       </div>
@@ -80,7 +80,7 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 * Ask Kristin/Alice to find our what project and activity id is associated with your funding and should be used for payroll, purchasing, etc. You will also want to find the associated SAS Approver from Alice or another group member with the same funding source.
 * See Alice with your Employee ID to introduce yourself and set-up B33 after hours access. By default, you will not have off-hours site access to building 33, i.e., on weekends, holidays, and from 5:30pm to 7am on weekdays.
 * Prioritize completing the GERT (General Radiological Worker Training) before the end of your first day.
-* Begin setting up your desk (ideally before completing the ergonomic self-assessment). [Here are some tips.](https://github.com/perssongroup/handbook#getting-situated-in-your-office-) Order a computer as soon as possible if you have not done so already. See [Getting a Computer](https://github.com/perssongroup/handbook#getting-a-computer) for advice on selecting a computer and needed accessories. You are welcome to ask Alice or a group member for a purchasing overview or help with Ebuy.
+* Begin setting up your desk (ideally before completing the ergonomic self-assessment). [Here are some tips.](https://perssongroup.github.io/handbook/content/getting_started#getting-situated-in-your-office-) Order a computer as soon as possible if you have not done so already. See [Getting a Computer](https://perssongroup.github.io/handbook/content/computing#getting-a-computer) for advice on selecting a computer and needed accessories. You are welcome to ask Alice or a group member for a purchasing overview or help with Ebuy.
 
 ### First Week Checklist (also start the below Research Computer & IT Checklist when possible) <a name="office"></a>
 * Send an email to Donny Winston requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: <YOUR NAME>".
