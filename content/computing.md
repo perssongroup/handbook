@@ -32,7 +32,7 @@ For accessories, make sure to get:
 * An ethernet cable adapter dongle
 * A Time Machine hard disk (for backup). 4TB is a good size. There is a usb-c G-Drive that also doubles as a charger that some of us enjoy.
 * A keyboard. The Apple Wireless Keyboard is a good option. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
-* A mouse/trackpad. We suggest Apple Magic Trackpad because Mac OS has customized a lot of the interface for the trackpad (e.g., gestures). Some also value consistency between their laptop and desk workstation. After a while you get used to doing everything on your trackpad even if you were previously very productive/accurate with a mouse on Windows. However, many of us get by just fine with a mouse (especially the Apple Magic Mouse, which has some gesture support.)
+* A mouse/trackpad (your preference).
 * (optional) A presentation tool, e.g., Logitech R800.
 
 ### Making the purchase
@@ -146,7 +146,7 @@ Contact the group’s NERSC Liaison (currently Eric Sivonxay, see Group Jobs lis
 
 Once your account is set up, you can manage it at the NERSC Information Management (NIM) website.
 
-##### Logging on:
+##### Logging on (Setup):
 
 You must use the SSH protocol to connect to NERSC. 
 Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`). 
@@ -154,14 +154,20 @@ Make sure you have a directory named $HOME/.ssh on your local computer (if not, 
 
 You will also need to [set up multi-factor authentication with NERSC](https://www.nersc.gov/users/connecting-to-nersc/mfa/). This will allow you to generate "one time passwords" (OTPs). You will need append a OTP to the end of your NIM password each time you log on to a NERSC cluster.
 
-We also advise you to configure a ssh socket so that you only have to log into NERSC with a OTP only once per session (helpful if you are scp-ing things). To do this, open your ssh config file `/.ssh/config` (or create on if it doesn't exist) and add the following: 
+We also advise you to configure a ssh socket so that you only have to log into NERSC with a OTP only once per session (helpful if you are scp-ing things). To do this:
+
+1. Create the directory `~/.ssh/sockets` if it doesn't already exist.
+2. Open your ssh config file `/.ssh/config` (or create one if it doesn't exist) and add the following:
 ```
 Host *.nersc.gov
 ControlMaster auto
 ControlPath ~/.ssh/sockets/%r@%h-%p
 ControlPersist 600
 ```
-Finally, you're ready to log on! 
+
+You should now be ready to log on! 
+
+##### Logging on:
 
 Log on to Cori, for example, by submitting the following command in the terminal:
 ```
