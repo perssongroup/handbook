@@ -205,8 +205,8 @@ To submit your batch script, use `sbatch myscript.sl` in the directory containin
 
 Below are some useful commands to control and monitor your jobs:
 ```
-sqs -u username 	(Lists jobs for your account)
-scancel jobid 	(Cancels a job from the queue)
+sqs -u username (Lists jobs for your account)
+scancel job_id 	(Cancels a job from the queue)
 ```
 
 ##### Choosing a QOS (quality of service):
