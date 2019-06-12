@@ -394,19 +394,17 @@ Other Persson group members and the NERSC website are both excellent resources f
 
 ## Our software stack
 A brief summary of our software stack includes:
-* pymatgen / pymatgen-db - for representing and analyzing crystal structures, as well as setting up/performing manual calculations
-* FireWorks - for executing and managing calculation workflows at supercomputing centers
-* custodian - instead of directly running an executable like VASP, one can wrap the executable in custodian to detect and fix errors
-* atomate - for quickly defining multiple types of materials science workflows
-* matminer - for large data analysis and visualization
+* [pymatgen / pymatgen-db](https://pymatgen.org) - for representing and analyzing crystal structures, as well as setting up/performing manual calculations
+* [FireWorks](https://materialsproject.github.io/fireworks/) - for executing and managing calculation workflows at supercomputing centers
+* [Custodian](https://materialsproject.github.io/custodian/) - instead of directly running an executable like VASP, one can wrap the executable in custodian to detect and fix errors
+* [Atomate](https://atomate.org) - for quickly defining multiple types of materials science workflows
+* [matminer](http://hackingmaterials.lbl.gov/matminer/) - for large data analysis and visualization
 
 We also heavily use the Materials Project database.
 
 To learn how to use the software stack, you can consult the documentation of the individual codebases as well as review the following resources:
-* The 2018 Materials Project workshop (note that MatMethods is now called atomate): https://github.com/materialsproject/workshop-2018
-* The 2014 Materials Virtual Lab presentations: 
-https://materialsvirtuallab.org/software/
-* The Materials Project YouTube tutorials: 
-https://www.youtube.com/user/MaterialsProject
+* [Tutorials from the annual Materials Project Workshop](https://workshop.materialsproject.org)
+* [2014 Materials Virtual Lab presentations](https://materialsvirtuallab.org/software/) (note that MatMethods is now called Atomate): 
+* [Materials Project YouTube tutorials](https://www.youtube.com/user/MaterialsProject): 
 
 If you have a specific question, sometimes the easiest solution is to post it to the Slack group and crowdsource the answer (or just ask Shyam). 
