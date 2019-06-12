@@ -281,19 +281,37 @@ Berkeley Research Computing (BRC) hosts the Savio supercomputing cluster. Savio 
 #### Setting up a BRC account
 To get an account on Savio, fill out the form linked below, making sure to select the appropriate allocation. Typically, most students and postdocs will be running on co_lsdi.
 http://research-it.berkeley.edu/services/high-performance-computing/getting-account
-After your account is made, you'll need to set up 2-factor authentication. We recommend using Google Authenticator, although any OTP manager will work. 
+After your account is made, you'll need to [set up 2-factor authentication](https://research-it.berkeley.edu/services/high-performance-computing/logging-brc-clusters). This will allow you to generate "one time passwords" (OTPs). You will need append a OTP to the end of your NIM password each time you log on to a NERSC cluster. We recommend using Google Authenticator, although any OTP manager will work.
 
-[TODO: Fill out this with specific 2-factor setup details]
+##### Logging on (Setup):
 
-#### Logging into BRC
+You must use the SSH protocol to connect to BRC. 
+Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`). 
+Make sure you have a directory named $HOME/.ssh on your local computer (if not, make it).
+
+We also advise you to configure a ssh socket so that you only have to log into BRC with a OTP only once per session (helpful if you are scp-ing things). To do this:
+
+1. Create the directory `~/.ssh/sockets` if it doesn't already exist.
+2. Open your ssh config file `/.ssh/config` (or create one if it doesn't exist) and add the following:
+```
+Host *.brc.berekeley.edu
+ControlMaster auto
+ControlPath ~/.ssh/sockets/%r@%h-%p
+ControlPersist 600
+```
+
+You should now be ready to log on! 
+
+#### Logging on to BRC
 To access your shiny new savio account, you'll want to SSH onto the system from a terminal.
 ```
-ssh username@hpc.brc.berekeley.edu
+ssh your_username@hpc.brc.berekeley.edu
 ```
-You will be prompted to enter your passphrase. This will take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
+You will be prompted to enter your passphrase+OTP (e.g. `<your_password><OTP>` without any spaces). This will take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
 ```
-alias savio="ssh username@hpc.brc.berekeley.edu"
+alias savio="ssh your_username@hpc.brc.berekeley.edu"
 ```
+Now you will be able to initialize a SSH connection to Savio just by typing `savio` in the command line and pressing enter.
 
 #### Running on BRC
 Under the condo account co_lsdi, we have exclusive access to 28 KNL nodes. Additionally, we have the ability to run on other nodes at low priority mode. 
