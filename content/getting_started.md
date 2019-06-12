@@ -33,22 +33,6 @@ How? See <a href="https://perssongroup.github.io/handbook/content/computing#gett
   </div>
 </div>
 
-<div>
-  <br/>
-  <div>
-    <div>
-    <img align="left" width="200" height="200" src="../resources/map.jpg"/> 
-    <div>
-      <h3 padding-top="10" padding-left="20">Find a place to live</h3>
-      <p padding-left="20">
-        Berkeley and the surrounding areas are wonderful places to live, but finding an apartment can be difficult and is best done with knowledge of the various neighborhoods. How? See looking for housing.
-        <br/><br/><br/><br/>
-       </p>
-      </div>
-    </div>
-  </div>
-</div>
-
 -----------------------------------------------------------------------------------------------------------------------------
 ## Useful Onboarding Points of Contact and Quick Links <a name="quick_links"></a>
 
