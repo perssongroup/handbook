@@ -400,7 +400,7 @@ A brief summary of our software stack includes:
 * [Atomate](https://atomate.org) - for quickly defining multiple types of materials science workflows
 * [matminer](http://hackingmaterials.lbl.gov/matminer/) - for large data analysis and visualization
 
-We also heavily use the Materials Project database.
+We also heavily use the [Materials Project database](https://materialsproject.org).
 
 To learn how to use the software stack, you can consult the documentation of the individual codebases as well as review the following resources:
 * [Tutorials from the annual Materials Project Workshop](https://workshop.materialsproject.org)
