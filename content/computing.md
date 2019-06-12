@@ -222,7 +222,9 @@ You specify which queue to use in your batch file. Use the **debug** queue for s
 ##### Choosing a node type (haswell vs knl):
 You may also specify the resource type you would like your job to run on, witnin your batch file. When running on Cori, there are two CPU architectures available, Haswell, and Knights Landing (known as KNL). Running on a Haswell node will afford you high individual core performance with up to 32 cores per node (or 64 threads per node). A KNL node provides a large core count (68 cores per node or 272 threads per node) which is suitable for programs capable of effectively utilizing multithreading. On Cori, there are 2388 Haswell nodes and 9688 KNL nodes.
 
-[\\TODO: FILL OUT THIS SECTION MORE]
+<!---
+TODO: FILL OUT THIS SECTION MORE
+-->
 
 #### Automatic job submission on NERSC: crontab <a name="crontab"></a>
 In order to automatically manage job submission at NERSC, you can use crontab. You can submit jobs periodically even when you are not signed in to any NERSC systems and perhaps reduce the queue time from 5-10 days to a few hours. This is possible because of the way jobs are managed in atomate/fireworks. Please make sure you feel comfortable submitting individual jobs via atomate before reading this section. 
