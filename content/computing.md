@@ -105,6 +105,11 @@ https://support.apple.com/en-us/HT204412
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+## Printing and Scanning <a name="printing"></a>
+The group has a Canon MF731C printer located in 33-143C. It supports color printing as well as two-sided printing and includes a scanner. To connect to the printer follow [this guide on the internal group site](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group).
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 ## Software help groups <a name="softwaresupport"></a>
 If you have problems with software, and in particular the software maintained by our group and our collaborators, you should contact the appropriate help group. The documentation for the software will list what that channel is; if not, try the Github Issues page. If you are reaching out for help, try to provide everything needed to quickly reproduce and debug the problem (files, test code, etc).
 
