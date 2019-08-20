@@ -1,19 +1,13 @@
 ## Getting a Computer <a name="getcomputer"></a> 
 
-Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you will instead receive an excellent computer from the group’s stock.
+Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you can instead receive an excellent computer from the group’s stock.
 
 ### Mac, Windows, or Linux?
-You should buy a Mac, and probably a Macbook Pro. Although this sounds extreme, and may even induce strong feelings if you are used to a different system, in practice this has never been much of a problem. We are not necessarily Apple fanatics but simply find that these are the best systems for our type of work because they contain many of the advantages of both Linux and Windows systems in a single package.
-
-Why not Windows? A couple of things make it non-optimal for our work. There is no native Terminal, which you will use heavily, and programs like Cygwin are poor substitutes. Certain seemingly minor decisions made by Windows (directory slashes, line endings) are different than those from Linux, making interoperability between Linux/Mac and Windows systems more problematic (e.g., copying files to and from supercomputing centers requires auto-converting line ending format).
-
-Why not Linux? Linux is fine, but Microsoft Office is not available (which is used by us and most of the materials science research world) and OpenOffice is a poor substitute. Certain videoconferencing software doesn’t work well with Linux.
-
-How about Mac? As Apple are catering more to the general consumer and less to developers, you really need to spend some time setting up your Mac to make it productive for power users. But for the moment it remains a very good compromise between Linux-like and Windows-like and thus forms the basis for our workstations. 
+You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work. 
 
 ### Purchasing
-Here is how to purchase a computer at the lab. Before we begin, a few notes:
-In terms of the mechanics of purchasing:
+
+#### LBNL Funded Members
 * Use LBNL Ebuy (not Ebay) wherever possible - you need to be on the lab network (onsite via an ethernet cable) or be connected via the VPN
 * Use Amazon, etc. to buy various components if not available via EBuy
 * The laptop is government property; you are expected to return it to the group when you are done working at LBNL. Note that Mac computers make it very simple to transfer everything over to your next computer.
@@ -21,24 +15,28 @@ In terms of the mechanics of purchasing:
 * The lab receives your computer and tags it before sending it over to you.
 * You must back up your computer very regularly (at least once per week, ideally continuously). This is simple using the Time Machine app. Just plug your backup drive into your monitor so when you connect to your monitor, you also back up. If there are (for some reason) errors in backing up, fix that issue immediately. There are zero excuses for not doing this.
 
+#### UCB Funded Members
+* Use BearBuy
+* More details coming to this documentation soon.
+
 ### Selecting a computer, monitor, and accessories
-Your computer workstation is one area where you should just get whatever you think will make you most productive and not care about cost. Seriously, just get what is best and do not worry about cost.
+Your computer workstation is one area where you should get whatever you think will make you most productive. As you'll be working on this setup the majority of your time in the group, please don't worry too much about the cost here. 
 
 For the computer, you should select a Macbook Pro (any screen size) as mentioned above. You can use the Apple website to browse details. Many of us use a 13” Macbook Pro. It is powerful enough to do serious work and light/small enough to use on a plane. A 15” Macbook Pro is also a good choice. If you would like to get anything other than a Macbook Pro, talk to some senior members of the group first to get their input.
 
-For the monitor, a number of us use a single Thunderbolt display. While this is no longer available for purchase, there may be one or two floating around the group that you can adopt. Another good option available is the LG 27MU88-W (4K resolution) monitor which is on Ebuy. Note that one big screen is usually better ergonomically than dual monitors, and you can use the “Spaces” feature of Mac OS/X to quickly flip between virtual screens if needed. 
+For the monitor, a number of us use a single Thunderbolt display. While this is no longer available for purchase, there may be one or two floating around the group that you can adopt. Another good option available is the LG 27MU88-W (4K resolution) monitor which is on Ebuy. Note that one big screen is usually better ergonomically than dual monitors, and you can use the “Spaces” feature of Mac OS/X to quickly flip between virtual screens if needed. If you'd like a second monitor, we have a number of them floating around the group and one can probably be found for you.
 
 For accessories, make sure to get:
-* An extra charging cable
+* An extra charger
 * A VGA adapter dongle
 * An ethernet cable adapter dongle
-* A Time Machine hard disk (for backup). 4TB is a good size. 
-* A keyboard. Many of us use an Apple Wireless Keyboard since we like the feel of Mac keys and also like a consistent feel between our laptop keyboard and our desk keyboard. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
-* A mouse/trackpad. We suggest Apple Magic Trackpad because Mac OS has really customized a lot of the interface for the trackpad (e.g., gestures). Some also value consistency between their laptop and desk workstation. After a while you get used to doing everything on your trackpad even if you were previously very productive/accurate with a mouse on Windows. However, many of us get by just fine with a mouse (especially the Apple Magic Mouse, which has some gesture support.)
+* A Time Machine hard disk (for backup). 4TB is a good size. There is a usb-c G-Drive that also doubles as a charger that some of us enjoy.
+* A keyboard. The Apple Wireless Keyboard is a good option. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
+* A mouse/trackpad. We suggest Apple Magic Trackpad because Mac OS has customized a lot of the interface for the trackpad (e.g., gestures). Some also value consistency between their laptop and desk workstation. After a while you get used to doing everything on your trackpad even if you were previously very productive/accurate with a mouse on Windows. However, many of us get by just fine with a mouse (especially the Apple Magic Mouse, which has some gesture support.)
 * (optional) A presentation tool, e.g., Logitech R800.
 
 ### Making the purchase
-1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks OK, she will give you a project and activity ID. 
+1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks ok, she will give you a project and activity ID. 
 2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID. Ask Alice Mueller about which SAS approver to list if you are unsure (the SAS approver can vary by project and activity ID).
 3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back. 
 4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
@@ -57,7 +55,6 @@ To do this, follow the online instructions on installing a conda environment and
 * http://conda.pydata.org/docs/using/index.html
 * (probably) prefer to install the “miniconda” version rather than anaconda
 * (probably) prefer to install “miniconda 3” rather than “miniconda 2”. Both will work fine and allow you to do everything the other one does so don’t stress too much about this decision.
-* (probably) When creating environments, create at least one python 2 environment using the “python=2” parameter. It is up to you whether you want to work in Python 2.x or Python 3.x. For the moment, Anubhav prefers 2.x backward-compatible code for most base libraries (e.g. FireWorks), so if you use 3.x as your main environment, make sure your syntax doesn’t depend on the newer features. See next bullet point for more.
 * When creating environments, use a command like this (note that this also installs recommended libraries):
 ```
 conda create --name py3 python=3 numpy matplotlib seaborn plotly pandas flask pymongo scipy sympy scikit-learn jupyter
@@ -98,29 +95,6 @@ cd matminer; python setup.py develop; cd ..
 ```
 If you want, you can automatically source activate your environment in your .bash_profile file. This will automatically load your environment when you open a Terminal. Otherwise, you will start off in your default Mac Python.
 
-### Configure Pycharm IDE
-An integrated development environment (IDE) allows you to be a much more productive coder. It is like a text editor but contains many useful keyboard shortcuts, code-completion tools, refactoring tools, and debugging/profiling tools to help you be more productive. It can also automatically reformat your code to trim line lengths and add proper whitespace to be in-line with recommended Python formatting guidelines.
-
-[Pycharm](https://www.jetbrains.com/pycharm/) is the group’s recommended IDE for Python and they offer a free community edition (CE) that contains all the features you need. There are other programs you might consider like Sublime Text, although those are more like advanced text editors than proper IDEs. Note that there are some advanced programmers that know their way around an IDE but still prefer an editor like vi or emacs with appropriate plugins. This is fine so long as (i) you are an advanced programmer and (ii) you have first tried an IDE for a few months and really tried to make use of it, but find that it hampers your productivity. Note: 1. You can add vim and emacs bindings to Pycharm and 2. most people that think they fall into the advanced category do not and find themselves making mistakes that could easily be avoided with an IDE. Thus, it is recommended that essentially everyone in the group use an IDE.
-
-After downloading and installing Pycharm and launching it for the first time, you’ll be asked some options. I suggest using the default Mac OS X keymap unless you are already very familiar with Emacs or other keymaps. Note that these things can be changed later if desired.
-
-Next, and assuming you’ve already cloned the source code of your desired repos from Github, you do the following:
-1. Create a new project (give it any name)
-2. In the menu bar, click Pycharm CE -> Preferences -> Project -> Project interpreter. Change this to your conda Python interpreter. You can also set your default interpreter from File->Default Settings->Project Interpreter and set that to your conda environment interpreter. Do not skip these steps! 
-3. Click File->Open and navigate to the root folder of one your desired repos (I suggest pymatgen to start) and click open.
-4. Make sure to select “open in current window” AND check “add to currently opened projects”
-5. Repeat step #3 for all your desired codebases. When finished, you should see in the sidebar all the various codebases.
-
-If you want to try adding some of your own scratch code, then:
-1. Navigate in the sidebar to your main project folder (folder with your chosen project name). Right-click and click New->Python package. Give it a name.
-2. The previous command created a new folder. Navigate inside that folder, right-click, and choose New->Python file. When finished, that folder should contain two .py files - __init__.py (created automatically for the new Python package) and your chosen filename.
-3. Finally, type some code in your new file. It can be simple as print("hello world"). To execute the code, you can use Ctrl+Shift+R with default Mac keybindings or go through the “Run” menu for more options.
-
-Now you are all set! There are many things you might want to do:
-* Configure the way your Pycharm window looks. For large monitors, Anubhav likes Project Navigation at left, main code in center, and “Structure” panel on right which is basically like an outline of a particular Python file showing all the classes, functions, etc. at a glance.
-* Explore the various options and capabilities of PyCharm. Appendix D of the handbook has some tips and you can enable PyCharm’s “tip of the day” which will really step you through some of the great features. 
-
 ### Other things to do
 * Set up your Time Machine backup (make sure you have purchased or received an external hard disk).
 https://support.apple.com/en-us/HT204412
@@ -128,6 +102,11 @@ https://support.apple.com/en-us/HT204412
 * Install MongoDB.
 * Install Docker.
 * Purchase Microsoft office from LBNL software distribution.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Printing and Scanning <a name="printing"></a>
+The group has a Canon MF731C printer located in 33-143C. It supports color printing as well as two-sided printing and includes a scanner. To connect to the printer follow [this guide on the internal group site](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group).
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -396,18 +375,6 @@ A brief summary of our software stack includes:
 * atomate - for quickly defining multiple types of materials science workflows
 * matminer - for large data analysis and visualization
 
-### Atomate Setup
-A brief tutorial on setting up atomate to run on the supercomputers
-```lawrencium
-CONFIG_FILE_DIR: /global/home/users/sivonxay/.conda/envs/cms/config
-QUEUE_UPDATE_INTERVAL: 1
-```
-
-```Cori
-CONFIG_FILE_DIR: /global/homes/s/sivonxay/.conda/envs/cms/config
-QUEUE_UPDATE_INTERVAL: 1
-```
-
 We also heavily use the Materials Project database.
 
 To learn how to use the software stack, you can consult the documentation of the individual codebases as well as review the following resources:
@@ -418,63 +385,3 @@ https://materialsvirtuallab.org/software/
 https://www.youtube.com/user/MaterialsProject
 
 If you have a specific question, sometimes the easiest solution is to post it to the Slack group and crowdsource the answer (or just ask Shyam). 
-
------------------------------------------------------------------------------------------------------------------------------
-
-## Materials Science
-
-> “Don’t despair of standard dull textbooks. Just close the book once in awhile and think what they just said in your own terms as a revelation of the spirit and wonder of nature”.
->
-> \- Richard Feynman
-
-It can be difficult to find resources that explain concepts in materials science clearly. Often, struggling through multiple attempts to understand a topic using several different resources in a patchwork and non-linear fashion is the only way forward. That said, the resources listed below are particularly helpful.
-
-### Density functional theory
-For beginners to density functional theory, I would recommend the book “Density Functional Theory: A Practical Introduction”, which truly achieves what it states by providing physical insights and relevant information rather than just list equations. Copies are available within the group.
-
-If you are interested to explore applications of density functional theory, you might try the E-book from Professor John Kitchin:
-https://github.com/jkitchin/dft-book
-*Note that this book has chosen to use the Atomic Simulation Environment (ASE) to set up simulations rather than the pymatgen code that we prefer, but that is a minor point.*
-
-Finally, for specific calculations with VASP, there are resources online from a 2016 workshop conducted at LBNL, including videos and training materials:
-http://www.nersc.gov/users/training/events/3-day-vasp-workshop/
-http://cms.mpi.univie.ac.at/wiki/index.php/NERSC_Berkeley_2016
-
-### General materials science topics
-To gain a quick introduction to many topics in materials science, you might try the (horribly-named) web site from the University of Cambridge: Dissemination of IT for the Promotion of Materials Science (DoITPoMS):
-https://www.doitpoms.ac.uk
-
-The explanations in this site are very basic, but what they do cover is well-explained and incorporates helpful visuals. Although you won’t ever master a topic from this site, it is often a good starting point that can help you unlock a more intermediate resource.
-
-There are also some nice chapters in the following e-book:
-https://en.wikibooks.org/wiki/Introduction_to_Inorganic_Chemistry
-For example, Chapter 5 has a nice rundown of common crystal structures.
-
-### Online tools
-A nice tool for visualizing phonon modes is: http://henriquemiranda.github.io/phononwebsite/phonon.html
-
------------------------------------------------------------------------------------------------------------------------------
-
-## Computer programming
-Note that there are usually many excellent resources to choose from when learning computer science topics. You usually have the flexibility of choosing to learn from a book, a video series, or even interactive tutorials like www.learnpython.org. Use the list below as potential starting points, but there exist many other high-quality alternatives you can find on your own and may be even better-suited to your needs.
-
-### Python
-For pure beginners to Python, you might try the book “Head First Python”. It is a fun and easy introduction to Python. Beginners that know a little but not a lot of Python can also look at “How to Make Mistakes in Python” (ebook). For intermediate programmers, you might try “20 Python Libraries You Aren’t Using (But Should)”  (ebook). For advanced programmers, you might try “Expert Python Programming”.
-
-### Data mining and Data Analysis
-For learning basic data mining libraries (pandas, scikit-learn) as well as some skills like using git and Github, you might try the online YouTube videos from Kevin Markham, an educator at Data School. These videos also do a good job of pointing you to supplementary material:
-https://www.youtube.com/user/dataschool
-https://github.com/justmarkham
-
-You might also try the book “Python for Data Science For Dummies” (please note: this is different than “Data Science for Dummies”).
-
-For a more materials-centric view, you can try working your way through the Machine Learning In Materials tutorial in the Appendix of this handbook.
-
-A very comprehensive set of suggestions for further resources is listed here:
-http://bit.ly/2jHXIVJ
-
-### MongoDb
-A (now somewhat old, but still clear) resource for beginning to use MongoDb is the “The Little MongoDB Book”:
-https://github.com/karlseguin/the-little-mongodb-book
-There is also an extensive library of webinars on MongoDb on their official web site.
-
