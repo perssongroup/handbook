@@ -1,5 +1,23 @@
 site_name: My Docs
 
+nav:
+  - Home: 'index.md'
+  - About:
+    - General: 'about/about.md'
+    - Group Policies: 'about/group_policies.md'
+    - Group Jobs: 'about/group_jobs.md'
+  - Getting Started:
+    - Newcomers: 'getting_started/newcomers.md'
+    - Purchasing: 'getting_started/purchasing.md'
+  - Computing:
+    - General Info: 'computing/computing.md'
+    - Software: 'computing/software.md'
+    - HPC: 'computing/hpc.md'
+    - Atomate Setup: 'computing/atomate.md'
+  - Students: 'students.md'
+  - Post-Docs: 'postdocs.md'
+  - Acknowlegements: 'acknowlegements.md'
+
 markdown_extensions:
   - markdown_fenced_code_tabs:
       single_block_as_tab: False

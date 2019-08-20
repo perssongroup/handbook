@@ -1,124 +1,3 @@
-## Getting a Computer <a name="getcomputer"></a> 
-
-Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you can instead receive an excellent computer from the group’s stock.
-
-### Mac, Windows, or Linux?
-You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work. 
-
-### Purchasing
-
-#### LBNL Funded Members
-* Use LBNL Ebuy (not Ebay) wherever possible - you need to be on the lab network (onsite via an ethernet cable) or be connected via the VPN
-* Use Amazon, etc. to buy various components if not available via EBuy
-* The laptop is government property; you are expected to return it to the group when you are done working at LBNL. Note that Mac computers make it very simple to transfer everything over to your next computer.
-* You are free to take your laptop home, on trips, etc., unless you are an intern in which case other restrictions may apply from the internship program.
-* The lab receives your computer and tags it before sending it over to you.
-* You must back up your computer very regularly (at least once per week, ideally continuously). This is simple using the Time Machine app. Just plug your backup drive into your monitor so when you connect to your monitor, you also back up. If there are (for some reason) errors in backing up, fix that issue immediately. There are zero excuses for not doing this.
-
-#### UCB Funded Members
-* Use BearBuy
-* More details coming to this documentation soon.
-
-### Selecting a computer, monitor, and accessories
-Your computer workstation is one area where you should get whatever you think will make you most productive. As you'll be working on this setup the majority of your time in the group, please don't worry too much about the cost here. 
-
-For the computer, you should select a Macbook Pro (any screen size) as mentioned above. You can use the Apple website to browse details. Many of us use a 13” Macbook Pro. It is powerful enough to do serious work and light/small enough to use on a plane. A 15” Macbook Pro is also a good choice. If you would like to get anything other than a Macbook Pro, talk to some senior members of the group first to get their input.
-
-For the monitor, a number of us use a single Thunderbolt display. While this is no longer available for purchase, there may be one or two floating around the group that you can adopt. Another good option available is the LG 27MU88-W (4K resolution) monitor which is on Ebuy. Note that one big screen is usually better ergonomically than dual monitors, and you can use the “Spaces” feature of Mac OS/X to quickly flip between virtual screens if needed. If you'd like a second monitor, we have a number of them floating around the group and one can probably be found for you.
-
-For accessories, make sure to get:
-* An extra charger
-* A VGA adapter dongle
-* An ethernet cable adapter dongle
-* A Time Machine hard disk (for backup). 4TB is a good size. There is a usb-c G-Drive that also doubles as a charger that some of us enjoy.
-* A keyboard. The Apple Wireless Keyboard is a good option. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
-* A mouse/trackpad. We suggest Apple Magic Trackpad because Mac OS has customized a lot of the interface for the trackpad (e.g., gestures). Some also value consistency between their laptop and desk workstation. After a while you get used to doing everything on your trackpad even if you were previously very productive/accurate with a mouse on Windows. However, many of us get by just fine with a mouse (especially the Apple Magic Mouse, which has some gesture support.)
-* (optional) A presentation tool, e.g., Logitech R800.
-
-### Making the purchase
-1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks ok, she will give you a project and activity ID. 
-2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID. Ask Alice Mueller about which SAS approver to list if you are unsure (the SAS approver can vary by project and activity ID).
-3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back. 
-4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
-
------------------------------------------------------------------------------------------------------------------------------
-<a name="personal_setup"></a>
-## Setting up a new Macbook
-
-### Upgrade your OS
-If your computer is not using the latest OS, you should upgrade to the latest OS first.
-
-### Installing Python development environment
-The best way to manage Python installations these days is a “conda env”. This will allow you to manage different Python “environments”, where each environment is a set of libraries that you have installed. For example, you can have one environment that uses Python 2.7 and has certain library versions installed, and another environment that uses Python 3.5 and has other libraries installed. Another advantage of conda environments is that you can apply the same procedure on NERSC and other computing centers that support conda.
-
-To do this, follow the online instructions on installing a conda environment and see modifications below:
-* http://conda.pydata.org/docs/using/index.html
-* (probably) prefer to install the “miniconda” version rather than anaconda
-* (probably) prefer to install “miniconda 3” rather than “miniconda 2”. Both will work fine and allow you to do everything the other one does so don’t stress too much about this decision.
-* When creating environments, use a command like this (note that this also installs recommended libraries):
-```
-conda create --name py3 python=3 numpy matplotlib seaborn plotly pandas flask pymongo scipy sympy scikit-learn jupyter
-```
-* If you want a reference guide to conda commands, try: http://conda.pydata.org/docs/using/cheatsheet.html
-
-### Install high-throughput computation environment
-Our group has a set of base codebases used for performing high-throughput calculations. Note that if your project does not involve high-throughput calculation, you may need only one or two of these libraries installed – ask your subgroup head if you are unsure.
-
-**After activating a conda environment**, install the following packages using a combination of git clone >>REPO_NAME<< and python setup.py develop. Start with:
-```
-git clone https://www.github.com/materialsproject/fireworks
-```
-You might need to generate an ssh key for the git clone command to work:
-ssh-keygen -t rsa -b 4096
-no password is probably OK unless you are security conscious
-add your SSH key to your Github profile
-
-Then:
-```
-cd fireworks; python setup.py develop; cd ..
-```
-Repeat the process above for the remaining libraries:
-```
-git clone https://www.github.com/materialsproject/pymatgen
-cd pymatgen; python setup.py develop; cd ..
-git clone https://www.github.com/materialsproject/pymatgen-db
-cd pymatgen-db; python setup.py develop; cd ..
-git clone https://www.github.com/materialsproject/custodian
-cd custodian; python setup.py develop; cd ..
-```
-Repeat the same process for a couple of other libraries on the hackingmaterials github site:
-```
-git clone https://www.github.com/hackingmaterials/atomate
-cd atomate; python setup.py develop; cd ..
-git clone https://www.github.com/hackingmaterials/matminer
-cd matminer; python setup.py develop; cd ..
-```
-If you want, you can automatically source activate your environment in your .bash_profile file. This will automatically load your environment when you open a Terminal. Otherwise, you will start off in your default Mac Python.
-
-### Other things to do
-* Set up your Time Machine backup (make sure you have purchased or received an external hard disk).
-https://support.apple.com/en-us/HT204412
-* You can also set up an online backup plan (e.g., Crashplan or Backblaze) to provide you with a second backup.
-* Install MongoDB.
-* Install Docker.
-* Purchase Microsoft office from LBNL software distribution.
-
------------------------------------------------------------------------------------------------------------------------------
-
-## Printing and Scanning <a name="printing"></a>
-The group has a Canon MF731C printer located in 33-143C. It supports color printing as well as two-sided printing and includes a scanner. To connect to the printer follow [this guide on the internal group site](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group).
-
------------------------------------------------------------------------------------------------------------------------------
-
-## Software help groups <a name="softwaresupport"></a>
-If you have problems with software, and in particular the software maintained by our group and our collaborators, you should contact the appropriate help group. The documentation for the software will list what that channel is; if not, try the Github Issues page. If you are reaching out for help, try to provide everything needed to quickly reproduce and debug the problem (files, test code, etc).
-
-Two other ways to get software help that are more self-guided are:
-* If you are having trouble using a particular class or function, look for unit tests within the code, which often demonstrate how to use the class or function
-* If the class or function has a unique name (e.g., MaterialsProjectCompatibility), another option is to both Google and search on github.com for the particular class/function. The github.com search will often reveal code snippets from users all around the world. 
-
------------------------------------------------------------------------------------------------------------------------------
-
 ## Computing Resources <a name="computing"></a>
 Our group’s main computing resources are:
 * [NERSC](#nersc) (the LBNL supercomputing center, one of the biggest in the world)
@@ -152,13 +31,13 @@ Contact the group’s NERSC Liaison (currently Eric Sivonxay, see Group Jobs lis
 Once your account is set up, you can manage it at the NERSC Information Management (NIM) website.
 
 ##### Connecting with SSH:
-You must use the SSH protocol to connect to NERSC. 
-Make sure you have SSH installed on your local computer (you can check this by typing which ssh). 
+You must use the SSH protocol to connect to NERSC.
+Make sure you have SSH installed on your local computer (you can check this by typing which ssh).
 Make sure you have a directory named $HOME/.ssh on your local computer (if not, make it).
 Run the command ssh-keygen -t rsa -b 4096. This will generate an RSA key, which you can view in the file id_rsa.pub
 You’ll be asked to enter a passphrase, which should be different from your password.
 
-You must store your SSH public key on the NERSC NIM database. 
+You must store your SSH public key on the NERSC NIM database.
 Go to the NIM website, navigate to “My Stuff” -> “My SSH Keys”. Click on the SSH Keys tab.
 Copy your key (from id_rsa.pub) into the website’s text box, click Add.
 
@@ -171,7 +50,7 @@ You will be prompted to enter your passphrase. This will take you to your home d
 ```
 alias cori="ssh your_username@cori.nersc.gov"
 ```
-Now you will be able to initialize a SSH connection to cori just by typing `cori` in the command line and pressing enter. 
+Now you will be able to initialize a SSH connection to cori just by typing `cori` in the command line and pressing enter.
 
 ##### Transferring files to/from NERSC:
 For small files, you can use SCP (secure copy). To get a file from NERSC, use:
@@ -201,7 +80,7 @@ srun -n 32 -c 4 ./my_executable
 ```
 Here, the first line specifies which shell to use (in this case bash). The keyword #SBATCH is used to start directive lines ([click here](http://www.nersc.gov/users/computational-systems/cori/running-jobs/batch-jobs/#toc-anchor-3) for a full description of the sbatch options you can specify). The word “srun” starts execution of the code.
 
-To submit your batch script, use `sbatch myscript.sl` in the directory containing the script file. 
+To submit your batch script, use `sbatch myscript.sl` in the directory containing the script file.
 
 Below are some useful commands to control and monitor your jobs:
 ```
@@ -218,7 +97,7 @@ You may also specify the resource type you would like your job to run on, witnin
 [TODO: FILL OUT THIS SECTION MORE]
 
 #### Automatic job submission on NERSC: crontab <a name="crontab"></a>
-In order to automatically manage job submission at NERSC, you can use crontab. You can submit jobs periodically even when you are not signed in to any NERSC systems and perhaps reduce the queue time from 5-10 days to a few hours. This is possible because of the way jobs are managed in atomate/fireworks. Please make sure you feel comfortable submitting individual jobs via atomate before reading this section. 
+In order to automatically manage job submission at NERSC, you can use crontab. You can submit jobs periodically even when you are not signed in to any NERSC systems and perhaps reduce the queue time from 5-10 days to a few hours. This is possible because of the way jobs are managed in atomate/fireworks. Please make sure you feel comfortable submitting individual jobs via atomate before reading this section.
 
 In atomate, by using --maxloop 3 for example when setting rocket_launch in your my_qadapter.yaml, after 3 trials in each minute if there are still no READY jobs available in your Launchpad Fireworks would stop the running job on NERSC to avoid wasting computing resources. On the other hand, if you have Fireworks available with the READY state and you have been using crontab for a few days, even if the jobs you submitted a few days ago start running on NERSC, they would pull any READY Fireworks and start RUNNING them reducing the turnaround from a few days to a few hours! So how to setup crontab? Please follow the instructions here:
 1. ssh to the node where you want to setup the crontab; try one that is easy to remember such as cori01 or edison01; for logging in to a specific node just do for example “ssh cori01” after you log in to the system (Cori in this example).
@@ -231,10 +110,10 @@ In atomate, by using --maxloop 3 for example when setting rocket_launch in your 
 ```
 
 4. Setup your SCRIPT.sh like the following: (as a suggestion, you can simply put this file and the log file which keeps a log of submission states in your home folder):
-``` 
+```
 source activate YOUR_PRODUCTION_CONDA_ENVIRONMENT FW_CONFIG_FILE=PATH_TO_CONFIG_DIR/FW_config.yaml
 cd PATH_TO_YOUR_PRODUCTION_FOLDER
-qlaunch --fill_mode rapidfire -m 1000 --nlaunches 1 
+qlaunch --fill_mode rapidfire -m 1000 --nlaunches 1
 ```
 The last line of this 3-line file is really what submitting your job inside your production folder with the settings that you set in FW_config.yaml file. See [atomate documentation](https://atomate.org/#documentation-tutorials) for more info.
 
@@ -243,14 +122,14 @@ The last line of this 3-line file is really what submitting your job inside your
 #### Running Jupyter Notebooks on Cori <a name="jupyter"></a>
 Jupyter notebooks are quickly becoming an indispensable tool for doing computational science. In some cases, you might want to (or need to) harness NERSC computing power inside of  a jupyter notebook. To do this, you can use NERSC’s new Jupyterhub system at https://jupyter-dev.nersc.gov/. These notebooks are run on a large memory node of Cori and can also submit jobs to the batch queues (see http://bit.ly/2A0mqrl for details). All of your files and the project directory will be accessible from the Jupyterhub, but your conda envs won’t be available before you do some configuration.
 
-To set up a conda environment so it is accessible from the Jupyterhub, activate the environment and setup an ipython kernel. To do this, run the command “pip install ipykernel”. More info can be found at http://bit.ly/2yoKAzB. 
+To set up a conda environment so it is accessible from the Jupyterhub, activate the environment and setup an ipython kernel. To do this, run the command “pip install ipykernel”. More info can be found at http://bit.ly/2yoKAzB.
 
 #### Automatic Job Packing with FireWorks <a name="packing"></a>
-DISCLAIMER:  Only use job packing if you have trouble with typical job submission. The following tip is not 100% guaranteed to work., and is based on limited, subjective experience on Cori. Talk to Alex Dunn (ardunn@lbl.gov) for help if you have trouble. 
+DISCLAIMER:  Only use job packing if you have trouble with typical job submission. The following tip is not 100% guaranteed to work., and is based on limited, subjective experience on Cori. Talk to Alex Dunn (ardunn@lbl.gov) for help if you have trouble.
 
 The Cori queue system can be unreasonably slow when submitting many (e.g., hundreds, thousands) of small (e.g., single node or 2 nodes) jobs with qos-normal priority on Haswell. In practice, we have found that the Cori job scheduler will give your jobs low throughput if you have many jobs in queue, and you will often only be able to run 5-30 jobs at a time, while the rest wait in queue for far longer than originally expected (e.g., weeks). While there is no easy way to increase your queue submission rate (AFAIK), you can use FireWorks job-packing to “trick” Cori’s SLURM scheduler into running many jobs in serial on many parallel compute nodes with a single queue submission, vastly increasing throughput.
 
-You can use job packing with the “multi” option to rlaunch. This command launches N parallel python processes on the Cori scheduling node, each which runs a job using M compute nodes. 
+You can use job packing with the “multi” option to rlaunch. This command launches N parallel python processes on the Cori scheduling node, each which runs a job using M compute nodes.
 
 The steps to job packing are:
 1. Edit your my_qadapter.yaml file to reserve N * M nodes for each submission. For example, if each of your jobs takes M = 2 nodes, and you want a N = 10 x speedup, reserve 20 nodes per queue submission.
@@ -275,7 +154,7 @@ Berkeley Research Computing (BRC) hosts the Savio supercomputing cluster. Savio 
 #### Setting up a BRC account
 To get an account on Savio, fill out the form linked below, making sure to select the appropriate allocation. Typically, most students and postdocs will be running on co_lsdi.
 http://research-it.berkeley.edu/services/high-performance-computing/getting-account
-After your account is made, you'll need to set up 2-factor authentication. We recommend using Google Authenticator, although any OTP manager will work. 
+After your account is made, you'll need to set up 2-factor authentication. We recommend using Google Authenticator, although any OTP manager will work.
 
 [TODO: Fill out this with specific 2-factor setup details]
 
@@ -290,7 +169,7 @@ alias savio="ssh username@hpc.brc.berekeley.edu"
 ```
 
 #### Running on BRC
-Under the condo account co_lsdi, we have exclusive access to 28 KNL nodes. Additionally, we have the ability to run on other nodes at low priority mode. 
+Under the condo account co_lsdi, we have exclusive access to 28 KNL nodes. Additionally, we have the ability to run on other nodes at low priority mode.
 
 ##### Accessing Software binaries
 Software within BRC is managed through modules. You can access precompiled, preinstalled software by loading the desired module.
@@ -359,29 +238,19 @@ https://www.nrel.gov/hpc/user-accounts.html
 
 ### Additional resources:
 Other Persson group members and the NERSC website are both excellent resources for getting additional help. If that fails, you can reach out to the NERSC Operations staff:
+
 * 1-800-666-3772 (or 1-510-486-8600)
+
 * Computer Operations = menu option 1 (24/7)
+
 * Account Support = menu option 2,  accounts@nersc.gov
+
 * HPC Consulting = menu option 3, or consult@nersc.gov
+
 * Online Help Desk = help.nersc.gov
 
------------------------------------------------------------------------------------------------------------------------------
+-------
 
-## Our software stack
-A brief summary of our software stack includes:
-* pymatgen / pymatgen-db - for representing and analyzing crystal structures, as well as setting up/performing manual calculations
-* FireWorks - for executing and managing calculation workflows at supercomputing centers
-* custodian - instead of directly running an executable like VASP, one can wrap the executable in custodian to detect and fix errors
-* atomate - for quickly defining multiple types of materials science workflows
-* matminer - for large data analysis and visualization
+Authors: Kara Fong, Eric Sivonxay, John Dagdelen
 
-We also heavily use the Materials Project database.
-
-To learn how to use the software stack, you can consult the documentation of the individual codebases as well as review the following resources:
-* The 2018 Materials Project workshop (note that MatMethods is now called atomate): https://github.com/materialsproject/workshop-2018
-* The 2014 Materials Virtual Lab presentations: 
-https://materialsvirtuallab.org/software/
-* The Materials Project YouTube tutorials: 
-https://www.youtube.com/user/MaterialsProject
-
-If you have a specific question, sometimes the easiest solution is to post it to the Slack group and crowdsource the answer (or just ask Shyam). 
+Contact: karafong@lbl.gov
