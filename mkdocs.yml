@@ -8,6 +8,7 @@ nav:
     - Group Jobs: 'about/group_jobs.md'
   - Getting Started:
     - Newcomers: 'getting_started/newcomers.md'
+    - Purchasing a Computer: 'getting_started/new_computer.md'
     - Purchasing: 'getting_started/purchasing.md'
   - Computing:
     - General Info: 'computing/computing.md'
