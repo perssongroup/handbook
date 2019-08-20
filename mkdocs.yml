@@ -1,0 +1,10 @@
+site_name: My Docs
+
+markdown_extensions:
+  - markdown_fenced_code_tabs:
+      single_block_as_tab: False
+      active_class: 'active'
+      template: 'default'
+
+extra_css:
+  - 'css/code-tabs.css'
