@@ -3,7 +3,7 @@ It is important to be connected to the research community. If it is your first y
 
 * you keep up to date on developments in the field
 * you will get to know the people in the field
-* you are broadcasting your work to the research community. Many if not most people learn about new research by hearing about it at a conference. Thus, if you want people to know about your work, you must be willing to tell people about it. 
+* you are broadcasting your work to the research community. Many if not most people learn about new research by hearing about it at a conference. Thus, if you want people to know about your work, you must be willing to tell people about it.
 
 You should identify conferences you’d like to attend several months (usually ~4 months, perhaps ~6 months for international travel) in advance. Usually, this is around the same time that abstract deadlines are due.
 
