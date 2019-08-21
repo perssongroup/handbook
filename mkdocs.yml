@@ -16,7 +16,10 @@ nav:
     - HPC: 'computing/hpc.md'
     - Atomate Setup: 'computing/atomate.md'
     - Calculation Software: 'computing/calculation_software.md'
-  - Students: 'students.md'
+  - Students:
+    - Establishing Residency: 'students/residency.md'
+    - Preparing for Prelims: 'students/prelims.md'
+    - Qualifying Exams: 'students/qualifying.md'
   - Post-Docs: 'postdocs.md'
   - Acknowlegements: 'acknowlegements.md'
 
