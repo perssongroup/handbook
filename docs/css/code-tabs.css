@@ -19,11 +19,13 @@
     padding: 4px;
     margin: 0 8px;
     cursor: pointer;
-    color: #aaa;
+    color: #77a7d5;
+    font-size: 22px;
 }
 
 .md-fenced-code-tabs input:checked + label {
-    color: #333;
+    color: #0985bb;
+    font-size: 22px;
 }
 
 .md-fenced-code-tabs .code-tabpanel {
