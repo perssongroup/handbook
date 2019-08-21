@@ -2,8 +2,9 @@
 
 Berkeley Lab offers many resources for postdoc. See for example:
 
-http://postdocresources.lbl.gov
-https://postdoc.berkeley.edu/resources
+[http://postdocresources.lbl.gov](http://postdocresources.lbl.gov)
+
+[https://postdoc.berkeley.edu/resources](https://postdoc.berkeley.edu/resources)
 
 ### Postdoc union <a name="union"></a>
 
