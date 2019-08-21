@@ -1,9 +1,14 @@
 ## Computing Resources <a name="computing"></a>
 Our group’s main computing resources are:
+
 * [NERSC](#nersc) (the LBNL supercomputing center, one of the biggest in the world)
+
 * Lawrencium / Berkeley Research Computing
+
 * Peregrine (the NREL supercomputing center)
+
 * Argonne Leadership Computing Facility (sometimes)
+
 * Oak Ridge Leadership Computing Facility (sometimes)
 
 At any time, if you feel you are computing-limited, please contact Kristin so she can work with you on finding solutions.
@@ -17,7 +22,7 @@ At any time, if you feel you are computing-limited, please contact Kristin so sh
 4. At this point, you should be able to log in, check CPU-hour balances, etc. through “NERSC NIM” and “My NERSC” portals
 5. In order to log in and run jobs on the various machines at NERSC, review the NERSC documentation.
 6. In order to load and submit scripts for various codes (VASP, ABINIT, Quantum Espresso), NERSC has lots of information to help. Try Google, e.g. “NERSC VASP”.
-... *Note that for commercial codes such as VASP, there is an online form that allows you to enter your VASP license, which NERSC will confirm and then allow you access to.
+... * Note that for commercial codes such as VASP, there is an online form that allows you to enter your VASP license, which NERSC will confirm and then allow you access to.
 7. Please make a folder inside your project directory and submit all your jobs there, as your home folder has only about 40GB of space. For example, for matgen project, your work folder path should be something like the following:
 `/global/project/projectdirs/matgen/YOUR_NERSC_USERNAME`
 8. You can also request a mongo database for your project to be hosted on NERSC. Google “MongoDB on NERSC” for instructions. Donny Winston or Patrick Huck can also help you get set up and provide you with a preconfigured database suited for running Materials Project style workflows.

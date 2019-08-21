@@ -199,6 +199,17 @@ pre_rocket: |
 ``` Lawrencium
 ```
 
+Available queues, partitions, and qos can be found at the following links:
+
+* [NERSC](https://docs.nersc.gov/jobs/policy/)
+
+* [Savio](http://research-it.berkeley.edu/services/high-performance-computing/user-guide/savio-user-guide)
+
+* [Lawrencium](https://sites.google.com/a/lbl.gov/high-performance-computing-services-group/lbnl-supercluster/lawrencium)
+
+
+Note: specifying singleshot in the queue adapter will limit each reserved job to running only one firework (even if other fireworks are ready and could run with your remaining wall time). Can change to rapidfire but this may result in lost runs (fireworks that do not complete because they run out of wall time).
+
 For more information on best practices for running VASP on multiple nodes (i.e. how to set vasp_cmd in my_fworker.yaml based on the number of nodes requested in my_qadapter) see the [NERSC vasp training](https://www.nersc.gov/users/training/events/vasp-user-hands-on-knl-training-june-18-2019/)
 
 ## Configure Bash profile:
@@ -225,9 +236,13 @@ Note the line alias cdconfig='cd ~/.conda/envs/cms/config' is optional but is re
 ## Setup API key and Add POTCAR Directory to pymatgen
 Go to materialsproject.org and get an API key. Make sure you are using the environment setup above to run these commands.
 
-```bash
+``` NERSC
 pmg config --add PMG_MAPI_KEY <USER_API_KEY>
 pmg config --add PMG_VASP_PSP_DIR /project/projectdirs/matgen/POTCARs
+```
+``` Savio
+pmg config --add PMG_MAPI_KEY <USER_API_KEY>
+pmg config --add PMG_VASP_PSP_DIR /clusterfs/cloudcuckoo/POTCARs
 ```
 
 Running these commands will create a .pmgrc.yaml file (if it doesn’t exist already) containing these configuration settings in your home directory
