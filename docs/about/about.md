@@ -3,7 +3,11 @@
 Our group studies the physics and chemistry of materials using atomistic computational methods and high-performance computing technology. Most of our research is focused on materials for energy applications, such as battery electrode materials, electrolytes, photocatalysts, thermoelectrics, etc. We are co-located at Lawrence Berkeley National Laboratory (LBNL) and the University of California, Berkeley, just down the hill from LBNL. Our main workspaces are located at LBNL, but we have a number of additional desks available on campus for students to use in between classes, which are located in the grad bay of Hearst Memorial Mining Building. San Francisco is located across the bay from Berkeley and is about a 30 minute drive or BART train ride away. Berkeley itself is a vibrant city of 115,000 people filled with cafes, restaurants of all types, and cultural activities.
 
 -----------------------------------------------------------------------------------------------------------------------------
+## Group Roster <a name="roster"></a>
 
+The group roster is available on the internal group site and the [google drive](https://sites.google.com/a/lbl.gov/perssongroup/group-info/group-roster)
+
+-----------------------------------------------------------------------------------------------------------------------------
 ## Meetings <a name="meeting"></a>
 
 ### Group Meeting <a name="group"></a>
