@@ -1,5 +1,7 @@
 site_name: Persson Group Handbook
 
+theme: yeti
+
 nav:
   # - Home: 'index.md'
   - About:
