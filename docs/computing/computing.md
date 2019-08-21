@@ -26,7 +26,7 @@ git clone https://www.github.com/materialsproject/fireworks
 ```
 You might need to generate an ssh key for the git clone command to work:
 ssh-keygen -t rsa -b 4096
-no password is probably OK unless you are security conscious
+no password is probably okay unless you are security conscious
 add your SSH key to your Github profile
 
 Then:

@@ -12,6 +12,21 @@ A brief summary of our software stack includes:
 * [matminer](https://github.com/hackingmaterials/matminer) - for large data analysis and visualization
 
 We also heavily use the Materials Project database.
+------------------
+
+Additional software used by many members of our group include:
+
+* [VESTA](http://jp-minerals.org/vesta/en/) -
+
+* [Ovito](https://www.ovito.org/) -
+
+* [VMD](https://www.ks.uiuc.edu/Research/vmd/) -
+
+* [Studio 3T](https://studio3t.com/download/) -
+
+* [PyCharm](https://www.jetbrains.com/pycharm/) -
+
+* [iTerm2](https://www.iterm2.com/) - 
 
 ------------------
 
