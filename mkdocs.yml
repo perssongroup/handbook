@@ -15,6 +15,7 @@ nav:
     - Software: 'computing/software.md'
     - HPC: 'computing/hpc.md'
     - Atomate Setup: 'computing/atomate.md'
+    - Calculation Software: 'computing/calculation_software.md'
   - Students: 'students.md'
   - Post-Docs: 'postdocs.md'
   - Acknowlegements: 'acknowlegements.md'
