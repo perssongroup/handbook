@@ -5,7 +5,7 @@ Although many things can only be taken care of after arriving at LBNL, here are 
 
 <div>
   <div>
-    <img align="left" width="200" height="200" src="../resources/slack.png"/> 
+    <img align="left" width="200" height="200" src="../../resources/slack.png"/>
     <div>
       <h3 padding-top="20" padding-left="20" >Join Slack</h3>
       <p padding-left="20">
@@ -16,11 +16,13 @@ Although many things can only be taken care of after arriving at LBNL, here are 
   </div>
 </div>
 
+
+
 <div>
   <br/>
   <div>
     <div>
-      <img align="left" width="200" height="200" src="../resources/mac.jpg"/> 
+      <img align="left" width="200" height="200" src="../../resources/mac.jpg"/>
       <div>
         <h3 padding-top="20" padding-left="20">Order a Computer</h3>
         <p padding-left="20">
@@ -32,6 +34,8 @@ How? See <a href="https://perssongroup.github.io/handbook/content/computing#gett
     </div>
   </div>
 </div>
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Useful Onboarding Points of Contact and Quick Links <a name="quick_links"></a>
@@ -60,7 +64,7 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 * Once you make your way inside building 33, ask around to find someone in the Persson Group who can help you find your desk and provide a short walk through to become familiar with the building and introduce you to other group members.
 * Follow the instructions received during your orientation to activate your Berkeley Lab Identity Account (aka LDAP). This log-in will be used for most LBL online resources. Connect to the internet using the lbnl-visitor WiFi network (it is open access).
 * Try out your newly created LDAP log-in. Connect to the [lbnl-employee WiFi network](https://commons.lbl.gov/display/itfaq/Wireless+Networking), open your @lbl.gov email, google calendar, etc.
-* Send out an email introducing yourself to perssongroup@lbl.gov (this is the email list for everyone in the Persson group) from your @lbl.gov email address. This is a new tradition to help welcome new group members since it can take some time to meet everyone in person. This also serves as a notice for the group to help initiate various onboarding tasks. Here is the [intro email questions template](https://drive.google.com/a/lbl.gov/file/d/1OwWeS6nOFMaYuBvkQ_XuSCswPJ8CFiAf/view?usp=sharing) and an [example introduction email](https://drive.google.com/a/lbl.gov/file/d/1pOgurnt_27VDKqKs3OekR9XXgEcEtaqh/view?usp=sharing). 
+* Send out an email introducing yourself to perssongroup@lbl.gov (this is the email list for everyone in the Persson group) from your @lbl.gov email address. This is a new tradition to help welcome new group members since it can take some time to meet everyone in person. This also serves as a notice for the group to help initiate various onboarding tasks. Here is the [intro email questions template](https://drive.google.com/a/lbl.gov/file/d/1OwWeS6nOFMaYuBvkQ_XuSCswPJ8CFiAf/view?usp=sharing) and an [example introduction email](https://drive.google.com/a/lbl.gov/file/d/1pOgurnt_27VDKqKs3OekR9XXgEcEtaqh/view?usp=sharing).
 * Ask Kristin/Alice to find our what project and activity id is associated with your funding and should be used for payroll, purchasing, etc. You will also want to find the associated SAS Approver from Alice or another group member with the same funding source.
 * See Alice with your Employee ID to introduce yourself and set-up B33 after hours access. By default, you will not have off-hours site access to building 33, i.e., on weekends, holidays, and from 5:30pm to 7am on weekdays.
 * Prioritize completing the GERT (General Radiological Worker Training) before the end of your first day.
@@ -69,7 +73,7 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 ### First Week Checklist (also start the below Research Computer & IT Checklist when possible) <a name="office"></a>
 * Send an email to Donny Winston requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: <YOUR NAME>".
 * Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
-* Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability. 
+* Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability.
 * Check to ensure your calendar is populated with needed meetings (group meetings, subgroup meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
 * Send an email to Sang-Won Park with a headshot and tiny bio for the group website (bit of humor in the tiny bio is very welcome).
 * Explore the group’s Google Drive folder. Note some of these documents populate the group's internal website.
@@ -95,3 +99,8 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 
 ### Getting situated in your workspace <a name="office"></a>
 Please feel free to decorate your lab space with photos, posters, or other personal touches. Order any peripherals that will help you work more efficiently and comfortably including keyboards, mice, ergonomic devices such as wrist pads, and external displays.
+
+---
+Authors: John Dagdelen
+
+Contact: jdagdelen@lbl.gov
