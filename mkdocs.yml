@@ -1,7 +1,7 @@
 site_name: Persson Group Handbook
 
 nav:
-  - Home: 'index.md'
+  # - Home: 'index.md'
   - About:
     - General: 'about/about.md'
     - Group Policies: 'about/group_policies.md'
