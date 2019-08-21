@@ -26,7 +26,7 @@ git clone https://www.github.com/materialsproject/fireworks
 ```
 You might need to generate an ssh key for the git clone command to work:
 ssh-keygen -t rsa -b 4096
-no password is probably okay unless you are security conscious
+no password is probably OK unless you are security conscious
 add your SSH key to your Github profile
 
 Then:
@@ -70,5 +70,12 @@ The group has a Canon MF731C printer located in 33-143C. It supports color print
 If you have problems with software, and in particular the software maintained by our group and our collaborators, you should contact the appropriate help group. The documentation for the software will list what that channel is; if not, try the Github Issues page. If you are reaching out for help, try to provide everything needed to quickly reproduce and debug the problem (files, test code, etc).
 
 Two other ways to get software help that are more self-guided are:
+
 * If you are having trouble using a particular class or function, look for unit tests within the code, which often demonstrate how to use the class or function
+
 * If the class or function has a unique name (e.g., MaterialsProjectCompatibility), another option is to both Google and search on github.com for the particular class/function. The github.com search will often reveal code snippets from users all around the world.
+
+---
+Authors: Kara Fong
+
+Contact: karafong@lbl.gov

@@ -40,3 +40,8 @@ For issues with these compilations, please contact Eric Sivonxay (esivonxay@lbl.
 # LAMMPS
 
 # GROMACS
+
+---
+Authors: Eric Sivonxay
+
+Contact: esivonxay@lbl.gov
