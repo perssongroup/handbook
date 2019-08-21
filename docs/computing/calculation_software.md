@@ -1,7 +1,7 @@
 # VASP
 We generally run 2 versions of VASP - 5.4.4 and 6 (in beta). VASP 6 is used primarily on nodes operating on the Knights Landing (KNL) CPU architecture, while VASP 5.4.4 is generally used on all other CPUs.
 
-## VASP on NERSC
+### VASP on NERSC
 NERSC maintains compiled, and optimized versions of the vasp binaries. To get access to these binaries, you must be added to the group VASP license. If/when you determine that your research requires the use of VASP, contact Jimmy Shen and Eric Sivonxay.
 
 The potcar directory is:
@@ -9,7 +9,7 @@ The potcar directory is:
 /project/projectdirs/matgen/POTCARs
 ```
 
-## VASP on Berkeley Research Computing (savio)
+### VASP on Berkeley Research Computing (savio)
 When running vasp on savio, we have access to our own compilations. To access the vasp binaries on savio, add the following line to your .bashrc file.
 
 ```
@@ -23,7 +23,7 @@ POTCARs are located at:
 
 For issues with these compilations, please contact Eric Sivonxay (esivonxay@lbl.gov)
 
-## Lawrencium
+### Lawrencium
 When running vasp on Lawrencium, we have access to our own compilations. To access the vasp binaries on Lawrencium, add the following line to your .bashrc file.
 
 ```
@@ -36,3 +36,7 @@ POTCARs are located at:
 ```
 
 For issues with these compilations, please contact Eric Sivonxay (esivonxay@lbl.gov)
+
+# LAMMPS
+
+# GROMACS
