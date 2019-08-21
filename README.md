@@ -5,6 +5,10 @@ This is the repo for the [Persson Group's handbook site](https://perssongroup.gi
 ## Contributing
 To contribute to the handbook, please fork this repo and make your changes in that branch. After you are happy with your changes, submit a pull request with a short note about the changes you made. Committing directly to this branch is not recommended unless the change is small (fixing typos, etc) or you really know what you're doing. Persson group members should feel free to merge their own pull requests. 
 
+#TODO: Basic beginners guide 
+To build the document
+
+
 ## How to add content to the site
 Each page on the site is a markdown file in the "content" folder of this repo (i.e. "students.md" specifies the content that is found at perssongroup.github.io/handbook/content/students). To add content to a page, all you have to do is edit that markdown file. You can find a nice markdown tutorial here: https://guides.github.com/features/mastering-markdown/
 
