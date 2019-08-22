@@ -1,61 +1,3 @@
-## Before You Arrive <a name="before"></a>
-
-Although many things can only be taken care of after arriving at LBNL, here are a few simple things you should do in advance.
-
-
-<div>
-  <div>
-    <img align="left" width="200" height="200" src="../../resources/slack.png"/>
-    <div>
-      <h3 padding-top="20" padding-left="20" >Join Slack</h3>
-      <p padding-left="20">
-        Slack is a messaging app that we use extensively to communicate both within our group and with our Materials Project collaborators. To join our <a href="https://berkeleytheory.slack.com"> slack channel </a>, you'll need to use your @lbl.gov email address.
-        <br/><br/><br/><br/>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-
-<div>
-  <br/>
-  <div>
-    <div>
-      <img align="left" width="200" height="200" src="../../resources/mac.jpg"/>
-      <div>
-        <h3 padding-top="20" padding-left="20">Order a Computer</h3>
-        <p padding-left="20">
-          Postdocs and graduate students - let’s order your workstation in advance so that it’s ready by the time you arrive.
-How? See <a href="https://perssongroup.github.io/handbook/content/computing#getting-a-computer"> getting a computer.</a>
-          <br /><br /><br /><br /><br />
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
------------------------------------------------------------------------------------------------------------------------------
-## Useful Onboarding Points of Contact and Quick Links <a name="quick_links"></a>
-
-**LBL Administrative Assistance**: Alice Mueller, 33-122B
-
-**Desk Assignments + Group Inventory**: Rebecca Stern, 33-143F
-
-**Persson Google Group (email lists, drive, etc.)**: Donny Winston
-
-**Group Meeting**: Trevor Seguin
-
-[**Persson Group Website**: People](http://perssongroup.lbl.gov/people.html)
-
-[**Internal Group Site**](https://sites.google.com/a/lbl.gov/perssongroup/home)
-
-[**lbl.gov A-Z Index**](http://www.lbl.gov/a-z-index/)
-
------------------------------------------------------------------------------------------------------------------------------
-
 ## After You Arrive <a name="after"></a>
 
 Welcome to Berkeley! Here is a checklist to help you get started with joining the Persson Research Group.
@@ -92,15 +34,3 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 * Obtain user accounts for any computing resources (LINK) you may be using.
 * Obtain a license for any software packages you might be using. For example, you may need to be added to the VASP users list (for VASP, you should also register for the forum.)
 * Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found [here.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
-
------------------------------------------------------------------------------------------------------------------------------
-
-## Other Helpful Information to Get Started <a name="money"></a>
-
-### Getting situated in your workspace <a name="office"></a>
-Please feel free to decorate your lab space with photos, posters, or other personal touches. Order any peripherals that will help you work more efficiently and comfortably including keyboards, mice, ergonomic devices such as wrist pads, and external displays.
-
----
-Authors: John Dagdelen
-
-Contact: jdagdelen@lbl.gov

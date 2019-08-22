@@ -4,26 +4,28 @@ theme: yeti
 
 nav:
   # - Home: 'index.md'
-  - About:
-    - General: 'about/about.md'
-    - Group Policies: 'about/group_policies.md'
-    - Group Jobs: 'about/group_jobs.md'
   - Getting Started:
-    - Newcomers: 'getting_started/newcomers.md'
-    - Purchasing a Computer: 'getting_started/new_computer.md'
-    - Purchasing: 'getting_started/purchasing.md'
+    - Before you Arrive: 'getting_started/before.md'
+    - After you Arrive: 'getting_started/after.md'
+    - Getting Settled: 'getting_started/settling.md'
+  - Group Policies:
+    # - General: 'policies/general.md'
+    - Purchasing: 'policies/purchasing.md'
+    - Travel: 'policies/travel.md'
   - Computing:
     - General Info: 'computing/computing.md'
     - Software: 'computing/software.md'
     - HPC: 'computing/hpc.md'
     - Atomate Setup: 'computing/atomate.md'
     - Calculation Software: 'computing/calculation_software.md'
-  - Students:
-    - Establishing Residency: 'students/residency.md'
-    - Preparing for Prelims: 'students/prelims.md'
-    - Qualifying Exams: 'students/qualifying.md'
-  - Post-Docs: 'postdocs.md'
-  - Acknowlegements: 'acknowlegements.md'
+  - About:
+    - General: 'about/about.md'
+    - Subgroup Meetings: 'about/subgroup.md'
+    - Group Jobs: 'about/group_jobs.md'
+    - Acknowlegements: 'acknowlegements.md'
+  # - Students:
+  #   - Establishing Residency: 'students/residency.md'
+  # - Post-Docs: 'postdocs.md'
 
 markdown_extensions:
   - markdown_fenced_code_tabs:

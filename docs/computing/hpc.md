@@ -1,10 +1,9 @@
-<<<<<<< HEAD:content/computing.md
-## Getting a Computer <a name="getcomputer"></a> 
+## Getting a Computer <a name="getcomputer"></a>
 
 Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you can instead receive an excellent computer from the group’s stock.
 
 ### Mac, Windows, or Linux?
-You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work. 
+You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work.
 
 ### Purchasing
 
@@ -21,7 +20,7 @@ You are advised to buy a Mac, and probably a Macbook Pro. In our experience thes
 * More details coming to this documentation soon.
 
 ### Selecting a computer, monitor, and accessories
-Your computer workstation is one area where you should get whatever you think will make you most productive. As you'll be working on this setup the majority of your time in the group, please don't worry too much about the cost here. 
+Your computer workstation is one area where you should get whatever you think will make you most productive. As you'll be working on this setup the majority of your time in the group, please don't worry too much about the cost here.
 
 For the computer, you should select a Macbook Pro (any screen size) as mentioned above. You can use the Apple website to browse details. Many of us use a 13” Macbook Pro. It is powerful enough to do serious work and light/small enough to use on a plane. A 15” Macbook Pro is also a good choice. If you would like to get anything other than a Macbook Pro, talk to some senior members of the group first to get their input.
 
@@ -32,17 +31,17 @@ For accessories, make sure to get:
 * A VGA adapter dongle
 * An ethernet cable adapter dongle
 * A Time Machine hard disk (for backup). 4TB is a good size. There is a usb-c G-Drive that also doubles as a charger that some of us enjoy.
-* A keyboard. The Apple Wireless Keyboard is a good option. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that. 
+* A keyboard. The Apple Wireless Keyboard is a good option. Others prefer mechanical keyboards and some prefer to use the loudest keyboard that they can find (Shyam). If you prefer a larger or ergonomic keyboard, you can certainly get that.
 * A mouse/trackpad (your preference).
 * (optional) A presentation tool, e.g., Logitech R800.
 
 ### Making the purchase
-1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks ok, she will give you a project and activity ID. 
+1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks ok, she will give you a project and activity ID.
 2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID. Ask Alice Mueller about which SAS approver to list if you are unsure (the SAS approver can vary by project and activity ID).
-3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back. 
+3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back.
 4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
 
------------------------------------------------------------------------------------------------------------------------------
+---
 <a name="personal_setup"></a>
 ## Setting up a new Macbook
 
@@ -104,18 +103,17 @@ https://support.apple.com/en-us/HT204412
 * Install Docker.
 * Purchase Microsoft office from LBNL software distribution.
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Software help groups <a name="softwaresupport"></a>
 If you have problems with software, and in particular the software maintained by our group and our collaborators, you should contact the appropriate help group. The documentation for the software will list what that channel is; if not, try the Github Issues page. If you are reaching out for help, try to provide everything needed to quickly reproduce and debug the problem (files, test code, etc).
 
 Two other ways to get software help that are more self-guided are:
 * If you are having trouble using a particular class or function, look for unit tests within the code, which often demonstrate how to use the class or function
-* If the class or function has a unique name (e.g., MaterialsProjectCompatibility), another option is to both Google and search on github.com for the particular class/function. The github.com search will often reveal code snippets from users all around the world. 
+* If the class or function has a unique name (e.g., MaterialsProjectCompatibility), another option is to both Google and search on github.com for the particular class/function. The github.com search will often reveal code snippets from users all around the world.
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
-=======
 ## Computing Resources <a name="computing"></a>
 Our group’s main computing resources are:
 
@@ -153,9 +151,9 @@ Once your account is set up, you can manage it at the NERSC Information Manageme
 
 ##### Logging on (Setup):
 
-You must use the SSH protocol to connect to NERSC. 
-Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`). 
-=======
+You must use the SSH protocol to connect to NERSC.
+Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`).
+
 ##### Connecting with SSH:
 You must use the SSH protocol to connect to NERSC.
 Make sure you have SSH installed on your local computer (you can check this by typing which ssh) and that you have a directory named $HOME/.ssh on your local computer (if not, make it).
@@ -173,8 +171,10 @@ ControlPath ~/.ssh/sockets/%r@%h-%p
 ControlPersist 600
 ```
 
-You should now be ready to log on! 
-=======
+You should now be ready to log on!
+
+---
+
 You must store your SSH public key on the NERSC NIM database.
 Go to the NIM website, navigate to “My Stuff” -> “My SSH Keys”. Click on the SSH Keys tab.
 Copy your key (from id_rsa.pub) into the website’s text box, click Add.
@@ -232,10 +232,6 @@ You specify which queue to use in your batch file. Use the **debug** queue for s
 
 ##### Choosing a node type (haswell vs knl):
 You may also specify the resource type you would like your job to run on, witnin your batch file. When running on Cori, there are two CPU architectures available, Haswell, and Knights Landing (known as KNL). Running on a Haswell node will afford you high individual core performance with up to 32 cores per node (or 64 threads per node). A KNL node provides a large core count (68 cores per node or 272 threads per node) which is suitable for programs capable of effectively utilizing multithreading. On Cori, there are 2388 Haswell nodes and 9688 KNL nodes.
-
-<!---
-TODO: FILL OUT THIS SECTION MORE
--->
 
 #### Automatic job submission on NERSC: crontab <a name="crontab"></a>
 In order to automatically manage job submission at NERSC, you can use crontab. You can submit jobs periodically even when you are not signed in to any NERSC systems and perhaps reduce the queue time from 5-10 days to a few hours. This is possible because of the way jobs are managed in atomate/fireworks. Please make sure you feel comfortable submitting individual jobs via atomate before reading this section.
@@ -300,8 +296,8 @@ After your account is made, you'll need to [set up 2-factor authentication](http
 
 ##### Logging on (Setup):
 
-You must use the SSH protocol to connect to BRC. 
-Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`). 
+You must use the SSH protocol to connect to BRC.
+Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`).
 Make sure you have a directory named $HOME/.ssh on your local computer (if not, make it).
 
 We also advise you to configure a ssh socket so that you only have to log into BRC with a OTP only once per session (helpful if you are scp-ing things). To do this:
@@ -314,10 +310,10 @@ ControlMaster auto
 ControlPath ~/.ssh/sockets/%r@%h-%p
 ControlPersist 600
 ```
-=======
+
 After your account is made, you'll need to set up 2-factor authentication. We recommend using Google Authenticator, although any OTP manager will work.
 
-You should now be ready to log on! 
+You should now be ready to log on!
 
 #### Logging on to BRC
 To access your shiny new savio account, you'll want to SSH onto the system from a terminal.
@@ -389,16 +385,7 @@ To run on Haswell nodes, use the following slurm submission script:
 mpirun --bind-to core <executable>
 ```
 
-### Peregrine <a name="nrel"></a>
-NREL's supercomputer Peregrine is reserved for projects and jobs related to silicon-based Li-ion battery research.
-
-#### Getting an account on Peregrine
-To request a peregrine account, visit the following link.
-
-https://www.nrel.gov/hpc/user-accounts.html
-
-
-### Additional resources:
+### Additional resources
 Other Persson group members and the NERSC website are both excellent resources for getting additional help. If that fails, you can reach out to the NERSC Operations staff:
 
 * 1-800-666-3772 (or 1-510-486-8600)
@@ -410,24 +397,7 @@ Other Persson group members and the NERSC website are both excellent resources f
 * HPC Consulting = menu option 3, or consult@nersc.gov
 
 
-## Our software stack
-A brief summary of our software stack includes:
-* [pymatgen / pymatgen-db](https://pymatgen.org) - for representing and analyzing crystal structures, as well as setting up/performing manual calculations
-* [FireWorks](https://materialsproject.github.io/fireworks/) - for executing and managing calculation workflows at supercomputing centers
-* [Custodian](https://materialsproject.github.io/custodian/) - instead of directly running an executable like VASP, one can wrap the executable in custodian to detect and fix errors
-* [Atomate](https://atomate.org) - for quickly defining multiple types of materials science workflows
-* [matminer](http://hackingmaterials.lbl.gov/matminer/) - for large data analysis and visualization
-
-We also heavily use the [Materials Project database](https://materialsproject.org).
-
-To learn how to use the software stack, you can consult the documentation of the individual codebases as well as review the following resources:
-* [Tutorials from the annual Materials Project Workshop](https://workshop.materialsproject.org)
-* [2014 Materials Virtual Lab presentations](https://materialsvirtuallab.org/software/) (note that MatMethods is now called Atomate): 
-* [Materials Project YouTube tutorials](https://www.youtube.com/user/MaterialsProject): 
-=======
-* Online Help Desk = help.nersc.gov
-
--------
+---
 
 Authors: Kara Fong, Eric Sivonxay, John Dagdelen
 Contact: karafong@lbl.gov

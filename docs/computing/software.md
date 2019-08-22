@@ -26,7 +26,7 @@ Additional software used by many members of our group include:
 
 * [PyCharm](https://www.jetbrains.com/pycharm/) -
 
-* [iTerm2](https://www.iterm2.com/) - 
+* [iTerm2](https://www.iterm2.com/) -
 
 ------------------
 
@@ -41,3 +41,8 @@ To learn how to use the software stack, you can consult the documentation of the
 [https://www.youtube.com/user/MaterialsProject](https://www.youtube.com/user/MaterialsProject)
 
 If you have a specific question, sometimes the easiest solution is to post it to the Slack group and crowdsource the answer (or just ask Shyam).
+
+---
+Authors: John Dagdelen, Eric Sivonxay
+
+Contact: jdagdelen@lbl.gov
