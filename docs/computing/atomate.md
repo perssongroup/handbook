@@ -1,4 +1,3 @@
-This guide walks you through the steps for setting up Fireworks and Atomate on the HPC. This guide will generally cover installation on both NERSC and Lawrencium. Installation steps for a local machine or another super computer will differ, but follow similar steps.
 
 # Setup an environment:
 
@@ -78,7 +77,7 @@ mkdir config
 cd config
 ```
 
-Make 3 files: FW_config.yaml, db.json, and my_launchpad.yaml with the following contents. Replace the teal highlighted text with details specific to your configuration. Note that you can view your [filesystem online](https://my.nersc.gov/filebrowser.php).
+Make 3 files: FW_config.yaml, db.json, and my_launchpad.yaml with the following contents. Replace the teal highlighted text with details specific to your configuration. Note that you can view your [filesystem online](https://my.NERSC.gov/filebrowser.php).
 
 ### Fireworks configuration (FW_config.yaml)
 ``` NERSC
@@ -96,7 +95,7 @@ QUEUE_UPDATE_INTERVAL: 5
 ### Database file (db.json)
 ```
 {
-    "host": "mongodb03.nersc.gov",
+    "host": "mongodb03.NERSC.gov",
     "port": 27017,
     "database": "fw_db_name",
     "collection": "tasks",
@@ -111,7 +110,7 @@ QUEUE_UPDATE_INTERVAL: 5
 ### Fireworks LaunchPad file (my_launchpad.yaml)
 
 ```
-host: mongodb03.nersc.gov
+host: mongodb03.NERSC.gov
 port: 27017
 name: 'fw_db_name'
 username: '<admin_username>'
@@ -126,7 +125,7 @@ wf_user_indices: []
 ### Fireworker file (my_fworker.yaml)
 
 ``` NERSC
-name: nersc_fworker
+name: NERSC_fworker
 category: ''
 query: '{}'
 env:
@@ -201,7 +200,7 @@ pre_rocket: |
 
 Available queues, partitions, and qos can be found at the following links:
 
-* [NERSC](https://docs.nersc.gov/jobs/policy/)
+* [NERSC](https://docs.NERSC.gov/jobs/policy/)
 
 * [Savio](http://research-it.berkeley.edu/services/high-performance-computing/user-guide/savio-user-guide)
 
@@ -210,7 +209,7 @@ Available queues, partitions, and qos can be found at the following links:
 
 Note: specifying singleshot in the queue adapter will limit each reserved job to running only one firework (even if other fireworks are ready and could run with your remaining wall time). Can change to rapidfire but this may result in lost runs (fireworks that do not complete because they run out of wall time).
 
-For more information on best practices for running VASP on multiple nodes (i.e. how to set vasp_cmd in my_fworker.yaml based on the number of nodes requested in my_qadapter) see the [NERSC vasp training](https://www.nersc.gov/users/training/events/vasp-user-hands-on-knl-training-june-18-2019/)
+For more information on best practices for running VASP on multiple nodes (i.e. how to set vasp_cmd in my_fworker.yaml based on the number of nodes requested in my_qadapter) see the [NERSC vasp training](https://www.NERSC.gov/users/training/events/vasp-user-hands-on-knl-training-june-18-2019/)
 
 ## Configure Bash profile:
 
@@ -256,7 +255,7 @@ lpad reset
 ```
 
 ## Using Atomate to create preset workflow
-The following code blocks are python code that should be run in jupyter or from the terminal. Make sure you are using the environment setup above. The computer running the code should have access to mongodb03.nersc.gov; this can be disregarded when running directly on nersc or when connected to to the LBNL intranet. For computers outside of LBNL, a VPN will need to be used.
+The following code blocks are python code that should be run in jupyter or from the terminal. Make sure you are using the environment setup above. The computer running the code should have access to mongodb03.NERSC.gov; this can be disregarded when running directly on NERSC or when connected to to the LBNL intranet. For computers outside of LBNL, a VPN will need to be used.
 
 Run the following python code by creating a file named “make_workflow.py”:
 ```python
@@ -343,7 +342,7 @@ Alternatively, you can view your jobs in the GUI by downloading your my_launchpa
 To do so:
 
 ```bash
-scp <username>@dtn01.nersc.gov:~/.conda/envs/cms/config/my_launchpad.yaml .
+scp <username>@dtn01.NERSC.gov:~/.conda/envs/cms/config/my_launchpad.yaml .
 ```
 
 Then, run this command, locally, in the folder containing the my_launchpad.yaml file. This will bring up the web interface hosted on you local machine on port 5000 (127.0.0.1:5000).
