@@ -37,9 +37,14 @@ POTCARs are located at:
 
 For issues with these compilations, please contact Eric Sivonxay (esivonxay@lbl.gov)
 
+# Q-Chem
+More Information to come
+
 # LAMMPS
+More Information to come
 
 # GROMACS
+More Information to come
 
 ---
 Authors: Eric Sivonxay
