@@ -3,29 +3,31 @@ site_name: Persson Group Handbook
 theme: yeti
 
 nav:
-  # - Home: 'index.md'
   - Getting Started:
     - Before you Arrive: 'getting_started/before.md'
     - After you Arrive: 'getting_started/after.md'
+    - Getting a Computer : 'getting_started/buy_computer.md'
+    - Workspace Set-up: 'getting_started/workspace.md'
     - Getting Settled: 'getting_started/settling.md'
   - Group Policies:
-    # - General: 'policies/general.md'
+    - General: 'policies/general.md'
     - Purchasing: 'policies/purchasing.md'
     - Travel: 'policies/travel.md'
   - Computing:
     - General Info: 'computing/computing.md'
+    - Computer Setup: 'computing/new_computer.md'
     - Software: 'computing/software.md'
     - HPC: 'computing/hpc.md'
     - Atomate Setup: 'computing/atomate.md'
     - Calculation Software: 'computing/calculation_software.md'
   - About:
-    - General: 'about/about.md'
-    - Subgroup Meetings: 'about/subgroup.md'
+    - About: 'about/about.md'
+    - Meetings: 'about/meetings.md'
+    - Group Roster: 'about/roster.md'
     - Group Jobs: 'about/group_jobs.md'
-    - Acknowlegements: 'acknowlegements.md'
-  # - Students:
-  #   - Establishing Residency: 'students/residency.md'
-  # - Post-Docs: 'postdocs.md'
+    # Acknowlegements to be removed once we verify that the handbook
+    # sufficiently differs than the jain book,
+    - Acknowlegements: 'about/acknowlegements.md'
 
 markdown_extensions:
   - markdown_fenced_code_tabs:

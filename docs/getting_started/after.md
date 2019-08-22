@@ -34,3 +34,8 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 * Obtain user accounts for any computing resources (LINK) you may be using.
 * Obtain a license for any software packages you might be using. For example, you may need to be added to the VASP users list (for VASP, you should also register for the forum.)
 * Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found [here.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
+
+### Payroll <a name="payroll"></a>
+**For Postdocs only!**
+
+On your [first time sheet](http://www.erso.berkeley.edu/erso/sites/default/files/uploads/Postdoc_Timesheet.pdf) you will need to manually type your beginning balance of 24 PTO days and 12 Sick Days. Any paid days off should be recorded on your time sheet and subtracted from your balance.
