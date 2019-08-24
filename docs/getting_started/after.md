@@ -13,7 +13,7 @@ Welcome to Berkeley! Here is a checklist to help you get started with joining th
 * Begin setting up your desk (ideally before completing the ergonomic self-assessment). [Here are some tips.](https://perssongroup.github.io/handbook/content/getting_started#getting-situated-in-your-office-) Order a computer as soon as possible if you have not done so already. See [Getting a Computer](https://perssongroup.github.io/handbook/content/computing#getting-a-computer) for advice on selecting a computer and needed accessories. You are welcome to ask Alice or a group member for a purchasing overview or help with Ebuy.
 
 ### First Week Checklist (also start the below Research Computer & IT Checklist when possible) <a name="office"></a>
-* Send an email to Donny Winston requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: <YOUR NAME>".
+* Send an email to Christian Legaspi requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: <YOUR NAME>".
 * Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
 * Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability.
 * Check to ensure your calendar is populated with needed meetings (group meetings, subgroup meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
