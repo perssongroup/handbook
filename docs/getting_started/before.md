@@ -28,7 +28,7 @@ As mentioned above, the HR processes and orientation will vary depending on whet
 ### UC Berkeley Employees
 * Once your hiring paperwork with UC Berkeley has been processed, you should recieve an email regarding an in person new hire appointment with UC Berkeley HR to complete new hire paperwork. 
 * See [Obtaining Your Cal 1 Card at https://cal1card.berkeley.edu/](https://cal1card.berkeley.edu/) for information on how to get your Cal1 card (which serves as an ID card for UC Berkeley). Postdocs will need to wait until after your new hire paperwork meeting to go to the Cal1 Card Office. 
-* For information on setting-up your CalNet ID [click here](https://calnetweb.berkeley.edu/calnet-me/information-new-users). Your CalNet ID is used for authentification for UC Berkeley resources. Postdocs will need to wait until after your UC Berkeley new hire paperwork has been processed before they can activate their CalNet ID.
+* For information on setting-up your CalNet ID [click here](https://calnetweb.berkeley.edu/calnet-me/information-new-users). Your CalNet ID is used for authentification for UC Berkeley resources. Postdocs will need to wait until after their UC Berkeley new hire paperwork has been processed before they can activate their CalNet ID.
 * Proceed to follow the instructions for LBL Affiliates. Due to Kristin's joint appointment, all graduate students and postdocs hired through UC Berkeley also have LBL Affiliate status to access the group's offices and resources at the national lab.
 
 ### LBL Affiliates
