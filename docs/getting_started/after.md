@@ -24,8 +24,9 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 * Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
 * Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability.
 * Check to ensure your calendar is populated with needed meetings (group meetings, subgroup meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
+* Join the [Berkeley Theory slack channel](https://berkeleytheory.slack.com) using your @lbl.gov email. Slack is a messaging app that is used across multiple groups and researchers at LBL to communicate about computational materials research, The Materials Project, and other collaborative efforts.
 * Send an email to Koki Muraoka with a headshot and tiny bio for the group website (bit of humor in the tiny bio is very welcome).
-* Explore the group’s Team Google Drive[]. Note some of these documents populate the group's [internal website](https://sites.google.com/a/lbl.gov/perssongroup/home).
+* Explore the group’s Team Google Drive. Note some of these documents populate the group's [internal website](https://sites.google.com/a/lbl.gov/perssongroup/home).
 * Add your name and information to the [Persson Group roster](https://docs.google.com/spreadsheets/d/1p_B3systKq6PYCuHrbT0rGqEl18QWMaqp6x664Za8zw/edit)
 * Print out an updated name tag for your desk. If needed, work with Alice Muller to update the name tag for your office.
 
@@ -36,10 +37,10 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 * Generally take the time to learn about other group member's research focuses and areas of expertise to get a sense of who may be your best resource for different questions and who you may be supporting if you are a more senior group member.
 
 ## Computer & IT Checklist <a name="office"></a>
-* Begin setting up your research computer. See [setting up you computer](../computing/new_computer.md) and our [internal group site](https://sites.google.com/a/lbl.gov/perssongroup/technical-documentation-and-tutorials) for some installation tutorials and recommended softwares.
 * Install the lab VPN for connecting to the lab network from home. For example, this lets you download research articles from home. See https://software.lbl.gov for instructions on installation.
 * Contact Eric Sivonxay about getting user accounts set-up for any computing resources you may be using (NERSC, Savio, VASP, etc.).
 * Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found on the [internal group site.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
+* Begin setting up your research computer. See [setting up you computer](../computing/new_computer.md) and our [internal group site](https://sites.google.com/a/lbl.gov/perssongroup/technical-documentation-and-tutorials) for some installation tutorials and recommended softwares.
 
 ## Payroll Basics <a name="payroll"></a>
 ### LBL Employees
