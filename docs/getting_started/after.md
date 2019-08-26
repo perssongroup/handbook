@@ -46,7 +46,7 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 ## First Week Checklist
 *Also start working through the other checklists and information below when possible*
 
-* Send an email to Donny Winston (#TODO: UPDATE) requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: [YOUR NAME]".
+* Send an email to Christian Legaspi requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: [YOUR NAME]".
 
 * Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
 
