@@ -7,7 +7,7 @@ nav:
     - Before you Arrive: 'getting_started/before.md'
     - After you Arrive: 'getting_started/after.md'
     - Getting a Computer : 'getting_started/buy_computer.md'
-    - Workspace Set-up: 'getting_started/workspace.md'
+    - Workspace Set-Up: 'getting_started/workspace.md'
     - Getting Settled: 'getting_started/settling.md'
   - Group Policies:
     - General: 'policies/general.md'
