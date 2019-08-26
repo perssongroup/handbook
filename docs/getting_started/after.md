@@ -13,6 +13,8 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 
 [**UC Berkeley ERSO Intranet**](https://www.erso.berkeley.edu/)
 
+[**UC Berkeley UCPath Payroll, benefits, and HR system](https://ucpath.berkeley.edu/home)
+
 ---
 ## First Day Checklist
 *Very Basics & High Priority Administrative Tasks*
@@ -48,11 +50,12 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 
 * Send an email to Christian Legaspi requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: [YOUR NAME]".
 
-* Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
+* Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day. Also note that UC Berkeley required training courses will not be assigned
+until after your UCPath profile is set up, which can take 1-2 weeks after your start date.
 
 * Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability.
 
-* Check to ensure your calendar is populated with needed meetings (group meetings, subgroup meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
+* Check to ensure your calendar is populated with needed meetings (group meetings, [subgroup](../about/meetings.md) meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
 
 * Join the [Berkeley Theory slack channel](https://berkeleytheory.slack.com) using your @lbl.gov email. Slack is a messaging app that is used across multiple groups and researchers at LBL to communicate about computational materials research, The Materials Project, and other collaborative efforts.
 
@@ -89,15 +92,16 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 ---
 ## Payroll Basics
 ### LBL Employees
-[LBL Payroll Resources](https://www2.lbl.gov/Workplace/CFO/co/pay/index.html)
-
 LBL employees (staff, postdocs, and graduate students) must enter their time on a regular basis using the LETS payroll system (total hours for a single month are reported). You will need the project ID and activity ID associated with the funding source for your income/stipend. Sonia Dominguez sends time entering instructions before each payroll deadline and can address any related questions. 
 
+[LBL Payroll Resources](https://www2.lbl.gov/Workplace/CFO/co/pay/index.html)
+
 ### UC Berkeley Employees / LBL Affiliates
-[UC Berkeley ERSO Intranet](https://www.erso.berkeley.edu/ersoapp/)
+UC Berkeley employees (staff, postdocs, and graduate students) must enter their time monthly using the CalTime payroll system.
+> Note: Sometimes your initial leave balances (24 PTO days and 12 Sick Days) do not populate correctly in CalTime until after the 2nd paycheck processes. If this is an issue (i.e., if you need to use leave during your first pay period), contact ersopayroll@erso.berkeley.edu.
+
+[CalTime](https://caltime.berkeley.edu/)
 
 [Information on UCPath Payroll and Benefits System](https://ucpath.berkeley.edu/home)
-
-**Postdocs:** On your [first time sheet](http://www.erso.berkeley.edu/erso/sites/default/files/uploads/Postdoc_Timesheet.pdf) you will need to manually type your beginning balance of 24 PTO days and 12 Sick Days. Any paid days off should be recorded on your time sheet and subtracted from your balance.
 
 **Graduate Students:** UC Berkeley's ERSO (Engineering Resrouce Support Organization) handles processing GSR appointment requests. These appointments are used to issue stipends (no need to report hours in a payroll system) so keep an eye out for email reminders each Fall, Spring, and Summer.
