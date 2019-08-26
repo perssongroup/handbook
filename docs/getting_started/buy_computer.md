@@ -1,13 +1,19 @@
-## Getting a Computer <a name="getcomputer"></a>
+# Getting a Computer <a name="getcomputer"></a>
 
-Most long-term appointments (graduate student, postdoc, staff) will mean purchasing a new computer. Short-term appointments (e.g., internships) will not involve a computer purchase unless otherwise stated - you can instead receive an excellent computer from the group’s stock.
+Purchasing a new computer is budgeted for when hiring long-term appointments (graduate student, postdoc, staff). Short-term appointments (undergraduate students, internships, etc.) will not involve a computer purchase unless otherwise stated as a computer can be borrowed from the group’s inventory instead. 
 
-### Mac, Windows, or Linux?
-You are advised to buy a Mac, and probably a Macbook Pro. In our experience these are the best systems for our type of work.
+It typically takes at least 2 weeks for a computer to arrive so it is recommended to prioritize placing an order either before your arrival or as soon as possible after you start.
 
 
-### Making the purchase
-1. Provide all the details of your selections in an email and send to Alice Mueller. If all looks ok, she will give you a project and activity ID.
-2. Go to eBuy, and for items available there, add them to your cart and submit the requisition with the project and activity ID. Ask Alice Mueller about which SAS approver to list if you are unsure (the SAS approver can vary by project and activity ID).
-3. For items not available on eBuy, contact esdradmin@lbl.gov (and cc Kristin and Alice) to obtain a procurement form. Fill it out with item details (Vendor, website, price, etc.) and send it back.
-4. If you select the overnight shipping option (ask Kristin about this and the related extra costs) most parts, except the computer, will arrive within a week to 10 days. The computer needs to be tagged by the lab, so with overnight shipping, it should arrive within 2 weeks. Ideally, you will select your computer well before arriving at the lab and won’t need overnight shipping.
+## Why Purchase a Macbook Pro?
+![](../resources/mac.jpg)
+
+Buying a high end Macbook Pro is highly advised although not mandatory. In our experience, Macs offer the best systems for our work and having the same operating system within our group makes it easier to troubleshoot and share code. Using computers with similar hardware can also make it easier to share and pass down computer accessories and equipment. While we want to be conscious of cost and avoid wastefulness, the value of using well performing equipment that better supports our productivity, collaborative group culture, and reduces wasted time adds value which greatly outweighs the initial financial cost. If you would like to get anything other than a Macbook Pro, please consult more senior group members first.
+
+You can use the Apple website to browse details and see what is available in through the supplier, Anacapa, in Ebuy and Bearbuy. Many group members use a 13” or 15" Macbook Pro. The 13" is powerful enough to do serious work and is lighter and smaller than the 15" for improved mobility. However, the most powerful computing hardware is typically only available in the 15" if you want to prioritize performance.  
+
+## Making the Purchase
+If you are ordering a computer before your arrival, you will need to coordinate with Alice Mueller (amuller2@lbl.gov) to handle the purchase. Please send an email with the details of your selections.
+
+Otherwise, if you are ordering a computer after you have started, you can make arrangements yourself. See [purchasing for more information.](../policies/purchasing.md)
+
