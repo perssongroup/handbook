@@ -2,6 +2,7 @@
 
 Welcome to Berkeley and the Persson Group! Here is a checklist to help you get started once you have recieved your access to LBL either as an employee or affiliate.
 
+---
 ## First Day Checklist  <a name="office"></a>
 *Very Basics & High Priority Administrative Tasks*
 
@@ -19,6 +20,7 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
     * When you are ready, check-out [Purchasing](../policies/purchasing.md) for more information on placing your order.
     * Ask Rebecca Stern (or others on the Onboarding Team) about checking out the the group's inventory of unclaimed items.
 
+---
 ## First Week Checklist  <a name="office"></a>
 *Also start working through the other checklists and information below when possible*
 * Send an email to Donny Winston (#TODO: UPDATE) requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: [YOUR NAME]".
@@ -31,18 +33,21 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 * Add your name and information to the [Persson Group roster](https://docs.google.com/spreadsheets/d/1p_B3systKq6PYCuHrbT0rGqEl18QWMaqp6x664Za8zw/edit)
 * Print out an updated name tag for your desk. If needed, work with Alice Muller to update the name tag for your office.
 
+---
 ## Research Introduction Checklist <a name="office"></a>
 * Meet with Kristin to plan an appropriate introduction for your specific research, project management, subgroup, etc.
 * Ask to read the proposal that funds your work. This will help explain the impact of your project, the long-term plans and goals, and how your project fits in with other efforts.
 * Get familiar with your [subgroup](../about/meetings.md) and any other individuals you will be working closely with for your research.
 * Generally take the time to learn about other group member's research focuses and areas of expertise to get a sense of who may be your best resource for different questions and who you may be supporting if you are a more senior group member.
 
+---
 ## Computer & IT Checklist <a name="office"></a>
 * Install the lab VPN for connecting to the lab network from home. For example, this lets you download research articles from home. See https://software.lbl.gov for instructions on installation.
 * Contact Eric Sivonxay about getting user accounts set-up for any computing resources you may be using (NERSC, Savio, VASP, etc.).
 * Get connected to the printer. The printer is located in 143C and instructions for how to connect can be found on the [internal group site.](https://sites.google.com/a/lbl.gov/perssongroup/printers-in-persson-group) Julian Self is the current printer czar and can advise you if you are having any difficulties.
 * Begin setting up your research computer. See [setting up you computer](../computing/new_computer.md) and our [internal group site](https://sites.google.com/a/lbl.gov/perssongroup/technical-documentation-and-tutorials) for some installation tutorials and recommended softwares.
 
+---
 ## Payroll Basics <a name="payroll"></a>
 ### LBL Employees
 [LBL Payroll Resources](https://www2.lbl.gov/Workplace/CFO/co/pay/index.html)
