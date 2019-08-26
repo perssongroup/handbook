@@ -44,31 +44,18 @@ Most long-term appointments (graduate student, postdoc, staff) involve purchasin
 Short-term appointments (undergraduate students, internships, etc.) will not involve a computer purchase unless otherwise stated. Instead, an excellent computer can be borrowed from the group’s inventory.
 
 ---
-## Useful Quick Links
-
-[**Persson Group Website**: People](http://perssongroup.lbl.gov/people.html)
-
-[**Internal Group Site**](https://sites.google.com/a/lbl.gov/perssongroup/home)
-
-[**lbl.gov A-Z Index**](http://www.lbl.gov/a-z-index/)
-
-[**UC Berkeley ERSO Intranet**](https://www.erso.berkeley.edu/)
-
----
 ## Onboarding Points of Contact
 
 **Postdoc & Staff Onboarding**: Christian Legaspi, 33-143B
 
 **Graduate Student Onboarding**: Ann Rutt, 33-143G
 
-**LBL Administrative Assistance**: Alice Mueller, 33-122B
+**LBL Administrative Assistance**: Alice Mueller, 33-122B (amuller2@lbl.gov)
 
-**LBL Funding & Payroll Assistance**: Sonia Dominguez, 33-122B
+**LBL Funding & Payroll Assistance**: Sonia Dominguez, 33-122B (scdominguez@lbl.gov)
 
-**Desk Assignments + Group Inventory**: Rebecca Stern, 33-143F
+**Desk Assignments**: Rebecca Stern, 33-143F
 
-**Persson Google Group (email lists, drive, etc.)**: TBD
-
-**Group Meeting**: Trevor Seguin, 33-141B
+[**Persson Group Website**](http://perssongroup.lbl.gov/people.html): See People's page for Group Member emails 
 
 ---
