@@ -11,11 +11,12 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 * Try out your newly created LDAP log-in. Connect to the [lbnl-employee WiFi network](https://commons.lbl.gov/display/itfaq/Wireless+Networking), open your @lbl.gov email, google calendar, etc.
 * Send out an email introducing yourself to perssongroup@lbl.gov (this is the email list for everyone in the Persson group) from your @lbl.gov email address. This is a tradition to help welcome new group members since it can take some time to meet everyone in person. This also serves as a notice for the group to help initiate various onboarding tasks. Here is the [intro email questions template](https://drive.google.com/a/lbl.gov/file/d/1OwWeS6nOFMaYuBvkQ_XuSCswPJ8CFiAf/view?usp=sharing) and an [example introduction email](https://drive.google.com/a/lbl.gov/file/d/1pOgurnt_27VDKqKs3OekR9XXgEcEtaqh/view?usp=sharing) (note permissions to view these documents are tied to your @lbl.gov google account).
 * See Alice Muller with your Employee ID to introduce yourself and set-up B33 after hours access (or send an email including the ID number on your LBL badge). 
-  >**By default, you will *NOT* have off-hours site access to Building 33 (i.e. from 5:30pm to 7am on weekdays, on weekends, holidays)**
+  >By default, you will **NOT** have off-hours site access to Building 33 (i.e. from 5:30pm to 7am on weekdays, on weekends, holidays) unless a request is submitted.
 * Prioritize completing the GERT (General Radiological Worker Training) before the end of your first day.
 * Get your project/funding specific information for making purchases:
     * **Purchasing with LBL Funds:** Ask Sonia Dominguez for the project id, activity id, and SAS Approver associated with your funding to use Ebuy.
     * **Purchasing with UC Berkeley Funds:** To make purchases using UC Berkeley funds, you will need the chart string associated with that funding source which can be obtained from UC Berkeley Research Administration Staff for the College of Engineering. Email [Miriam Kader](http://www.erso.berkeley.edu/erso/content/research-administration) including that your PI is Kristin Persson and ask for the chart string associated with your funding source.
+
 * Begin setting up your desk (ideally before completing the ergonomic self-assessment). Order a computer as soon as possible if you have not done so already. See [Getting a Computer](../getting_started/buy_computer.md) and [Workspace Set-up](../getting_started/workspace.md) for guidelines on selecting a computer, needed accessories, and other equipment. 
     * When you are ready, check-out [Purchasing](../policies/purchasing.md) for more information on placing your order.
     * Ask Rebecca Stern (or others on the Onboarding Team) about checking out the the group's inventory of unclaimed items.
@@ -23,6 +24,7 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 ---
 ## First Week Checklist  <a name="office"></a>
 *Also start working through the other checklists and information below when possible*
+
 * Send an email to Donny Winston (#TODO: UPDATE) requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: [YOUR NAME]".
 * Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day.
 * Orient yourself with LBL's calendar system (Google Calendar). Update your LBL calendar with your schedule so other group members can view your availability.
