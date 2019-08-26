@@ -1,4 +1,4 @@
-# Other Helpful Information <a name="money"></a>
+# Getting Settled: Other Helpful Information <a name="money"></a>
 
 ---
 ## For Graduate Students <a name="students"></a>
@@ -18,6 +18,8 @@ It's important that you establish California residency early in your first semes
 
 [Postdoc Union](http://uaw5810.org): Postdocs have the option to join the union which aims to improve wages, hours, benefits, and other employment aspects for its members. You are welcmoe to ask other postdocs for their opnions based on their experiences with the union as well.
 
+
+---
 ## For Affiliates
 
 LBL sends out daily emails and offers other notification options through [Elements](https://elements.lbl.gov/). In the past, some affiliates were not automatically signed-up for Elements announcements and missed important time sensative information contained in these updates.
