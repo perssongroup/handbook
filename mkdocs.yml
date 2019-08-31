@@ -1,0 +1,39 @@
+site_name: Persson Group Handbook
+
+theme: yeti
+
+nav:
+  - Getting Started:
+    - Before you Arrive: 'getting_started/before.md'
+    - After you Arrive: 'getting_started/after.md'
+    - Getting a Computer : 'getting_started/buy_computer.md'
+    - Workspace Set-Up: 'getting_started/workspace.md'
+    - Getting Settled: 'getting_started/settling.md'
+  - Group Policies:
+    - General: 'policies/general.md'
+    - Purchasing: 'policies/purchasing.md'
+    - Travel: 'policies/travel.md'
+  - Computing:
+    - General Info: 'computing/computing.md'
+    - Computer Setup: 'computing/new_computer.md'
+    - Software: 'computing/software.md'
+    - HPC: 'computing/hpc.md'
+    - Atomate Setup: 'computing/atomate.md'
+    - Calculation Software: 'computing/calculation_software.md'
+  - About:
+    - About: 'about/about.md'
+    - Meetings: 'about/meetings.md'
+    - Group Roster: 'about/roster.md'
+    - Group Jobs: 'about/group_jobs.md'
+    # Acknowlegements to be removed once we verify that the handbook
+    # sufficiently differs than the jain book,
+    - Acknowlegements: 'about/acknowlegements.md'
+
+markdown_extensions:
+  - markdown_fenced_code_tabs:
+      single_block_as_tab: False
+      active_class: 'active'
+      template: 'default'
+
+extra_css:
+  - 'css/code-tabs.css'
