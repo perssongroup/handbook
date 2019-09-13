@@ -7,7 +7,7 @@ Job | Name
 **Group Manager:** Assign desk spaces at LBL and on campus, keep track of laptops (LBL/Berkeley) and large assets with a DOE tag | Rebecca Stern
 **Job Master:** Assign all group jobs, create/remove/transfer jobs as needed, manage job transitions between new group members and alumni | Matt McDermott
 **Onboarding Guide I:** Assist new group members (grad students) in getting started at LBL, create + manage onboarding resources and welcome events | Ann Rutt
-**Onboarding Guide II:** Assist new group members (postdocs/staff) in getting started at LBL, create + manage onboarding resources and welcome events | Christian Legaspi, Ryan Kingsbury
+**Onboarding Guide II:** Assist new group members (postdocs/staff) in getting started at LBL, create + manage onboarding resources and welcome events, add new members to Google Group | Christian Legaspi, Ryan Kingsbury
 **Postdoc HR:** Coordinate interview process for new postdocs | Jianli Cheng
 **Seminar Master:** Schedule/coordinate group talks and seminars | Trevor Seguin
 
