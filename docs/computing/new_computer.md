@@ -51,6 +51,7 @@ cd matminer; python setup.py develop; cd ..
 If you want, you can automatically source activate your environment in your .bash_profile file. This will automatically load your environment when you open a Terminal. Otherwise, you will start off in your default Mac Python.
 
 ### Other things to do
+* Bring the now-empty box to 143C, write your name on it, and add it to the tower. 
 * Set up your Time Machine backup (make sure you have purchased or received an external hard disk).
 https://support.apple.com/en-us/HT204412
 * You can also set up an online backup plan (e.g., Crashplan or Backblaze) to provide you with a second backup.
