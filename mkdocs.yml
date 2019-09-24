@@ -10,9 +10,9 @@ nav:
     - Workspace Set-Up: 'getting_started/workspace.md'
     - Getting Settled: 'getting_started/settling.md'
   - Group Policies:
-    - General: 'policies/general.md'
+    - Leave Time: 'policies/leave_time.md'
     - Purchasing: 'policies/purchasing.md'
-    - Travel: 'policies/travel.md'
+    - Conference Travel: 'policies/conference_travel.md'
   - Computing:
     - General Info: 'computing/computing.md'
     - Computer Setup: 'computing/new_computer.md'
