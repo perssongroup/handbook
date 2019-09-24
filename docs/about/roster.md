@@ -1,3 +1,3 @@
 # Group Roster <a name="roster"></a>
 
-The group roster is available on the internal group site and the [google drive](https://sites.google.com/a/lbl.gov/perssongroup/group-info/group-roster)
+The group roster is available on the group's [Google Drive](https://docs.google.com/spreadsheets/d/1p_B3systKq6PYCuHrbT0rGqEl18QWMaqp6x664Za8zw/edit?gid=0#gid=0).
