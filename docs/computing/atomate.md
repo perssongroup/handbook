@@ -167,6 +167,7 @@ nodes: 1
 walltime: '24:00:00'
 account: matgen
 job_name: knl_launcher
+signal: SIGINT@60
 qos: regular
 constraint: 'knl'
 pre_rocket: |
