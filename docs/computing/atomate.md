@@ -130,8 +130,8 @@ category: ''
 query: '{}'
 env:
     db_file: /global/homes/s/sivonxay/.conda/envs/cms/config/db.json
-    vasp_cmd: 'srun -N 1 -n 64 -c 4 --cpu_bind=cores vasp_std'
-    gamma_vasp_cmd: 'srun -N 1 -n 64 -c 4 --cpu_bind=cores vasp_gam'
+    vasp_cmd: 'srun -n 64 -c 4 --cpu_bind=cores vasp_std'
+    gamma_vasp_cmd: 'srun -n 64 -c 4 --cpu_bind=cores vasp_gam'
     scratch_dir: /global/cscratch1/sd/sivonxay
     incar_update:
 ```
