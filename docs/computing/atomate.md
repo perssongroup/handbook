@@ -211,6 +211,11 @@ Note: specifying singleshot in the queue adapter will limit each reserved job to
 
 For more information on best practices for running VASP on multiple nodes (i.e. how to set vasp_cmd in my_fworker.yaml based on the number of nodes requested in my_qadapter) see the [NERSC vasp training](https://www.NERSC.gov/users/training/events/vasp-user-hands-on-knl-training-june-18-2019/)
 
+### Choose the appropriate number of nodes, processes, and cores/process:
+Follow this [flowchart](https://docs.google.com/document/d/1pmnX48ZwmFSsamNg9Z2veiRUeSA4EwSNFteHfXVPUgQ/edit?usp=sharing) to decide how many nodes to request, the number of parallel processes to use, and the number of cores to use for each parallel process. The rule of thumb to remember is that you should use all of the cores for every node that you request. For example, if there are 256 cores per node, you request N nodes, n processes, and c cores/process, then the following relationship must hold: 256*N = n*c
+
+Specify N in my_qadapter.yaml and specify n and c in my_fworker.yaml within your configuration folder.
+
 ## Configure Bash profile:
 
 Append the following lines to the .bashrc.ext file (which is located in your home directory, e.g. /global/homes/s/sivonxay)
