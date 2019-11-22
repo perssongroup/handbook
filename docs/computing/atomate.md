@@ -336,7 +336,7 @@ lpad get_fws -s RUNNING
 lpad get_fws -q '{"state":"RUNNING", "fw_id":{"$gte": 50}}'
 ```
 
-Rerunning fizzled (Failed) fireworks
+### Rerunning fizzled (Failed) fireworks
 ``` example_1
 lpad rerun_fws -i <fw_id>
 ```
