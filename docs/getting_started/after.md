@@ -13,7 +13,7 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 
 [**UC Berkeley ERSO Intranet**](https://www.erso.berkeley.edu/)
 
-[**UC Berkeley UCPath Payroll, benefits, and HR system](https://ucpath.berkeley.edu/home)
+[**UC Berkeley UCPath Payroll, benefits, and HR system**](https://ucpath.berkeley.edu/home)
 
 ---
 ## First Day Checklist
