@@ -26,14 +26,16 @@ As mentioned above, the HR processes and orientation will vary depending on whet
 * Once everything has been successfully processed, you should recieve an email from LBL HR regarding an in person new hire appointment with a general national lab orientation and to complete new hire paperwork. This appointment is held at the national lab and further instructions will be sent regarding location, accessing the lab, and getting your badge afterwards.
 
 ### UC Berkeley Employees
-* Once your hiring paperwork with UC Berkeley has been processed, you should recieve an email regarding an in person new hire appointment with UC Berkeley HR to complete new hire paperwork. 
-* See [Obtaining Your Cal 1 Card at https://cal1card.berkeley.edu/](https://cal1card.berkeley.edu/) for information on how to get your Cal1 card (which serves as an ID card for UC Berkeley). Postdocs will need to wait until after your new hire paperwork meeting to go to the Cal1 Card Office. 
-* For information on setting-up your CalNet ID [click here](https://calnetweb.berkeley.edu/calnet-me/information-new-users). Your CalNet ID is used for authentification for UC Berkeley resources. Postdocs will need to wait until after their UC Berkeley new hire paperwork has been processed before they can activate their CalNet ID.
-* Proceed to follow the instructions for LBL Affiliates. Due to Kristin's joint appointment, all graduate students and postdocs hired through UC Berkeley also have LBL Affiliate status to access the group's offices and resources at the national lab.
+* Once your hiring paperwork with UC Berkeley has been processed, you should recieve an email regarding an in person new hire appointment with UC Berkeley HR to complete new hire paperwork. After this appointment, it may take 1-2 weeks for your information to be
+populated into UC Berkeley's HR and payroll system ([UCPath](https://ucpath.berkeley.edu/home)).
+* See [Obtaining Your Cal 1 Card at https://cal1card.berkeley.edu/](https://cal1card.berkeley.edu/) for information on how to get your Cal1 card (which serves as an ID card for UC Berkeley). Postdocs will need to wait until after your new hire paperwork meeting and 
+after you have an active profile in UCPath to go to the Cal1 Card Office. 
+* For information on setting-up your CalNet ID [click here](https://calnetweb.berkeley.edu/calnet-me/information-new-users). Your CalNet ID is used for authentification for UC Berkeley resources. Postdocs will need to wait until after their UC Berkeley new hire paperwork and UCPath information has been processed before they can activate their CalNet ID.
+* Proceed to follow the instructions for LBL Affiliates Due to Kristin's joint appointment, all graduate students and postdocs hired through UC Berkeley also have LBL Affiliate status to access the group's offices and resources at the national lab.
 
 ### LBL Affiliates
 * On the Persson Group end, a LBL Affiliate appointment must be processed by Alice Muller before you can obtain your LBL badge.
-* Once your appointment has been processed, you will recieve email instructions from LBL for getting your LBL badge and setting up your LDAP account (used for authentification for national lab resources). Unlike LBL employees, no in person orientation with LBL is required.
+* Once your appointment has been processed, you will recieve email instructions from LBL for getting your LBL badge and setting up your LDAP account (used for authentification for national lab resources). Unlike LBL employees, no in person orientation with LBL is required. Note that your LBL Affiliate appointment does not depend on having a Calnet ID or Cal 1 Card; this can be processed immediately after you complete your UC Berkeley hiring paperwork.
 * If your start date is coming up soon, but you have not recieved any email instructions from LBL, contact Alice Muller asking for an update on the status of your affiliate appointment.
 
 ---
@@ -53,6 +55,10 @@ Short-term appointments (undergraduate students, internships, etc.) will not inv
 **LBL Administrative Assistance**: Alice Mueller, 33-122B (amuller2@lbl.gov)
 
 **LBL Funding & Payroll Assistance**: Sonia Dominguez, 33-122B (scdominguez@lbl.gov)
+
+**UC Berkeley Administrative Assistance**: David Anderssen, Krystle Bartholomew, or Vincent Ianniello, ERSO HR Operations, 199ME Cory Hall (ersohrops@erso.berkeley.edu)
+
+**UC Berkeley Funding & Payroll Assistance**: Miriam Kader, 353 Cory Hall (mkader@berkeley.edu)
 
 **Desk Assignments**: Rebecca Stern, 33-143F
 

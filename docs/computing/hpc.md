@@ -173,12 +173,11 @@ Berkeley Research Computing (BRC) hosts the Savio supercomputing cluster. Savio 
 *Faculty Computing Allowance (FCA) - Limited computing time provided to each Faculty member using Savio.
 
 #### Setting up a BRC account
-To get an account on Savio, fill out the form linked below, making sure to select the appropriate allocation. Typically, most students and postdocs will be running on co_lsdi.
-http://research-it.berkeley.edu/services/high-performance-computing/getting-account
+_Please make sure you will actually be performing work on Savio before requesting an account._ To get an account on Savio, fill out the (form)[https://docs.google.com/forms/d/e/1FAIpQLScOiGy3v3ZvxqHAKPiU-GNwA_WmUoUUgXKXPZ1j_5dMOS2m6Q/viewform] linked below, making sure to select the appropriate allocation. Typically, most students and postdocs will be running on co_lsdi. For more information, visit (Berkeley Research Computing)[http://research-it.berkeley.edu/services/high-performance-computing]
 
 After your account is made, you'll need to [set up 2-factor authentication](https://research-it.berkeley.edu/services/high-performance-computing/logging-brc-clusters). This will allow you to generate "one time passwords" (OTPs). You will need append a OTP to the end of your NIM password each time you log on to a NERSC cluster. We recommend using Google Authenticator, although any OTP manager will work.
 
-##### Logging on (Setup):
+#### Logging on (Setup):
 
 You must use the SSH protocol to connect to BRC.
 Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`).
@@ -267,6 +266,184 @@ To run on Haswell nodes, use the following slurm submission script:
 #SBATCH --job-name=savio2_job     #Name for the job
 
 mpirun --bind-to core <executable>
+```
+
+
+
+### LBNL Laboratory Research Computing <a name="lrc"></a>
+Lawrence Berkeley National Laboratory's *Laboratory Research Computing* (LRC) hosts the Lawrencium supercomputing cluster. LRC operates on a condo computing model, in which many PI's and researchers purchase nodes to add to the system. Nodes are accessible to all who have access to the system, though priority access will be given to contributors of the specific nodes. BRC provides 3 types of allocations:
+*Condo - Priority access for nodes contributed by the condo group.
+*PI Computing Allowance (PCA) - Limited computing time provided to each PI member using Lawrencium.
+
+#### Persson Group ES1 GPU Node Specs:
+<table style="margin-bottom:1em;border-collapse:collapse;border-spacing:0px;padding:0px;color:rgb(51,51,51);font-family:helvetica neue,helvetica,arial,sans-serif;font-size:14px;line-height:19.6px;background-color:rgb(245,245,245)">
+<tbody style="border-top:1px solid rgb(213,213,213)">
+<tr>
+<th colspan="2" style="border-bottom:0px none rgb(204,204,204);border-right-color:rgb(204,204,204);border-left-color:rgb(204,204,204);padding:5px;width:760px;height:19px;background-color:rgb(238,238,238)">GPU Computing Node</th>
+</tr>
+<tr>
+<td style="padding:5px;border-color:rgb(204,204,204);width:103px;height:19px">Processors</td>
+<td style="padding:5px;border-color:rgb(204,204,204);width:657px;height:19px">Dual-socket,&nbsp;<span style="line-height:19.6px">4-core, 2.6GHz Intel 4112 processors</span>&nbsp;(8 cores/node)</td>
+</tr>
+<tr>
+<td style="padding:5px;border-color:rgb(204,204,204);width:103px;height:19px">Memory</td>
+<td style="padding:5px;border-color:rgb(204,204,204);width:657px;height:19px">192GB (8 X 8GB) 2400Mhz DDR4 RDIMMs</td>
+</tr>
+<tr>
+<td style="padding:5px;border-color:rgb(204,204,204);width:103px;height:19px">Interconnect</td>
+<td style="padding:5px;border-color:rgb(204,204,204);width:657px;height:19px">56Gb/s Mellanox ConnectX5 EDR Infiniband interconnect</td>
+</tr>
+<tr>
+<td style="padding:5px;border-color:rgb(204,204,204);width:103px;height:19px">GPU</td>
+<td style="padding:5px;border-color:rgb(204,204,204);width:657px;height:19px">2 ea. Nvidia Tesla v100 accelerator boards</td>
+</tr>
+<tr>
+<td style="padding:5px;border-color:rgb(204,204,204);width:103px;height:19px">Hard Drive</td>
+<td style="padding:5px;border-color:rgb(204,204,204);width:657px;height:19px">500GB SSD (Local swap and log files)</td>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+
+#### Setting up a LRC account
+_Please make sure you will actually be performing work on Lawrencium before requesting an account._ To get an account on Lawrencium, fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScTqDeiv8glP88YhAyePDE4ZDZcv_yhFQVUn4roVwZi984iyw/viewform) and the [user agreement](http://sites.google.com/a/lbl.gov/high-performance-computing-services-group/useragreement) to a one-time password token generator and your account. You will also need to [set up a MFA token for your account](https://sites.google.com/a/lbl.gov/high-performance-computing-services-group/authentication/linotp-usage).
+
+#### Before logging on (setup)
+
+You must use the SSH protocol to connect to Lawrencium.
+Make sure you have SSH installed on your local computer (you can check this by typing `which ssh`).
+Make sure you have a directory named $HOME/.ssh on your local computer (if not, make it).
+
+After your account is made, you'll need to set up 2-factor authentication. We recommend using Google Authenticator, although any OTP manager will work.
+
+You should now be ready to log on!
+
+#### Logging on to LRC
+To access your shiny new Lawrencium account, you'll want to SSH onto the system from a terminal.
+```
+ssh your_username@lrc-login.lbl.gov
+```
+You will be prompted to enter your pin+OTP (e.g. `<your_pin><OTP>` without any spaces). This will take you to your home directory. You may also find it useful to set up an alias for signing on to HPC resources. To do this, add the following line to your bash_profile:
+```
+alias lawrencium="ssh <your_username>@lrc-login.lbl.gov"
+```
+Now you will be able to initialize a SSH connection to Savio just by typing `lawrencium` in the command line and pressing enter.
+
+#### Running on LRC
+Under the condo accounts condo_mp_cf1 (56 cf1 nodes) and condo_mp_es1 (1 gpu node), we have exclusive access to certain Lawrencium nodes. If you do not know which of these node groups you are supposed to be running on, you probably shouldn't be running on Lawrencium. Additionally, we have the ability to run on ES1 GPU nodes at low priority mode (es_lowprio).
+
+##### Accessing Software binaries
+Software within BRC is managed through modules. You can access precompiled, preinstalled software by loading the desired module.
+```
+module load <module_name>
+```
+To view a list of currently installed programs, use the following command:
+```
+module avail
+```
+To view the currently loaded modules use the command:
+```
+module list
+```
+Software modules can be removed by using either of the following two commands:
+```
+module unload <module_name>
+module purge
+```
+
+#### Using Persson Group Owned LRC nodes
+To run on the  nodes, use the following job script, replacing <executable> with the desired job executable name.
+
+```CF1_KNL
+#!/bin/bash
+# Job name:
+#SBATCH --job-name=<job_name>
+#
+# Partition:
+#SBATCH --partition=cf1
+#
+# QoS:
+#SBATCH --qos=condo_mp_cf1
+#
+# Account:
+#SBATCH --account=lr_mp
+#
+# Nodes (IF YOU CHANGE THIS YOU MUST CHANGE ntasks too!!!):
+#SBATCH --nodes=1
+#
+# Processors (MUST BE 64xNUM_NODES ALWAYS!!!):
+#SBATCH --ntasks=64
+#
+# Wall clock limit:
+#SBATCH --time=24:00:00
+
+## Run command
+
+module load vasp/6.prerelease-vdw
+export OMP_PROC_BIND=true
+export OMP_PLACES=threads
+export OMP_NUM_THREADS=1 # NEVER CHANGE THIS!!
+
+mpirun --bind-to core <executable>
+```
+```ES1_condo
+#!/bin/bash
+# Job name:
+#SBATCH --job-name=<job_name>
+#
+# Partition:
+#SBATCH --partition=es1
+#
+# QoS:
+#SBATCH --qos=condo_mp_es1
+#
+# Account:
+#SBATCH --account=lr_mp
+#
+# GPUs:
+#SBATCH --gres=gpu:2
+#
+# CPU cores:
+#SBATCH --cpus-per-task=8
+#
+# Constraints:
+#SBATCH --constraint=es1_v100
+#
+# Wall clock limit:
+#SBATCH --time=24:00:00
+
+export CUDA_VISIBLE_DEVICES=0,1
+module load cuda/10.0
+```
+```ES1_lowprio
+#!/bin/bash
+# Job name:
+#SBATCH --job-name=<job_name>
+#
+# Partition:
+#SBATCH --partition=es1
+#
+# QoS:
+#SBATCH --qos=es_lowprio
+#
+# Account:
+#SBATCH --account=lr_mp
+#
+# GPUs:
+#SBATCH --gres=gpu:2
+#
+# CPU cores:
+#SBATCH --cpus-per-task=8
+#
+# Constraints:
+#SBATCH --constraint=es1_v100
+#
+# Wall clock limit:
+#SBATCH --time=24:00:00
+
+export CUDA_VISIBLE_DEVICES=0,1
+module load cuda/10.0
 ```
 
 ### Additional resources
