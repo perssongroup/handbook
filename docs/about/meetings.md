@@ -8,6 +8,8 @@ Given our new additions and growth, we have decided to implement new subgroups, 
 
 The responsibility of subgroup leads is to find a slot where everyone can make bi-weekly meetings and send out calendar calls and reminders. The current subgroups are (leads are in bold):
 
+** NOTE: These subgroup assignments are out of date. **
+
 # Subgroups <a name="sgs"></a>
 
 <span style="font-size:1.5em;">Materials Project</span>
