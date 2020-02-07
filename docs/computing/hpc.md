@@ -334,7 +334,7 @@ Now you will be able to initialize a SSH connection to Savio just by typing `law
 Under the condo accounts condo_mp_cf1 (56 cf1 nodes) and condo_mp_es1 (1 gpu node), we have exclusive access to certain Lawrencium nodes. If you do not know which of these node groups you are supposed to be running on, you probably shouldn't be running on Lawrencium. Additionally, we have the ability to run on ES1 GPU nodes at low priority mode (es_lowprio).
 
 ##### Accessing Software binaries
-Software within BRC is managed through modules. You can access precompiled, preinstalled software by loading the desired module.
+Software within LRC is managed through modules. You can access precompiled, preinstalled software by loading the desired module.
 ```
 module load <module_name>
 ```
@@ -445,6 +445,11 @@ module load cuda/10.0
 export CUDA_VISIBLE_DEVICES=0,1
 module load cuda/10.0
 ```
+
+#### Interactive Jobs on the Group GPU Condo Node
+To run an interactive session on the GPU node, use the following two commands to provision and log in to the node: 
+`salloc --time=24:00:00 --nodes=1 -p es1 --gres=gpu:2 --cpus-per-task=8 --qos=condo_mp_es1 --account=lr_mp`
+`srun --pty -u bash -i`
 
 ### Additional resources
 Other Persson group members and the NERSC website are both excellent resources for getting additional help. If that fails, you can reach out to the NERSC Operations staff:
