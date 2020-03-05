@@ -130,8 +130,8 @@ category: ''
 query: '{}'
 env:
     db_file: /global/homes/s/sivonxay/.conda/envs/cms/config/db.json
-    vasp_cmd: 'srun -N 1 -n 64 -c 4 --cpu_bind=cores vasp_std'
-    gamma_vasp_cmd: 'srun -N 1 -n 64 -c 4 --cpu_bind=cores vasp_gam'
+    vasp_cmd: 'srun -n 64 -c 4 --cpu_bind=cores vasp_std'
+    gamma_vasp_cmd: 'srun -n 64 -c 4 --cpu_bind=cores vasp_gam'
     scratch_dir: /global/cscratch1/sd/sivonxay
     incar_update:
 ```
@@ -167,6 +167,7 @@ nodes: 1
 walltime: '24:00:00'
 account: matgen
 job_name: knl_launcher
+signal: SIGINT@60
 qos: regular
 constraint: 'knl'
 pre_rocket: |
@@ -210,6 +211,11 @@ Available queues, partitions, and qos can be found at the following links:
 Note: specifying singleshot in the queue adapter will limit each reserved job to running only one firework (even if other fireworks are ready and could run with your remaining wall time). Can change to rapidfire but this may result in lost runs (fireworks that do not complete because they run out of wall time).
 
 For more information on best practices for running VASP on multiple nodes (i.e. how to set vasp_cmd in my_fworker.yaml based on the number of nodes requested in my_qadapter) see the [NERSC vasp training](https://www.NERSC.gov/users/training/events/vasp-user-hands-on-knl-training-june-18-2019/)
+
+### Choose the appropriate number of nodes, processes, and cores/process:
+Follow this [flowchart](https://docs.google.com/document/d/1pmnX48ZwmFSsamNg9Z2veiRUeSA4EwSNFteHfXVPUgQ/edit?usp=sharing) to decide how many nodes to request, the number of parallel processes to use, and the number of cores to use for each parallel process. The rule of thumb to remember is that you should use all of the cores for every node that you request. For example, if there are 256 cores per node, you request N nodes, n processes, and c cores/process, then the following relationship must hold: 256*N = n*c
+
+Specify N in my_qadapter.yaml and specify n and c in my_fworker.yaml within your configuration folder.
 
 ## Configure Bash profile:
 
@@ -330,7 +336,7 @@ lpad get_fws -s RUNNING
 lpad get_fws -q '{"state":"RUNNING", "fw_id":{"$gte": 50}}'
 ```
 
-Rerunning fizzled (Failed) fireworks
+### Rerunning fizzled (Failed) fireworks
 ``` example_1
 lpad rerun_fws -i <fw_id>
 ```

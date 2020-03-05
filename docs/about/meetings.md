@@ -8,6 +8,8 @@ Given our new additions and growth, we have decided to implement new subgroups, 
 
 The responsibility of subgroup leads is to find a slot where everyone can make bi-weekly meetings and send out calendar calls and reminders. The current subgroups are (leads are in bold):
 
+** NOTE: These subgroup assignments are out of date. **
+
 # Subgroups <a name="sgs"></a>
 
 <span style="font-size:1.5em;">Materials Project</span>
@@ -25,5 +27,8 @@ The responsibility of subgroup leads is to find a slot where everyone can make b
 <span style="font-size:1.5em;">Synthesis</span>
 > **John Dagdelen**, Rebecca Stern, David Mrdjenovich, Matthew McDermott, Matthew Horton
 
-<span style="font-size:1.5em;">Electrolytes-SEI</span>
-> **Trevor Seguin**, Brandon Wood, Julian Self, Tingzheng Hou, Sam Blau, Kara Fong
+<span style="font-size:1.5em;">Electrolytes</span>
+> **Trevor Seguin**, Julian Self, Tingzheng Hou, Sam Blau, Kara Fong
+
+<span style="font-size:1.5em;">SEI</span>
+> **Sam Blau**, Julian Self, Tingzheng Hou, Trevor Seguin, Kara Fong

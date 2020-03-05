@@ -13,7 +13,7 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 
 [**UC Berkeley ERSO Intranet**](https://www.erso.berkeley.edu/)
 
-[**UC Berkeley UCPath Payroll, benefits, and HR system](https://ucpath.berkeley.edu/home)
+[**UC Berkeley UCPath Payroll, benefits, and HR system**](https://ucpath.berkeley.edu/home)
 
 ---
 ## First Day Checklist
@@ -48,7 +48,7 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 ## First Week Checklist
 *Also start working through the other checklists and information below when possible*
 
-* Send an email to Christian Legaspi requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: [YOUR NAME]".
+* Send an email to Ryan Kingsbury requesting to be added to the Persson Group email lists and team google drive (if you do not have access already). Use the subject line "Onboarding: [YOUR NAME]".
 
 * Complete all LBL/UC Berkeley training courses including the ergonomic self-assessment. Note the GERT must be completed on your first day. Also note that UC Berkeley required training courses will not be assigned
 until after your UCPath profile is set up, which can take 1-2 weeks after your start date.
