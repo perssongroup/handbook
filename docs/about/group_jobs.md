@@ -14,8 +14,8 @@ Job | Name
 # Infrastructure
 Job | Name
 -----------------|--------------
-**Group Webmaster I:** Update the Persson Group website "People" section | Koki Muraoka
-**Group Webmaster II:** Update the Persson Group website "Publications" section | Guy Moore
+**Group Webmaster I:** Update the Persson Group website "Publications" section | Koki Muraoka
+**Group Webmaster II:** Update the Persson Group website "People" section | Guy Moore
 **Group Webmaster III:** Update the Persson Group website "News" section | Evan Spotte-Smith
 **Internal Site Manager I:** Manage internal group site and its resources| David Mrdjenovich
 **Internal Site Manager II:** Manage internal group site and its resources | Kara Fong
