@@ -1,0 +1,1 @@
+A large part of the material in the 'Getting Started' guide was adopted from the [Jain Group Handbook](https://hackingmaterials.lbl.gov/handbook.pdf), written by Anubhav Jain.
