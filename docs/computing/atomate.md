@@ -372,8 +372,9 @@ lpad detect_lostruns --rerun
 # Viewing Database and Outputs:
 Download and install Robo 3T from the following [link](https://robomongo.org/download)
 ## Setup connection using mongodb credentials
-![](/resources/mongodb_1.png)
-![](/resources/mongodb_2.png)
+
+![Robo 3T Setup 1](resources/mongodb_1.png)
+![Robo 3T Setup 2](resources/mongodb_2.png)
 
 ## Querying collections
 
