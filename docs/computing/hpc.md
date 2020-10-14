@@ -173,7 +173,7 @@ Berkeley Research Computing (BRC) hosts the Savio supercomputing cluster. Savio 
 *Faculty Computing Allowance (FCA) - Limited computing time provided to each Faculty member using Savio.
 
 #### Setting up a BRC account
-_Please make sure you will actually be performing work on Savio before requesting an account._ To get an account on Savio, fill out the (form)[https://docs.google.com/forms/d/e/1FAIpQLScOiGy3v3ZvxqHAKPiU-GNwA_WmUoUUgXKXPZ1j_5dMOS2m6Q/viewform] linked below, making sure to select the appropriate allocation. Typically, most students and postdocs will be running on co_lsdi. For more information, visit (Berkeley Research Computing)[http://research-it.berkeley.edu/services/high-performance-computing]
+_Please make sure you will actually be performing work on Savio before requesting an account._ To get an account on Savio, fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLScOiGy3v3ZvxqHAKPiU-GNwA_WmUoUUgXKXPZ1j_5dMOS2m6Q/viewform) linked below, making sure to select the appropriate allocation. Typically, most students and postdocs will be running on co_lsdi. For more information, visit (Berkeley Research Computing)[http://research-it.berkeley.edu/services/high-performance-computing]
 
 After your account is made, you'll need to [set up 2-factor authentication](https://research-it.berkeley.edu/services/high-performance-computing/logging-brc-clusters). This will allow you to generate "one time passwords" (OTPs). You will need append a OTP to the end of your NIM password each time you log on to a NERSC cluster. We recommend using Google Authenticator, although any OTP manager will work.
 
