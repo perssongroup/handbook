@@ -7,3 +7,5 @@ _site/
 *.orig
 
 site/
+
+.idea/

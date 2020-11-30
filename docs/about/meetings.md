@@ -1,34 +1,24 @@
 # Group Meeting <a name="group"></a>
-There is a mandatory 1 hr group meeting that occurs approximately every two weeks. At group meeting, one of the group members will give a talk on their research. You will be placed on a rotating [schedule](https://sites.google.com/a/lbl.gov/perssongroup/group-meeting) that will have you present your work about every 1 year.
+There is a mandatory 1 hr group meeting that occurs approximately every two weeks. At
+ group meeting, one of the group members will give a talk on their research. You
+ will be placed on a rotating [schedule](https://sites.google.com/a/lbl.gov/perssongroup/group-meeting) that will have you present your work approximately once per year.
 
 ---
 
 # Subgroup Meetings <a name="sub"></a>
-Given our new additions and growth, we have decided to implement new subgroups, associated leaders, and members. Undergraduate students are welcome to join any subgroup they want, but be aware that subgroup meetings probably can't be moved around to fit undergraduate members' schedules.
+As of November 2020, we have implemented a new subgroup system, reflected below:
 
-The responsibility of subgroup leads is to find a slot where everyone can make bi-weekly meetings and send out calendar calls and reminders. The current subgroups are (leads are in bold):
+# Research Subgroups <a name="sgs"></a>
+* **Periodic Bulk DFT** (i.e., VASP) -- Jimmy Shen
+* **Periodic Slab DFT** (i.e., VASP surfaces) -- Ruoxi Yang
+* **Molecular DFT** (i.e., Gaussian/QChem) -- TBD
+* **MD and Electrolytes** -- Julian Self
+* **Machine Learning** -- Mingjian Wen
+* **Reaction networks** / SEI -- Sam Blau
 
-** NOTE: These subgroup assignments are out of date. **
+# Non-Research Subgroups <a name="sgs"></a>
 
-# Subgroups <a name="sgs"></a>
-
-<span style="font-size:1.5em;">Materials Project</span>
-> **Donny Winston**, Shyam Dwaraknath, Patrick Huck, John Dagdelen, David Mrdjenovich, Matthew Horton
-
-<span style="font-size:1.5em;">Spectroscopy</span>
-> **Shyam Dwaraknath**, Handong Ling, Matthew McDermott
-
-<span style="font-size:1.5em;">Materials Design (photocatalysts, magnetocalorics, piezoelectrics, TCOs, etc):</span>
-> **Joey Montoya**, Shyam Dwaraknath, Rachel Woods-Robinson, Matthew Horton, Jordan Burns, Handong Ling
-
-<span style="font-size:1.5em;">Electrodes</span>
-> **Jimmy Shen**, Eric Sivonxay, Jianli Cheng, Ann Rutt, Jordan Burns, Matthew Horton
-
-<span style="font-size:1.5em;">Synthesis</span>
-> **John Dagdelen**, Rebecca Stern, David Mrdjenovich, Matthew McDermott, Matthew Horton
-
-<span style="font-size:1.5em;">Electrolytes</span>
-> **Trevor Seguin**, Julian Self, Tingzheng Hou, Sam Blau, Kara Fong
-
-<span style="font-size:1.5em;">SEI</span>
-> **Sam Blau**, Julian Self, Tingzheng Hou, Trevor Seguin, Kara Fong
+* **DEI Subgroup** -- TBD
+* **Journal Club** -- TBD
+* **Coding Subgroup** -- Patrick Huck
+* **Seminar Subgroup** -- Ryan Kingsbury
