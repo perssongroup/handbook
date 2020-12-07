@@ -10,6 +10,7 @@ nav:
     - Workspace Set-Up: 'getting_started/workspace.md'
     - Getting Settled: 'getting_started/settling.md'
   - Group Policies:
+    - Meetings: 'policies/meetings.md'
     - Leave Time: 'policies/leave_time.md'
     - Purchasing: 'policies/purchasing.md'
     - Conference Travel: 'policies/conference_travel.md'
@@ -22,7 +23,6 @@ nav:
     - Molecular Dynamics: 'computing/md.md'
   - About:
     - About: 'about/about.md'
-    - Meetings: 'about/meetings.md'
     - Group Roster: 'about/roster.md'
     - Group Jobs: 'about/group_jobs.md'
     - Group Resources: 'about/group_resources.md'
