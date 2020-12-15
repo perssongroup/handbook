@@ -457,8 +457,10 @@ To run an interactive session on the GPU node, use the following two commands to
 #### Mongo DB
 You should back-up your Mongo DB data frequently. The Mongo DB NERSC offers is not backed-up automatically. It's important to run regular backups during the course of your research.
 For Mongo DB you can:
+
 * Get a free education license for [Studio 3T](https://studio3t.com), right click your database, and click export
 or, 
+
 * use the “mongodump” command line tool, tutorials available online — it’s a one line command
 
 #### NERSC Cori, BRC Savio, LRC Lawrencium
