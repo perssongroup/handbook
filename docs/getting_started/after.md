@@ -59,7 +59,7 @@ until after your UCPath profile is set up, which can take 1-2 weeks after your s
 
 * Join the [Berkeley Theory slack channel](https://berkeleytheory.slack.com) using your @lbl.gov email. Slack is a messaging app that is used across multiple groups and researchers at LBL to communicate about computational materials research, The Materials Project, and other collaborative efforts.
 
-* Send an email to Koki Muraoka with a headshot and tiny bio for the group website (bit of humor in the tiny bio is very welcome).
+* Send an email to Guy Moore (gmoore@lbl.gov) with a headshot and tiny bio for the group website (bit of humor in the tiny bio is very welcome).
 
 * Explore the group’s Team Google Drive. Note some of these documents populate the group's [internal website](https://sites.google.com/a/lbl.gov/perssongroup/home).
 
