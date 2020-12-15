@@ -2,7 +2,7 @@
 
 A member of the Persson Group Onboarding Team will reach out before your expected start date to share this group handbook and coordinate other onboarding efforts to welcome you to the Persson Group. Although many things can only be taken care of after arriving, here are a few simple things you can do in advance. 
 
-If you have not been contacted by the Persson Group Onboarding Team at least one week before your arrival, please reach out to Ryan Kingsbury and Ann Rutt (contact information is on the Persson Group website in Useful Quick Links below). We do our best, but there may have been a miscommunication or oversight on our end if no one has not reached out two weeks before your expected start date.
+If you have not been contacted by the Persson Group Onboarding Team at least one week before your arrival, please reach out to Ryan Kingsbury and Martin Siron (contact information is on the Persson Group website in Useful Quick Links below). We do our best, but there may have been a miscommunication or oversight on our end if no one has not reached out two weeks before your expected start date.
 
 ---
 ## Work Scope and Hiring Details
@@ -48,9 +48,9 @@ Short-term appointments (undergraduate students, internships, etc.) will not inv
 ---
 ## Onboarding Points of Contact
 
-**Postdoc & Staff Onboarding**: Ryan Kingsbury, 33-142G
+**Postdoc & Staff Onboarding**: Ryan Kingsbury, 33-142G (RKingsbury@lbl.gov)
 
-**Graduate Student Onboarding**: Ann Rutt, 33-143G
+**Graduate Student Onboarding**: Martin Siron, 33-143E (martin.siron@berkeley.edu)
 
 **LBL Administrative Assistance**: Alice Mueller, 33-122B (amuller2@lbl.gov)
 

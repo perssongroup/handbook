@@ -451,6 +451,30 @@ To run an interactive session on the GPU node, use the following two commands to
 `salloc --time=24:00:00 --nodes=1 -p es1 --gres=gpu:2 --cpus-per-task=8 --qos=condo_mp_es1 --account=lr_mp`
 `srun --pty -u bash -i`
 
+
+### Back-Up Data Frequently
+
+#### Mongo DB
+You should back-up your Mongo DB data frequently. The Mongo DB NERSC offers is not backed-up automatically. It's important to run regular backups during the course of your research.
+For Mongo DB you can:
+- Get a free education license for Studio 3T (https://studio3t.com), right click your database, and click export
+or, 
+- use the “mongodump” command line tool, tutorials available online — it’s a one line commmand
+
+#### NERSC Cori, BRC Savio, LRC Lawrencium
+You should back-up your "scratch" directory data frequently.
+
+Each cluster has different methods of deleting old data on your scratch directory:
+- Savio deletes data older than 6 months: https://docs-research-it.berkeley.edu/services/high-performance-computing/user-guide/storing-data/
+- Lawrencium does not back-up the scratch directory but backs up other types of directories: https://sites.google.com/a/lbl.gov/high-performance-computing-services-group/lbnl-supercluster/lawrencium#backup
+- Cori has a purging policy on the scratch directory: https://docs.nersc.gov/filesystems/cori-scratch/
+
+You can use one of the following popular tools for backing up raw data in our group:
+- Rclone (https://rclone.org) 
+- Globus
+
+Both of these tools can help backup your raw calculation files to your Google Drive, or Box Drive, or even external hard drives.
+
 ### Additional resources
 Other Persson group members and the NERSC website are both excellent resources for getting additional help. If that fails, you can reach out to the NERSC Operations staff:
 
