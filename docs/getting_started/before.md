@@ -48,9 +48,9 @@ Short-term appointments (undergraduate students, internships, etc.) will not inv
 ---
 ## Onboarding Points of Contact
 
-**Postdoc & Staff Onboarding**: Ryan Kingsbury, 33-142G
+**Postdoc & Staff Onboarding**: Ryan Kingsbury, 33-142G (RKingsbury@lbl.gov)
 
-**Graduate Student Onboarding**: Ann Rutt, 33-143G
+**Graduate Student Onboarding**: Martin Siron, 33-143E (martin.siron@berkeley.edu)
 
 **LBL Administrative Assistance**: Alice Mueller, 33-122B (amuller2@lbl.gov)
 
