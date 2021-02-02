@@ -61,7 +61,7 @@
 ## Research Subgroups <a name="sgs"></a>
 * **Periodic Bulk DFT** (i.e., VASP) -- Jimmy Shen
 * **Periodic Slab DFT** (i.e., VASP surfaces) -- Ruoxi Yang
-* **Molecular DFT** (i.e., Gaussian/QChem) -- TBD
+* **Molecular DFT** (i.e., Gaussian/QChem) -- Trevor Seguin
 * **MD and Electrolytes** -- Julian Self
 * **Machine Learning** -- Mingjian Wen
 * **Reaction networks** / SEI -- Sam Blau
@@ -70,14 +70,11 @@
 
 * **DEI Subgroup** -- TBD
     * Learn about and discuss topics related to Diversity, Equity, and Inclusion, especially as they relate to academia and science
-* **Journal Club** -- TBD
-    *Discussion of interesting papers
-    * The subgroup organizer will designate one member to pick a paper and lead the discussion in each meeting on a rotating basis
+* **Journal Club** -- Ryan Kingsbury
+    * An additional place for us to connect and talk less formally about work-related stuff
+    * The subgroup organizer will designate one member to lead the discussion in each meeting on a rotating basis. You can opt out if you want. You can also volunteer to be bumped forward on the schedule.
+    * Leading a discussion means that you bring something to share with the group. It does not mean you have to prepare slides! You can bring a paper you found interesting, a talk you want to practice, a resource you want to share, or a topic for discussion (like publication ethics, time and project management strategies, teaching approaches, etc.)
 * **Coding Subgroup** -- Patrick Huck
     * Discussion of pymatgen/atomate/custodian/etc. development (recent and anticipated PRs, new features, etc.)
     * Coding best practices, tips, and tricks
     * Examples given in subgroup may be developed into documentation
-* **Seminar Subgroup** -- Ryan Kingsbury
-    *Opportunity for one group member to give a 20-min conference style talk on a topic of their choice, and solicit feedback on presentation skills
-    * The subgroup organizer will coordinate a schedule of presenters based on requests
-    * Speakers should prepare a 15-20 min presentation and indicate what kind of feedback would be useful to them (e.g. content, delivery, graphics, general discussion)
