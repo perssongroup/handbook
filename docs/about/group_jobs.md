@@ -1,5 +1,5 @@
 # Persson Group Jobs - Spring 2021
-(Last updated Novemeber 30, 2020)
+(Last updated 02/01/21)
 
 #Administrative
 Job | Name
@@ -27,13 +27,15 @@ Job | Name
 -----------------|--------------
 **DFT + Atomate/Pymatgen Support:** Assist with creating DFT-based workflows, manage VASP licenses, and answer questions about pymatgen | Jason Munro, Jimmy Shen, Matt Horton
 **Emmet Guru:** Manage database builders; train new people in builders | Shyam Dwaraknath
-**HPC Resource Manager:** Apply for time on NERSC and NREL, distribute and manage NERSC time, VASP compilation on Savio, Lawrencium, and Eagle | Eric Sivonxay
 **Matsci.org Moderator:** Manage Q&A about Materials Project on matsci.org | Maxwell Venetos
+**NERSC Resource Manager:** Distribute computing time, monitor/plan group usage, submit annual proposals for compute time, and manage user access to the jcesr/matgen project directories and resources | Howard Li
+**NREL Point of Contact:** Monitor computing time, write NREL HPC proposals, and interface with NREL staff | Hetal Patel
 **MD Wizard:** Assist with setup and running of molecular dynamics simulations | Kara Fong
 **Molecular Explorer:** Assist with QChem workflows and compiling support | Sam Blau
+**Savio/Lawrencium Support:** Manage accounts, assist users with job/system setup, and assist in VASP compilation on Savio/Lawrencium | Eric Sivonxay
 
 #Extracurriculars
-Job | Name
+Job | Names
 -----------------|--------------
 <span style="color:maroon">** \*Coffee Tsar:** Supply coffee for espresso machine | Ruoxi Yang </span>
 <span style="color:maroon">** \*Group Chef:** Prepare snacks/food for group meetings | Jordan Burns, Caitlin McCandler, Jimmy Shen </span>
@@ -44,4 +46,5 @@ Job | Name
 **Social Chair:** <span style="color:maroon">\*Plan major group outings and retreat; </span> assist in planning other socials | Alex Epstein, Handong Ling
 **Social Media Chair:** Represent the group on Twitter/Facebook; assist in outreach | John Dagdelen
 
-<span style="color:maroon"> \* Indicates job duties that are paused during COVID-19 pandemic. </span>
+<span style="color:maroon"> \* Indicates job duties that are currently paused for 
+the duration of the COVID-19 pandemic. </span>
