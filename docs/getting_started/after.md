@@ -27,7 +27,7 @@ Welcome to Berkeley and the Persson Group! Here is a checklist to help you get s
 
 * Send out an email introducing yourself to perssongroup@lbl.gov (this is the email list for everyone in the Persson group) from your @lbl.gov email address. This is a tradition to help welcome new group members since it can take some time to meet everyone in person. This also serves as a notice for the group to help initiate various onboarding tasks. Here is the [intro email questions template](https://drive.google.com/a/lbl.gov/file/d/1OwWeS6nOFMaYuBvkQ_XuSCswPJ8CFiAf/view?usp=sharing) and an [example introduction email](https://drive.google.com/a/lbl.gov/file/d/1pOgurnt_27VDKqKs3OekR9XXgEcEtaqh/view?usp=sharing) (note permissions to view these documents are tied to your @lbl.gov google account).
 
-* See Alice Muller with your Employee ID to introduce yourself and set-up B33 after hours access (or send an email including the ID number on your LBL badge). 
+* Request access to building 33 for your LBL badge by using this [self-serving website](https://site-security.lbl.gov/service/badging-building-access/building-access/). You should select "33 Perimeter," "33 1st floor Office / lab area," "LBLN Business Need Access," and "LBNL Gates/50 Complex/Library."
   >By default, you will **NOT** have off-hours site access to Building 33 (i.e. from 5:30pm to 7am on weekdays, on weekends, holidays) unless a request is submitted.
 
 * Prioritize completing the GERT (General Radiological Worker Training) before the end of your first day.
