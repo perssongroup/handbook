@@ -462,6 +462,8 @@ For Mongo DB you can:
 or, 
 
 * use the “mongodump” command line tool, tutorials available online — it’s a one line command
+  
+```mongodump --host=<host e.g. mongo01.nersc.gov> --port=20717 --username=<username> --password="<password>" --db="<db_name>" --authenticationDatabase="<db_name (same as --db flag)>" --out="<path to directory>"```
 
 #### NERSC Cori, BRC Savio, LRC Lawrencium
 You should back-up your "scratch" directory data frequently.
