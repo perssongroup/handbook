@@ -59,10 +59,10 @@
 * Research subgroups are organized by theme according to different methods. As of November 2020, we have the following subgroups:
 
 ## Research Subgroups <a name="sgs"></a>
-* **Periodic Bulk DFT** (i.e., VASP) -- Jimmy Shen
+* **Periodic Bulk DFT** (i.e., VASP) -- Jianli Cheng
 * **Periodic Slab DFT** (i.e., VASP surfaces) -- Ruoxi Yang
-* **Molecular DFT** (i.e., Gaussian/QChem) -- Trevor Seguin
-* **MD and Electrolytes** -- Julian Self
+* **Molecular DFT** (i.e., Gaussian/QChem) -- Evan Spotte-Smith
+* **MD and Electrolytes** -- Tingzheng Hou
 * **Machine Learning** -- Mingjian Wen
 * **Reaction networks** / SEI -- Sam Blau
 
