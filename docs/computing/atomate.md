@@ -313,6 +313,9 @@ tmux attach -t background_launcher
 For more tmux commands, see the [tmux cheatsheet](https://tmuxcheatsheet.com/)
 
 Use qlaunch command to reserve jobs with SLURM’s scheduler. Qlaunch has 3 modes; singleshot, rapidfire, and multi. Singleshot is used to launch one job, rapidfire is used to launch multiple jobs in quick succession, and multi creates one job with multiple fireworks runs. You’ll probably want to use rapidfire. Some useful flags to set are: -m to specify maximum # of jobs in queue at any given time and --nlaunches to specify how many fireworks to run.
+
+**Note: Make sure you are in the directory you want your calculations to be run from before you run these commands, you may want to create a new directory for this. Do not run these commands from your home folder.**
+
 Here are some examples:
 ``` example_1
 qlaunch singleshot
