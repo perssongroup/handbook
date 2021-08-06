@@ -1,5 +1,5 @@
 # Persson Group Jobs - Fall 2021  
-(Last updated 08/05/21)  
+(Last updated 08/06/21)  
   
 # Administrative  
 Job | Name  
@@ -19,7 +19,7 @@ Job | Name
 **Group Librarian:** Manage internal group site and its resources| Orion Cohen 
 **Group Webmaster:** Update the Persson Group public website | Guy Moore, Evan Spotte-Smith, Bryant Li
 **MP Docs Manager:** Schedule MP Docs hackathons and coordinate MP presence on Wikipedia | Qian Chen (TBD)
-**MP Swag Coordinator:** Coordinate the design and ordering of MP swag, including t-shirts, mugs, etc. | Ann Rutt, Max Gallant (TBD)
+**MP Swag Coordinator:** Coordinate the design and ordering of MP swag, including t-shirts, mugs, etc. | Max Gallant
 **Printer Support:** Outline directions for printing and update printer regularly with supplies | Julian Self   
 **Production Gatekeeper:** Assist with production jobs and group data management | Patrick Huck  
 **Publications Manager:** Assist Alice in publications for reports | Xiaowei Xie  
