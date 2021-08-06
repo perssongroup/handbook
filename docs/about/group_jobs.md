@@ -18,8 +18,8 @@ Job | Name
 -----------------|--------------  
 **Group Librarian:** Manage internal group site and its resources| Orion Cohen 
 **Group Webmaster:** Update the Persson Group public website | Guy Moore, Evan Spotte-Smith, Bryant Li
-**MP Docs Manager:** Schedule MP Docs hackathons and coordinate MP presence on Wikipedia | Qian Chen
-**MP Swag Coordinator:** Coordinate the design and ordering of MP swag, including t-shirts, mugs, etc. | Ann Rutt, Max Gallant
+**MP Docs Manager:** Schedule MP Docs hackathons and coordinate MP presence on Wikipedia | Qian Chen (TBD)
+**MP Swag Coordinator:** Coordinate the design and ordering of MP swag, including t-shirts, mugs, etc. | Ann Rutt, Max Gallant (TBD)
 **Printer Support:** Outline directions for printing and update printer regularly with supplies | Julian Self   
 **Production Gatekeeper:** Assist with production jobs and group data management | Patrick Huck  
 **Publications Manager:** Assist Alice in publications for reports | Xiaowei Xie  
@@ -31,7 +31,6 @@ Job | Name
 **DFT + Atomate/Pymatgen Support:** Assist with creating DFT-based workflows and answer questions about pymatgen | Matt Horton  
 **MD Wizard:** Assist with setup and running of molecular dynamics simulations | Kara Fong  
 **ML Accelerator:** Assist with setup on GPU nodes and running of machine learning workflows | Mingjian Wen
-**Molecular Explorer:** Assist with QChem workflows and compiling support | Evan Spotte-Smith?
 **NERSC Resource Manager:** Distribute computing time, monitor/plan group usage, submit annual proposals for compute time, and manage user access to the jcesr/matgen project directories and resources | Howard Li  
 **NREL Point of Contact:** Monitor computing time, write NREL HPC proposals, and interface with NREL staff | Hetal Patel  
 **Savio/Lawrencium Support:** Manage accounts, assist users with job/system setup, and assist in VASP compilation on Savio/Lawrencium | Eric Sivonxay  
