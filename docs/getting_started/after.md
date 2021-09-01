@@ -57,7 +57,9 @@ until after your UCPath profile is set up, which can take 1-2 weeks after your s
 
 * Check to ensure your calendar is populated with needed meetings (group meetings, [subgroup](../policies/meetings.md) meetings, etc.) Contact a meeting organizer to invite you to needed calendar events.
 
-* Join the [Berkeley Theory slack channel](https://berkeleytheory.slack.com) using your @lbl.gov email. Slack is a messaging app that is used across multiple groups and researchers at LBL to communicate about computational materials research, The Materials Project, and other collaborative efforts.
+* Join the [Berkeley Theory Slack workspace](https://berkeleytheory.slack.com) using your @lbl.gov email. This Slack workspace provides a way for multiple groups and researchers at LBL to communicate about computational materials research, The Materials Project, and other collaborative efforts. Feel free to introduce yourself in the `#introductions` channel.
+
+* Join the [Persson Group Huddle Slack workspace](https://perssonhuddle.slack.com) using your @lbl.gov email. This workspace is just for the Persson group.
 
 * Send an email to Guy Moore (gmoore@lbl.gov) with a headshot and tiny bio for the group website (bit of humor in the tiny bio is very welcome).
 
