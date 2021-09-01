@@ -5,7 +5,7 @@ This website serves as the group handbook for the [Persson Group](http://persson
 Our newest group members often have the most valuable insight in improving the
  onboarding process and where there may be critical gaps in the handbook. While
   the Onboarding Guides have ultimate responsibility of overseeing the handbook (see
-   [group jobs](../about/group_jobs)), all Persson Group members are encouraged to
+   [group jobs](about/group_jobs.md)), all Persson Group members are encouraged to
     contribute to this handbook via the [open-source repo.](https://github.com/perssongroup/handbook)
 
 
