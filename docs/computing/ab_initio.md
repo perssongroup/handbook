@@ -38,7 +38,7 @@ POTCARs are located at:
 For issues with these compilations, please contact Eric Sivonxay (esivonxay@lbl.gov)
 
 # Gaussian
-Gaussian is available on Savio. Anyone wanting to use Gaussian on Savio must sign [Exhibit A](https://drive.google.com/file/d/1Tg0xb5Nuet8HByJx3nWo7lBEIzjo5seI/view?usp=sharing) and email the form to Alice and cc Kristin.
+Gaussian is available on Savio. Anyone wanting to use Gaussian on Savio must sign [Exhibit A](https://drive.google.com/file/d/1Tg0xb5Nuet8HByJx3nWo7lBEIzjo5seI/view?usp=sharing). Print out two copies of the form and sign both (i.e. they should not be signed electronically). Then provide both physical copies to Alice. If you are remote, an e-mailed copy will suffice for the time being. 
 
 # Q-Chem
 More Information to come
