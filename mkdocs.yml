@@ -35,6 +35,9 @@ markdown_extensions:
       single_block_as_tab: False
       active_class: 'active'
       template: 'default'
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra_css:
   - 'css/code-tabs.css'
