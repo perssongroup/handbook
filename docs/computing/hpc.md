@@ -91,7 +91,7 @@ The following instructions are for running on Cori. Analogous information for ru
 
 Most jobs are run in batch mode, in which you prepare a shell script telling the batch system how to run the job (number of nodes, time the job will run, etc.). NERSC’s batch system software is called SLURM. Below is a simple batch script example, copied from the NERSC website:
 ```
-#!bin/bash -l
+#!/bin/bash -l
 
 #SBATCH -N 2          #Use 2 nodes
 #SBATCH -t 00:30:00   #Set 30 minute time limit

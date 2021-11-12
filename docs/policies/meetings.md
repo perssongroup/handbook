@@ -46,7 +46,7 @@
 
  * In addition to research subgroups, there are also several optional subgroups that you are welcome and encouraged to attend. These do not count toward the attendance requirement, however.
 
-* Subgroup meetings occur bi-weekly and will be posted on the [perssongroup calendar ](https://calendar.google.com/calendar/embed?src=lbl.gov_brhr6pqcsslm15ui9i6rapnus8%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+* Subgroup meetings occur bi-weekly and will be posted on the [perssongroup calendar ](https://calendar.google.com/calendar/embed?src=lbl.gov_brhr6pqcsslm15ui9i6rapnus8%40group.calendar.google.com&ctz=America%2FLos_Angeles) along with the big group meeting. To subscribe to the perssongroup calendar, access the aforementioned link (make sure to be logged in using your LBL account) and click the "+" button in the bottom right-hand corner. If it doesn't automatically add to your calendar, temporarily sign out of any other Google accounts in your browser.
 
 * Every subgroup will be attended by at least two postdocs or staff members
 
@@ -59,10 +59,10 @@
 * Research subgroups are organized by theme according to different methods. As of November 2020, we have the following subgroups:
 
 ## Research Subgroups <a name="sgs"></a>
-* **Periodic Bulk DFT** (i.e., VASP) -- Jimmy Shen
+* **Periodic Bulk DFT** (i.e., VASP) -- Jianli Cheng
 * **Periodic Slab DFT** (i.e., VASP surfaces) -- Ruoxi Yang
-* **Molecular DFT** (i.e., Gaussian/QChem) -- Trevor Seguin
-* **MD and Electrolytes** -- Julian Self
+* **Molecular DFT** (i.e., Gaussian/QChem) -- Evan Spotte-Smith
+* **MD and Electrolytes** -- Tingzheng Hou
 * **Machine Learning** -- Mingjian Wen
 * **Reaction networks** / SEI -- Sam Blau
 
